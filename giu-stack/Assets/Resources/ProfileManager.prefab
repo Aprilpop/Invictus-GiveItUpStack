@@ -1,0 +1,1434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8328125132880007344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8328125132880007345}
+  - component: {fileID: 8328125132880007358}
+  m_Layer: 0
+  m_Name: ProfileManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8328125132880007345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328125132880007344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8328125132880007358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328125132880007344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d324ab0adf9471a4485f6ab6729797b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_iResurgenceGold: 20
+  m_iAdGold: 10
+  m_iMultipleAward: 4
+  blobs:
+  - name: Blob
+    unlocked: 1
+    prefab: Blob
+    image: {fileID: 21300000, guid: 63b5bcbcc1f927c4fb51e8d8a0a2f256, type: 3}
+    unlockImage: {fileID: 21300000, guid: 63b5bcbcc1f927c4fb51e8d8a0a2f256, type: 3}
+    index: 0
+    unlockInfo:
+      videoUnlockable: 0
+      videoCount: 0
+      unlockType: 0
+      unlockCount: 0
+  - name: Bat
+    unlocked: 0
+    prefab: Bat
+    image: {fileID: 21300000, guid: abbf1656ad99c1f4cb704278dc8642ae, type: 3}
+    unlockImage: {fileID: 21300000, guid: abbf1656ad99c1f4cb704278dc8642ae, type: 3}
+    index: 1
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 500
+  - name: Chloe
+    unlocked: 0
+    prefab: Chloe
+    image: {fileID: 21300000, guid: dcc29bff15e1bbb48b54ae0d4d086b73, type: 3}
+    unlockImage: {fileID: 21300000, guid: dcc29bff15e1bbb48b54ae0d4d086b73, type: 3}
+    index: 2
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 500
+  - name: Daddy
+    unlocked: 0
+    prefab: Daddy
+    image: {fileID: 21300000, guid: fa97c5adf020f5744bfa918fbb064669, type: 3}
+    unlockImage: {fileID: 21300000, guid: fa97c5adf020f5744bfa918fbb064669, type: 3}
+    index: 3
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 500
+  - name: Devil
+    unlocked: 0
+    prefab: Devil
+    image: {fileID: 21300000, guid: 43d57850921f3c941ac336f80e685d6f, type: 3}
+    unlockImage: {fileID: 21300000, guid: 43d57850921f3c941ac336f80e685d6f, type: 3}
+    index: 4
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 800
+  - name: Peach
+    unlocked: 0
+    prefab: Peach
+    image: {fileID: 21300000, guid: c8240149f4b8afd42b3d340557527f13, type: 3}
+    unlockImage: {fileID: 21300000, guid: c8240149f4b8afd42b3d340557527f13, type: 3}
+    index: 5
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 1000
+  - name: Star
+    unlocked: 0
+    prefab: Star
+    image: {fileID: 21300000, guid: 17090424f2009da478de10e34f7f43c0, type: 3}
+    unlockImage: {fileID: 21300000, guid: 17090424f2009da478de10e34f7f43c0, type: 3}
+    index: 6
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 1000
+  - name: ETT
+    unlocked: 0
+    prefab: ETT
+    image: {fileID: 21300000, guid: 7659330e95e69aa40bdb6607ccc709aa, type: 3}
+    unlockImage: {fileID: 21300000, guid: 7659330e95e69aa40bdb6607ccc709aa, type: 3}
+    index: 7
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 800
+  - name: Thunderbolt
+    unlocked: 0
+    prefab: Thunderbolt
+    image: {fileID: 21300000, guid: aa123038d7abee74e855d84f72926c29, type: 3}
+    unlockImage: {fileID: 21300000, guid: aa123038d7abee74e855d84f72926c29, type: 3}
+    index: 8
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 800
+  - name: LittleGirl
+    unlocked: 0
+    prefab: Little_girl
+    image: {fileID: 21300000, guid: e3d1679ee4ea7b94581f42bbf7c3a6d6, type: 3}
+    unlockImage: {fileID: 21300000, guid: e3d1679ee4ea7b94581f42bbf7c3a6d6, type: 3}
+    index: 9
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 1
+      unlockType: 9
+      unlockCount: 1000
+  - name: Mia
+    unlocked: 1
+    prefab: Mia
+    image: {fileID: 21300000, guid: 75100cd73d7523f4b9e077ae9a7737c5, type: 3}
+    unlockImage: {fileID: 21300000, guid: 75100cd73d7523f4b9e077ae9a7737c5, type: 3}
+    index: 10
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 1
+      unlockType: 9
+      unlockCount: 800
+  - name: Minion
+    unlocked: 1
+    prefab: Minion
+    image: {fileID: 21300000, guid: 9d17b5088df7ea94b9244380012cd676, type: 3}
+    unlockImage: {fileID: 21300000, guid: 9d17b5088df7ea94b9244380012cd676, type: 3}
+    index: 11
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 1200
+  characterOff: {fileID: 21300000, guid: 48efd1859dc0ed546a051ed2a6584fda, type: 3}
+  characterOn: {fileID: 21300000, guid: 7b46071a03443294799da9da1c135217, type: 3}
+  characterSelected: {fileID: 21300000, guid: 47c0dc7fcf72a65439b276c7e88e1b05, type: 3}
+  enviroments:
+  - name: ChildsRoom
+    unlocked: 1
+    prefab: gyerekszoba
+    index: 0
+    platformDifficulties:
+    - fromPlatform: 1
+      minSpeed: 3
+      maxSpeed: 3.5
+    - fromPlatform: 5
+      minSpeed: 3
+      maxSpeed: 4
+    - fromPlatform: 10
+      minSpeed: 3.5
+      maxSpeed: 5
+    - fromPlatform: 15
+      minSpeed: 4
+      maxSpeed: 5.5
+    - fromPlatform: 20
+      minSpeed: 4.5
+      maxSpeed: 6
+    - fromPlatform: 30
+      minSpeed: 5
+      maxSpeed: 7
+    - fromPlatform: 40
+      minSpeed: 5
+      maxSpeed: 8
+    - fromPlatform: 50
+      minSpeed: 5
+      maxSpeed: 9
+    - fromPlatform: 60
+      minSpeed: 6
+      maxSpeed: 10
+    - fromPlatform: 70
+      minSpeed: 7
+      maxSpeed: 10
+    - fromPlatform: 80
+      minSpeed: 8
+      maxSpeed: 11
+    image: {fileID: 21300000, guid: a72c955619576e743ac339e3cefcc8d0, type: 3}
+    unlockImage: {fileID: 21300000, guid: 10476640216eff24ebe21bd5a53c75cb, type: 3}
+    unlockInfo:
+      videoUnlockable: 0
+      videoCount: 0
+      unlockType: 9
+      unlockCount: 0
+    startRandomSpawn: 15
+    sawStart:
+      easy: 20
+      medium: 30
+      hard: 50
+    scaleStart:
+      easy: 15
+      medium: 30
+      hard: 60
+    platform: BasicPlatform
+    succes: {fileID: 2100000, guid: 2b7e0944e5cc9444f930f4433c37fc41, type: 2}
+    normal: {fileID: 2100000, guid: f2488a3a25175904aa8009e87f0a72aa, type: 2}
+  - name: Laboratory
+    unlocked: 0
+    prefab: Labor-56
+    index: 1
+    platformDifficulties:
+    - fromPlatform: 1
+      minSpeed: 3
+      maxSpeed: 3.5
+    - fromPlatform: 5
+      minSpeed: 3
+      maxSpeed: 4
+    - fromPlatform: 10
+      minSpeed: 3.5
+      maxSpeed: 5
+    - fromPlatform: 15
+      minSpeed: 4
+      maxSpeed: 5.5
+    - fromPlatform: 20
+      minSpeed: 4.5
+      maxSpeed: 6
+    - fromPlatform: 30
+      minSpeed: 5
+      maxSpeed: 7
+    - fromPlatform: 40
+      minSpeed: 5
+      maxSpeed: 8
+    - fromPlatform: 50
+      minSpeed: 5
+      maxSpeed: 9
+    - fromPlatform: 60
+      minSpeed: 6
+      maxSpeed: 10
+    - fromPlatform: 70
+      minSpeed: 7
+      maxSpeed: 10
+    - fromPlatform: 80
+      minSpeed: 8
+      maxSpeed: 11
+    image: {fileID: 21300000, guid: 7bbe78f6c68202742af64fe21d75fd23, type: 3}
+    unlockImage: {fileID: 21300000, guid: 426c6a504d0eac2478aa4f0b0853cb1d, type: 3}
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 2000
+    startRandomSpawn: 15
+    sawStart:
+      easy: 20
+      medium: 30
+      hard: 50
+    scaleStart:
+      easy: 15
+      medium: 30
+      hard: 60
+    platform: BasicPlatform
+    succes: {fileID: 2100000, guid: 2b7e0944e5cc9444f930f4433c37fc41, type: 2}
+    normal: {fileID: 2100000, guid: f2488a3a25175904aa8009e87f0a72aa, type: 2}
+  - name: Office
+    unlocked: 0
+    prefab: OFFICE
+    index: 2
+    platformDifficulties:
+    - fromPlatform: 1
+      minSpeed: 3
+      maxSpeed: 3.5
+    - fromPlatform: 5
+      minSpeed: 3
+      maxSpeed: 4
+    - fromPlatform: 10
+      minSpeed: 3.5
+      maxSpeed: 5
+    - fromPlatform: 15
+      minSpeed: 4
+      maxSpeed: 5.5
+    - fromPlatform: 20
+      minSpeed: 4.5
+      maxSpeed: 6
+    - fromPlatform: 30
+      minSpeed: 5
+      maxSpeed: 7
+    - fromPlatform: 40
+      minSpeed: 5
+      maxSpeed: 8
+    - fromPlatform: 50
+      minSpeed: 5
+      maxSpeed: 9
+    - fromPlatform: 60
+      minSpeed: 6
+      maxSpeed: 10
+    - fromPlatform: 70
+      minSpeed: 7
+      maxSpeed: 10
+    - fromPlatform: 80
+      minSpeed: 8
+      maxSpeed: 11
+    image: {fileID: 21300000, guid: 7079b014f2eaaec42bfe57e401d7db43, type: 3}
+    unlockImage: {fileID: 21300000, guid: debfaaeb53819a344a0bb2bef604b910, type: 3}
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 3000
+    startRandomSpawn: 15
+    sawStart:
+      easy: 20
+      medium: 30
+      hard: 50
+    scaleStart:
+      easy: 15
+      medium: 30
+      hard: 60
+    platform: BasicPlatform
+    succes: {fileID: 2100000, guid: 2b7e0944e5cc9444f930f4433c37fc41, type: 2}
+    normal: {fileID: 2100000, guid: f2488a3a25175904aa8009e87f0a72aa, type: 2}
+  - name: BlobInside
+    unlocked: 0
+    prefab: computer
+    index: 3
+    platformDifficulties:
+    - fromPlatform: 1
+      minSpeed: 3
+      maxSpeed: 3.5
+    - fromPlatform: 5
+      minSpeed: 3
+      maxSpeed: 4
+    - fromPlatform: 10
+      minSpeed: 3.5
+      maxSpeed: 5
+    - fromPlatform: 15
+      minSpeed: 4
+      maxSpeed: 5.5
+    - fromPlatform: 20
+      minSpeed: 4.5
+      maxSpeed: 6
+    - fromPlatform: 30
+      minSpeed: 5
+      maxSpeed: 7
+    - fromPlatform: 40
+      minSpeed: 5
+      maxSpeed: 8
+    - fromPlatform: 50
+      minSpeed: 5
+      maxSpeed: 9
+    - fromPlatform: 60
+      minSpeed: 6
+      maxSpeed: 10
+    - fromPlatform: 70
+      minSpeed: 7
+      maxSpeed: 10
+    - fromPlatform: 80
+      minSpeed: 8
+      maxSpeed: 11
+    image: {fileID: 21300000, guid: a7ad2091a9031aa429c9cd4c50a1571f, type: 3}
+    unlockImage: {fileID: 21300000, guid: 778b733053061f248886db68fe7553e0, type: 3}
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 5
+      unlockType: 9
+      unlockCount: 4000
+    startRandomSpawn: 15
+    sawStart:
+      easy: 20
+      medium: 30
+      hard: 50
+    scaleStart:
+      easy: 15
+      medium: 30
+      hard: 60
+    platform: BasicPlatform
+    succes: {fileID: 2100000, guid: 2b7e0944e5cc9444f930f4433c37fc41, type: 2}
+    normal: {fileID: 2100000, guid: f2488a3a25175904aa8009e87f0a72aa, type: 2}
+  secondChanceTime: 5
+  musicHelper: 1
+  soundHelper: 1
+  challlenges:
+  - name: HighSpeedChallenges
+    challengeEnviroment: 
+    challengeType: 1
+    challengesLevels:
+    - name: Level1
+      level: 1
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 6
+      goalPlatform: 5
+      unlocked: 1
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 5
+    - name: Level2
+      level: 2
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      goalPlatform: 10
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 10
+    - name: Level3
+      level: 3
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 8
+      goalPlatform: 15
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 15
+    - name: Level4
+      level: 4
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 8
+      goalPlatform: 20
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 20
+    - name: Level5
+      level: 5
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 20
+        minSpeed: 6
+        maxSpeed: 9
+      goalPlatform: 25
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 25
+    - name: Level6
+      level: 6
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 20
+        minSpeed: 6
+        maxSpeed: 9
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 30
+    - name: Level7
+      level: 7
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 15
+        minSpeed: 6
+        maxSpeed: 9
+      - fromPlatform: 20
+        minSpeed: 7
+        maxSpeed: 9
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 35
+    - name: Level8
+      level: 8
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 15
+        minSpeed: 6
+        maxSpeed: 9
+      - fromPlatform: 20
+        minSpeed: 7
+        maxSpeed: 9
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 40
+    - name: Level9
+      level: 9
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 9
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 13
+        minSpeed: 6
+        maxSpeed: 9
+      - fromPlatform: 17
+        minSpeed: 7
+        maxSpeed: 9
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 45
+    - name: Level10
+      level: 10
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      - fromPlatform: 2
+        minSpeed: 5
+        maxSpeed: 7
+      - fromPlatform: 5
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 8
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 12
+        minSpeed: 6
+        maxSpeed: 9
+      - fromPlatform: 15
+        minSpeed: 7
+        maxSpeed: 9
+      - fromPlatform: 20
+        minSpeed: 7.5
+        maxSpeed: 9
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 50
+    - name: Level11
+      level: 11
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 4
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 7
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 9
+      - fromPlatform: 12
+        minSpeed: 7
+        maxSpeed: 9
+      - fromPlatform: 15
+        minSpeed: 7.5
+        maxSpeed: 9
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 55
+    - name: Level12
+      level: 12
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 4
+        minSpeed: 5.5
+        maxSpeed: 7.5
+      - fromPlatform: 7
+        minSpeed: 6
+        maxSpeed: 8
+      - fromPlatform: 10
+        minSpeed: 6
+        maxSpeed: 9
+      - fromPlatform: 12
+        minSpeed: 7
+        maxSpeed: 9
+      - fromPlatform: 15
+        minSpeed: 7.5
+        maxSpeed: 9
+      - fromPlatform: 20
+        minSpeed: 8
+        maxSpeed: 9.5
+      goalPlatform: 55
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 60
+  - name: PerfectJump
+    challengeEnviroment: 
+    challengeType: 2
+    challengesLevels:
+    - name: Level1
+      level: 1
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 4
+      goalPlatform: 3
+      unlocked: 1
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 5
+    - name: Level2
+      level: 2
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 5
+      goalPlatform: 5
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 10
+    - name: Level3
+      level: 3
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 5.5
+      goalPlatform: 10
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 15
+    - name: Level4
+      level: 4
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 6
+      goalPlatform: 15
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 20
+    - name: Level5
+      level: 5
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 6.5
+      goalPlatform: 20
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 25
+    - name: Level6
+      level: 6
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 7
+      goalPlatform: 25
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 30
+    - name: Level7
+      level: 7
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 7
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 35
+    - name: Level8
+      level: 8
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 8
+      goalPlatform: 35
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 40
+    - name: Level9
+      level: 9
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 8.5
+      goalPlatform: 40
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 45
+    - name: Level10
+      level: 10
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 9
+      goalPlatform: 45
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 50
+    - name: Level11
+      level: 11
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 9
+      goalPlatform: 50
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 55
+    - name: Level12
+      level: 12
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 9.5
+      goalPlatform: 60
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 60
+  - name: JumpOver
+    challengeEnviroment: 
+    challengeType: 3
+    challengesLevels:
+    - name: Level1
+      level: 1
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      goalPlatform: 5
+      unlocked: 1
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level2
+      level: 2
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      goalPlatform: 9
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level3
+      level: 3
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      goalPlatform: 12
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level4
+      level: 4
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      goalPlatform: 15
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level5
+      level: 5
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      goalPlatform: 20
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level6
+      level: 6
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      goalPlatform: 25
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level7
+      level: 7
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level8
+      level: 8
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      - fromPlatform: 30
+        minSpeed: 5
+        maxSpeed: 8
+      goalPlatform: 35
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level9
+      level: 9
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      - fromPlatform: 30
+        minSpeed: 5
+        maxSpeed: 8
+      goalPlatform: 40
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level10
+      level: 10
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      - fromPlatform: 30
+        minSpeed: 5
+        maxSpeed: 8
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 9
+      goalPlatform: 45
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level11
+      level: 11
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      - fromPlatform: 30
+        minSpeed: 5
+        maxSpeed: 8
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 9
+      goalPlatform: 50
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level12
+      level: 12
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 4
+        maxSpeed: 5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 6
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 7
+      - fromPlatform: 30
+        minSpeed: 5
+        maxSpeed: 8
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 9
+      - fromPlatform: 50
+        minSpeed: 6
+        maxSpeed: 9
+      goalPlatform: 60
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+  - name: ScalePlatform
+    challengeEnviroment: 
+    challengeType: 4
+    challengesLevels:
+    - name: Level1
+      level: 1
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      goalPlatform: 10
+      unlocked: 1
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level2
+      level: 2
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 4.5
+      goalPlatform: 20
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level3
+      level: 3
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 20
+        minSpeed: 4.5
+        maxSpeed: 5
+      goalPlatform: 30
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level4
+      level: 4
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 10
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 20
+        minSpeed: 4.5
+        maxSpeed: 5
+      - fromPlatform: 30
+        minSpeed: 5.5
+        maxSpeed: 6
+      goalPlatform: 40
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level5
+      level: 5
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 15
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 30
+        minSpeed: 4.5
+        maxSpeed: 5
+      - fromPlatform: 40
+        minSpeed: 5.5
+        maxSpeed: 6
+      goalPlatform: 50
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level6
+      level: 6
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 30
+        minSpeed: 5
+        maxSpeed: 5.5
+      - fromPlatform: 50
+        minSpeed: 6
+        maxSpeed: 7
+      goalPlatform: 60
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level7
+      level: 7
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 5.5
+      - fromPlatform: 60
+        minSpeed: 6
+        maxSpeed: 7
+      goalPlatform: 70
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level8
+      level: 8
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 5.5
+      - fromPlatform: 60
+        minSpeed: 6
+        maxSpeed: 7
+      goalPlatform: 80
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level9
+      level: 9
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 15
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 30
+        minSpeed: 5
+        maxSpeed: 5.5
+      - fromPlatform: 45
+        minSpeed: 6
+        maxSpeed: 7
+      - fromPlatform: 70
+        minSpeed: 7.5
+        maxSpeed: 8
+      goalPlatform: 90
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level10
+      level: 10
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 5.5
+      - fromPlatform: 60
+        minSpeed: 6
+        maxSpeed: 6.5
+      - fromPlatform: 80
+        minSpeed: 7
+        maxSpeed: 8
+      goalPlatform: 100
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level11
+      level: 11
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3
+        maxSpeed: 3.5
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 5.5
+      - fromPlatform: 60
+        minSpeed: 6
+        maxSpeed: 6.5
+      - fromPlatform: 80
+        minSpeed: 7
+        maxSpeed: 8
+      goalPlatform: 110
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+    - name: Level12
+      level: 12
+      platformDifficulties:
+      - fromPlatform: 1
+        minSpeed: 3.5
+        maxSpeed: 3.5
+      - fromPlatform: 20
+        minSpeed: 4
+        maxSpeed: 4.5
+      - fromPlatform: 40
+        minSpeed: 5
+        maxSpeed: 5.5
+      - fromPlatform: 60
+        minSpeed: 6
+        maxSpeed: 6.5
+      - fromPlatform: 80
+        minSpeed: 7
+        maxSpeed: 7.5
+      - fromPlatform: 100
+        minSpeed: 7
+        maxSpeed: 8
+      goalPlatform: 120
+      unlocked: 0
+      complete: 0
+      m_winAward:
+        m_eAward: 0
+        m_iAwardCount: 0
+  musics:
+  - name: Computer001
+    unlocked: 1
+    emusic: 1
+    unlockImage: {fileID: 21300000, guid: fb8b5f8c0510ca1499de335fa84fcfe9, type: 3}
+    index: 0
+    unlockInfo:
+      videoUnlockable: 0
+      videoCount: 0
+      unlockType: 9
+      unlockCount: 0
+  - name: Computer002
+    unlocked: 0
+    emusic: 2
+    unlockImage: {fileID: 21300000, guid: 239eded6f9c260b44b890ca7eeb0f8b7, type: 3}
+    index: 1
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 300
+  - name: Forest001
+    unlocked: 0
+    emusic: 3
+    unlockImage: {fileID: 21300000, guid: eefb0588c42531347b4f60dfac6ac586, type: 3}
+    index: 2
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 300
+  - name: Forest002
+    unlocked: 0
+    emusic: 4
+    unlockImage: {fileID: 21300000, guid: d33027d116320134d9dbeb8872840226, type: 3}
+    index: 3
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 400
+  - name: Laboratory001
+    unlocked: 0
+    emusic: 5
+    unlockImage: {fileID: 21300000, guid: 44d82c55508c7d446831ca49fab073e1, type: 3}
+    index: 4
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 400
+  - name: Laboratory002
+    unlocked: 0
+    emusic: 6
+    unlockImage: {fileID: 21300000, guid: bf90bc20035fb5c4494587f4d4db645d, type: 3}
+    index: 5
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 400
+  - name: Office001
+    unlocked: 0
+    emusic: 7
+    unlockImage: {fileID: 21300000, guid: c9d1adcadcac22140bc2b913e9545455, type: 3}
+    index: 6
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 500
+  - name: Office002
+    unlocked: 0
+    emusic: 8
+    unlockImage: {fileID: 21300000, guid: 8d32d52020fe89045bcda291de11347c, type: 3}
+    index: 7
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 500
+  - name: Playroom001
+    unlocked: 0
+    emusic: 9
+    unlockImage: {fileID: 21300000, guid: 101a7ee464153304c957e011a3e7695b, type: 3}
+    index: 8
+    unlockInfo:
+      videoUnlockable: 1
+      videoCount: 3
+      unlockType: 9
+      unlockCount: 500
+  challengeNumber: 0

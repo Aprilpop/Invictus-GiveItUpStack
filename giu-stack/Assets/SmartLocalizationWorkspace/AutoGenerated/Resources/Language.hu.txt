@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Accessories.Face.Clown" xml:space="preserve">
+		<value>Bohóc álarc</value>
+	</data>
+	<data name="Accessories.Face.DiverGlasses" xml:space="preserve">
+		<value>Búvárszemüveg</value>
+	</data>
+	<data name="Accessories.Face.Fawkes" xml:space="preserve">
+		<value>Fawkes álarc</value>
+	</data>
+	<data name="Accessories.Face.GasMask" xml:space="preserve">
+		<value>Gázmaszk</value>
+	</data>
+	<data name="Accessories.Face.GlassFunny1" xml:space="preserve">
+		<value>Vicces szemüveg #1</value>
+	</data>
+	<data name="Accessories.Face.GlassFunny2" xml:space="preserve">
+		<value>Vicces szemüveg #2</value>
+	</data>
+	<data name="Accessories.Face.Jason" xml:space="preserve">
+		<value>Jégkorongos maszk</value>
+	</data>
+	<data name="Accessories.Face.MAD" xml:space="preserve">
+		<value>Gonosz maszk</value>
+	</data>
+	<data name="Accessories.Face.NoFace" xml:space="preserve">
+		<value>Arctalan maszk</value>
+	</data>
+	<data name="Accessories.Face.Pacifier" xml:space="preserve">
+		<value>Cumi</value>
+	</data>
+	<data name="Accessories.Face.Scream" xml:space="preserve">
+		<value>Szellem álarc</value>
+	</data>
+	<data name="Accessories.Face.SkiGlasses" xml:space="preserve">
+		<value>Síszemüveg</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses1" xml:space="preserve">
+		<value>Napszemüveg #1</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses2" xml:space="preserve">
+		<value>Napszemüveg #2</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses3" xml:space="preserve">
+		<value>Napszemüveg #3</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses4" xml:space="preserve">
+		<value>Napszemüveg #4</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses5" xml:space="preserve">
+		<value>Napszemüveg #5</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses6" xml:space="preserve">
+		<value>Napszemüveg #6</value>
+	</data>
+	<data name="Accessories.Face.TheatreMask1" xml:space="preserve">
+		<value>Színházi álarc #1</value>
+	</data>
+	<data name="Accessories.Face.TheatreMask2" xml:space="preserve">
+		<value>Színházi álarc #2</value>
+	</data>
+	<data name="Accessories.Face.Tiki" xml:space="preserve">
+		<value>Tiki maszk</value>
+	</data>
+	<data name="Accessories.Face.WeldingMask" xml:space="preserve">
+		<value>Hegesztő szemüveg</value>
+	</data>
+	<data name="Accessories.Hand.Baseball" xml:space="preserve">
+		<value>Baseball ütő</value>
+	</data>
+	<data name="Accessories.Hand.Blades" xml:space="preserve">
+		<value>Fém karmok</value>
+	</data>
+	<data name="Accessories.Hand.Boxing" xml:space="preserve">
+		<value>Boksz kesztyűk</value>
+	</data>
+	<data name="Accessories.Hand.Chef" xml:space="preserve">
+		<value>Serpenyő</value>
+	</data>
+	<data name="Accessories.Hand.Chem" xml:space="preserve">
+		<value>Gumikesztyűk</value>
+	</data>
+	<data name="Accessories.Hand.Cowboy" xml:space="preserve">
+		<value>Revolverek</value>
+	</data>
+	<data name="Accessories.Hand.Crab" xml:space="preserve">
+		<value>Rák ollók</value>
+	</data>
+	<data name="Accessories.Hand.Finger" xml:space="preserve">
+		<value>Négyujjú kéz</value>
+	</data>
+	<data name="Accessories.Hand.FingerFur" xml:space="preserve">
+		<value>Egyujjas kesztyű</value>
+	</data>
+	<data name="Accessories.Hand.Glove" xml:space="preserve">
+		<value>Szurkoló kesztyű #1</value>
+	</data>
+	<data name="Accessories.Hand.GloveMetal" xml:space="preserve">
+		<value>Szurkoló kesztyű #2</value>
+	</data>
+	<data name="Accessories.Hand.HandshakeHands" xml:space="preserve">
+		<value>Kézfogó kesztyű</value>
+	</data>
+	<data name="Accessories.Hand.Laser" xml:space="preserve">
+		<value>Fénykardok</value>
+	</data>
+	<data name="Accessories.Hand.MugAndPrecel" xml:space="preserve">
+		<value>Korsó és perec</value>
+	</data>
+	<data name="Accessories.Hand.Plastic" xml:space="preserve">
+		<value>Műanyag kezek</value>
+	</data>
+	<data name="Accessories.Hand.Stick" xml:space="preserve">
+		<value>Evőpálcikák</value>
+	</data>
+	<data name="Accessories.Hand.TennisRacket" xml:space="preserve">
+		<value>Teniszütő</value>
+	</data>
+	<data name="Accessories.Hand.Terminator" xml:space="preserve">
+		<value>Robot kéz</value>
+	</data>
+	<data name="Accessories.Hand.Tool" xml:space="preserve">
+		<value>Szerszámos láda és kalapács</value>
+	</data>
+	<data name="Accessories.Hand.Warrior" xml:space="preserve">
+		<value>Kard és pajzs</value>
+	</data>
+	<data name="Accessories.Hand.Weight" xml:space="preserve">
+		<value>Súlyzók</value>
+	</data>
+	<data name="Accessories.Hand.Y_Bamboo" xml:space="preserve">
+		<value>Bambusz</value>
+	</data>
+	<data name="Accessories.Hand.Y_Pirate_HookAndMug" xml:space="preserve">
+		<value>Kalóz kampó</value>
+	</data>
+	<data name="Accessories.Hand.Zombie" xml:space="preserve">
+		<value>Zombi kezek</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat1" xml:space="preserve">
+		<value>Baseball sapka #1</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat2" xml:space="preserve">
+		<value>Baseball sapka #2</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat3" xml:space="preserve">
+		<value>Baseball sapka #3</value>
+	</data>
+	<data name="Accessories.Hat.Bunny" xml:space="preserve">
+		<value>Nyuszifülek</value>
+	</data>
+	<data name="Accessories.Hat.Chef" xml:space="preserve">
+		<value>Séf sapka</value>
+	</data>
+	<data name="Accessories.Hat.Chinese" xml:space="preserve">
+		<value>Kerek kalap</value>
+	</data>
+	<data name="Accessories.Hat.ClownHat" xml:space="preserve">
+		<value>Bohóc kalap</value>
+	</data>
+	<data name="Accessories.Hat.CowboyHat" xml:space="preserve">
+		<value>Cowboy kalap</value>
+	</data>
+	<data name="Accessories.Hat.Crown" xml:space="preserve">
+		<value>Korona</value>
+	</data>
+	<data name="Accessories.Hat.Cylinder" xml:space="preserve">
+		<value>Cilinder</value>
+	</data>
+	<data name="Accessories.Hat.GangsterHat" xml:space="preserve">
+		<value>Fedora</value>
+	</data>
+	<data name="Accessories.Hat.HeadPhone" xml:space="preserve">
+		<value>D.J. fejhallgató</value>
+	</data>
+	<data name="Accessories.Hat.Helmet" xml:space="preserve">
+		<value>Egyszerű sisak</value>
+	</data>
+	<data name="Accessories.Hat.HelmetBaseball" xml:space="preserve">
+		<value>Baseball sisak</value>
+	</data>
+	<data name="Accessories.Hat.HelmetFootball" xml:space="preserve">
+		<value>Rögbi sisak</value>
+	</data>
+	<data name="Accessories.Hat.HelmetSafety" xml:space="preserve">
+		<value>Munkavédelmi sisak</value>
+	</data>
+	<data name="Accessories.Hat.Indian" xml:space="preserve">
+		<value>Indián fejdísz</value>
+	</data>
+	<data name="Accessories.Hat.JesterHat" xml:space="preserve">
+		<value>Bohóc sapka</value>
+	</data>
+	<data name="Accessories.Hat.Kitty" xml:space="preserve">
+		<value>Cicafülek</value>
+	</data>
+	<data name="Accessories.Hat.NewYear" xml:space="preserve">
+		<value>Parti csákó</value>
+	</data>
+	<data name="Accessories.Hat.Pirate" xml:space="preserve">
+		<value>Kalóz kalap</value>
+	</data>
+	<data name="Accessories.Hat.Sombrero" xml:space="preserve">
+		<value>Sombrero</value>
+	</data>
+	<data name="Accessories.Hat.University" xml:space="preserve">
+		<value>Egyetemi kalap</value>
+	</data>
+	<data name="Accessories.Hat.Warrior" xml:space="preserve">
+		<value>Viking sisak</value>
+	</data>
+	<data name="Accessories.Hat.Wizard" xml:space="preserve">
+		<value>Boszorkány süveg</value>
+	</data>
+	<data name="Accessories.Hat.Y_Bamboo" xml:space="preserve">
+		<value>Bambusz</value>
+	</data>
+	<data name="Accessories.Hat.Y_Pirate" xml:space="preserve">
+		<value>Kalóz</value>
+	</data>
+	<data name="Character.Name.Bat" xml:space="preserve">
+		<value>Denevér</value>
+	</data>
+	<data name="Character.Name.Blob" xml:space="preserve">
+		<value>Blob</value>
+	</data>
+	<data name="Character.Name.Cat" xml:space="preserve">
+		<value>Cica</value>
+	</data>
+	<data name="Character.Name.Chloe" xml:space="preserve">
+		<value>Chloe</value>
+	</data>
+	<data name="Character.Name.Daddy" xml:space="preserve">
+		<value>Apu</value>
+	</data>
+	<data name="Character.Name.Devil" xml:space="preserve">
+		<value>Ördög</value>
+	</data>
+	<data name="Character.Name.ETT" xml:space="preserve">
+		<value>ETT</value>
+	</data>
+	<data name="Character.Name.KITT" xml:space="preserve">
+		<value>KITT</value>
+	</data>
+	<data name="Character.Name.LittleGirl" xml:space="preserve">
+		<value>Kislány</value>
+	</data>
+	<data name="Character.Name.Mia" xml:space="preserve">
+		<value>Mia</value>
+	</data>
+	<data name="Character.Name.Minion" xml:space="preserve">
+		<value>Minyon</value>
+	</data>
+	<data name="Character.Name.Octopus" xml:space="preserve">
+		<value>Oktopusz</value>
+	</data>
+	<data name="Character.Name.Owl" xml:space="preserve">
+		<value>Bagoly</value>
+	</data>
+	<data name="Character.Name.Panda" xml:space="preserve">
+		<value>Panda</value>
+	</data>
+	<data name="Character.Name.Peach" xml:space="preserve">
+		<value>Barack</value>
+	</data>
+	<data name="Character.Name.Polip" xml:space="preserve">
+		<value>Polip</value>
+	</data>
+	<data name="Character.Name.Saturn" xml:space="preserve">
+		<value>Szaturnusz</value>
+	</data>
+	<data name="Character.Name.Star" xml:space="preserve">
+		<value>Csillag</value>
+	</data>
+	<data name="Character.Name.Thunderbolt" xml:space="preserve">
+		<value>Villám</value>
+	</data>
+	<data name="Character.Name.Tito" xml:space="preserve">
+		<value>Tito</value>
+	</data>
+	<data name="Character.Name.Y_Hei" xml:space="preserve">
+		<value>Hei</value>
+	</data>
+	<data name="Character.Name.Y_Mouse" xml:space="preserve">
+		<value>Egér</value>
+	</data>
+	<data name="Character.Name.Y_Pikachu" xml:space="preserve">
+		<value>Pikachu</value>
+	</data>
+	<data name="Character.Name.Y_Tubbie" xml:space="preserve">
+		<value>Tubbie</value>
+	</data>
+	<data name="CharacterCustomization.Customization" xml:space="preserve">
+		<value>ÖLTÖZŐ</value>
+	</data>
+	<data name="CharacterCustomization.Reset" xml:space="preserve">
+		<value>TÖRLÉS</value>
+	</data>
+	<data name="CharacterCustomization.SaveWithout" xml:space="preserve">
+		<value>MENTÉS E DEKORÁCIÓ NÉLKÜL!</value>
+	</data>
+	<data name="CharacterSelection.Character" xml:space="preserve">
+		<value>KARAKTER</value>
+	</data>
+	<data name="CharacterSelection.UnlockBy.FindIn" xml:space="preserve">
+		<value>Találd meg</value>
+	</data>
+	<data name="CharacterSelection.UnlockBy.View" xml:space="preserve">
+		<value>Nézz videót</value>
+	</data>
+	<data name="CharacterSelection.Using" xml:space="preserve">
+		<value>HASZNÁLATBAN</value>
+	</data>
+	<data name="DailyChallenge" xml:space="preserve">
+		<value>Napi Kihívás</value>
+	</data>
+	<data name="DailyChallenge.ChooseDifficultyForTheDay" xml:space="preserve">
+		<value>Válassz nehézséget a napra!</value>
+	</data>
+	<data name="DailyChallenge.CompleteEasy" xml:space="preserve">
+		<value>Teljesítsd a könnyű fokozatot {0} alkalommal, hogy játszhass a közepes fokozaton.
+(napi egy alkalommal)</value>
+	</data>
+	<data name="DailyChallenge.CompleteMedium" xml:space="preserve">
+		<value>Teljesítsd a közepes fokozatot {0} alkalommal, hogy játszhass a nehéz fokozaton.
+(napi egy alkalommal)</value>
+	</data>
+	<data name="DailyChallenge.DifficultyAlreadySelected" xml:space="preserve">
+		<value>Nehézség már kiválasztva.</value>
+	</data>
+	<data name="DailyChallenge.DifficultyForTheDay" xml:space="preserve">
+		<value>Nehézség a napra: {0}</value>
+	</data>
+	<data name="DailyChallenge.DifficultyFreshlyUnlocked" xml:space="preserve">
+		<value>Épp megnyitottad ezt a nehézséget. Gyere holnap és próbáld ki!</value>
+	</data>
+	<data name="DailyChallenge.DifficultyUnlocked" xml:space="preserve">
+		<value>NEHÉZSÉGI SZINT MEGNYITVA</value>
+	</data>
+	<data name="DailyChallenge.Easy" xml:space="preserve">
+		<value>Könnyű</value>
+	</data>
+	<data name="DailyChallenge.Hard" xml:space="preserve">
+		<value>Nehéz</value>
+	</data>
+	<data name="DailyChallenge.HardDifficultyUnlocked" xml:space="preserve">
+		<value>Nehéz fokozat megnyitva!
+Próbáld ki.</value>
+	</data>
+	<data name="DailyChallenge.Medium" xml:space="preserve">
+		<value>Közepes</value>
+	</data>
+	<data name="DailyChallenge.MediumDifficultyUnlocked" xml:space="preserve">
+		<value>Közepes fokozat megnyitva!
+Próbáld ki.</value>
+	</data>
+	<data name="DailyChallenge.SelectDifficulty" xml:space="preserve">
+		<value>Válassz nehézségi szintet</value>
+	</data>
+	<data name="DeadPanel.Description" xml:space="preserve">
+		<value>Szeretnéd folytatni?</value>
+	</data>
+	<data name="DeadPanel.WatchVideoToUnlock" xml:space="preserve">
+		<value>Nézz videót</value>
+	</data>
+	<data name="DeadPanel.YouDied" xml:space="preserve">
+		<value>MEGHALTÁL</value>
+	</data>
+	<data name="Ingame.TapToContinue" xml:space="preserve">
+		<value>KOPPINTS A FOLYTATÁSHOZ</value>
+	</data>
+	<data name="Ingame.Tries" xml:space="preserve">
+		<value>{0} próbálkozás</value>
+	</data>
+	<data name="Loading.Loading" xml:space="preserve">
+		<value>BETÖLTÉS</value>
+	</data>
+	<data name="MainMenu.Mode.adventure" xml:space="preserve">
+		<value>Kaland mód</value>
+	</data>
+	<data name="MainMenu.Mode.endless" xml:space="preserve">
+		<value>Végtelen mód</value>
+	</data>
+	<data name="MainMenu.Mode.none" xml:space="preserve">
+		<value>Üres</value>
+	</data>
+	<data name="MainMenu.Mode.race" xml:space="preserve">
+		<value>Verseny mód</value>
+	</data>
+	<data name="MainMenu.Mode.relay" xml:space="preserve">
+		<value>Váltó mód</value>
+	</data>
+	<data name="MainMenu.Mode.SelectGameMode" xml:space="preserve">
+		<value>VÁLASSZ JÁTÉK MÓDOT</value>
+	</data>
+	<data name="MainMenu.New" xml:space="preserve">
+		<value>Új</value>
+	</data>
+	<data name="Music.Description.Computer001" xml:space="preserve">
+		<value>Solitude, such a lonely word, and Blob dances his long and winding way to the end.</value>
+	</data>
+	<data name="Music.Description.Computer002" xml:space="preserve">
+		<value>Sometimes we can only find piece and harmony in dreams, where willows line the shore, and egrets chase the yacht. Don't wake me up.</value>
+	</data>
+	<data name="Music.Description.Forest001" xml:space="preserve">
+		<value>Deep within our inner self, there's always an "alter ego" who wants to seek a different path.</value>
+	</data>
+	<data name="Music.Description.Forest002" xml:space="preserve">
+		<value>This rhytmic and myterious piece gives you a taste of Africa on your palm.</value>
+	</data>
+	<data name="Music.Description.Laboratory001" xml:space="preserve">
+		<value>Tubes, flasks, potions! Love is in the air, love is everywhere!</value>
+	</data>
+	<data name="Music.Description.Laboratory002" xml:space="preserve">
+		<value>The broken glass is featured as a solo intrument, accompanied by the large ensemble! You have to hear it to believe it!</value>
+	</data>
+	<data name="Music.Description.Office001" xml:space="preserve">
+		<value>Buried in the chores of life, when can I be far from the madding crowd?</value>
+	</data>
+	<data name="Music.Description.Office002" xml:space="preserve">
+		<value>Was it a vision, or a waking dream? Fled is that music, do I wake or sleep?</value>
+	</data>
+	<data name="Music.Description.Playroom001" xml:space="preserve">
+		<value>The caterpillar on the leaf, repeats to me my brother's belief. The fading memories throws me in deep grief, time is an invited thief.</value>
+	</data>
+	<data name="Music.Description.Playroom002" xml:space="preserve">
+		<value>I am the whirlwind that can break the chains, I am the tornado that can topple the mountains, I am whatever I wanna be in this rhapsody.</value>
+	</data>
+	<data name="Music.Name.Computer001" xml:space="preserve">
+		<value>Blob's Foxtrot</value>
+	</data>
+	<data name="Music.Name.Computer002" xml:space="preserve">
+		<value>Afrobeat</value>
+	</data>
+	<data name="Music.Name.Forest001" xml:space="preserve">
+		<value>Alter Ego</value>
+	</data>
+	<data name="Music.Name.Forest002" xml:space="preserve">
+		<value>Daydream</value>
+	</data>
+	<data name="Music.Name.Laboratory001" xml:space="preserve">
+		<value>Chemical Romance</value>
+	</data>
+	<data name="Music.Name.Laboratory002" xml:space="preserve">
+		<value>Glass Concerto</value>
+	</data>
+	<data name="Music.Name.Office001" xml:space="preserve">
+		<value>Life in the fast lane</value>
+	</data>
+	<data name="Music.Name.Office002" xml:space="preserve">
+		<value>Waking dream</value>
+	</data>
+	<data name="Music.Name.Playroom001" xml:space="preserve">
+		<value>Back to innocence</value>
+	</data>
+	<data name="Music.Name.Playroom002" xml:space="preserve">
+		<value>Electric rhapsody</value>
+	</data>
+	<data name="Options.Button.Language" xml:space="preserve">
+		<value>Nyelv</value>
+	</data>
+	<data name="Options.Button.MusicAndSound" xml:space="preserve">
+		<value>Zene és hang</value>
+	</data>
+	<data name="Options.Button.Quality" xml:space="preserve">
+		<value>Minőség</value>
+	</data>
+	<data name="Options.Button.TapIndicator" xml:space="preserve">
+		<value>Koppintás jelző</value>
+	</data>
+	<data name="Options.Options" xml:space="preserve">
+		<value>Beállítások</value>
+	</data>
+	<data name="Options.Quality.High" xml:space="preserve">
+		<value>Magas</value>
+	</data>
+	<data name="Options.Quality.Low" xml:space="preserve">
+		<value>Alacsony</value>
+	</data>
+	<data name="Options.Quality.Medium" xml:space="preserve">
+		<value>Közepes</value>
+	</data>
+	<data name="Options.Toggle.Off" xml:space="preserve">
+		<value>Ki</value>
+	</data>
+	<data name="Options.Toggle.On" xml:space="preserve">
+		<value>Be</value>
+	</data>
+	<data name="Popup.AccessoryInformationPopup.YouCantEquip" xml:space="preserve">
+		<value>Nem tudod {0}-t felvenni.</value>
+	</data>
+	<data name="Popup.CharacterInformationPopup.YouCantUseThisCharacter" xml:space="preserve">
+		<value>Nincs meg {0} neked.</value>
+	</data>
+	<data name="Popup.Generic.LevelLocked" xml:space="preserve">
+		<value>Pálya zárva</value>
+	</data>
+	<data name="Popup.Generic.LevelLockedDescription" xml:space="preserve">
+		<value>Ezt a pályát előszor fel kell nyitnod korábbi pályák teljesítésével.</value>
+	</data>
+	<data name="Popup.Generic.MoreComing" xml:space="preserve">
+		<value>Légy résen, új pályák érkeznek hamarosan!</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney" xml:space="preserve">
+		<value>Nincs elég pénz</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.CoinDescription" xml:space="preserve">
+		<value>Nincs elég érméd ennek megvásárlásához.</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.DiamondDescription" xml:space="preserve">
+		<value>Nincs elég gyémántod ennek megvásárlásához.</value>
+	</data>
+	<data name="Popup.Generic.OutOfLevels" xml:space="preserve">
+		<value>Nincs több pálya</value>
+	</data>
+	<data name="Popup.Generic.SureToQuit" xml:space="preserve">
+		<value>Biztos fel szeretnéd adni?</value>
+	</data>
+	<data name="Popup.Generic.SureToQuitDescription" xml:space="preserve">
+		<value>Habár elhagyhatod a játékot, de a játék sohasem fog elhagyni!</value>
+	</data>
+	<data name="Popup.Generic.YouHaveFailed" xml:space="preserve">
+		<value>Sikerült</value>
+	</data>
+	<data name="Popup.Generic.YouHaveSucceeded" xml:space="preserve">
+		<value>Nem sikerült</value>
+	</data>
+	<data name="Popup.InformationPopup.Locked" xml:space="preserve">
+		<value>{0} NEM ELÉRHETŐ</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByAchievement" xml:space="preserve">
+		<value>Fel tudod venni ha teljesíted a(z) {0} kihívást!</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByVideo" xml:space="preserve">
+		<value>Felveheted ha megnézel egy videót!</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItFromBox" xml:space="preserve">
+		<value>Megszerezheted egy dobozból.</value>
+	</data>
+	<data name="Popup.Tutorial.GoodLuck" xml:space="preserve">
+		<value>Sok szerencsét!</value>
+	</data>
+	<data name="Popup.Tutorial.NextSectionComing" xml:space="preserve">
+		<value>Következő rész jön.</value>
+	</data>
+	<data name="Popup.Tutorial.NowYouAreReady" xml:space="preserve">
+		<value>Most már készen állsz az igazi kihívásokra!</value>
+	</data>
+	<data name="Popup.Tutorial.TryAgain" xml:space="preserve">
+		<value>Újra próbálod?</value>
+	</data>
+	<data name="Popup.Tutorial.TutorialCompleted" xml:space="preserve">
+		<value>Oktatás teljesítve</value>
+	</data>
+	<data name="Popup.Tutorial.YouDidn'tJumped5Times" xml:space="preserve">
+		<value>Nem ugrottál 5 tökéletest.</value>
+	</data>
+	<data name="Rarity.Common" xml:space="preserve">
+		<value>GYAKORI</value>
+	</data>
+	<data name="Rarity.Legendary" xml:space="preserve">
+		<value>LEGENDÁS</value>
+	</data>
+	<data name="Rarity.Rare" xml:space="preserve">
+		<value>RITKA</value>
+	</data>
+	<data name="Results" xml:space="preserve">
+		<value>EREDMÉNY</value>
+	</data>
+	<data name="Results.BestTime" xml:space="preserve">
+		<value>Rekordidő!</value>
+	</data>
+	<data name="Results.BestTry" xml:space="preserve">
+		<value>Rekord:</value>
+	</data>
+	<data name="Results.NewRecord" xml:space="preserve">
+		<value>Új rekord!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint1" xml:space="preserve">
+		<value>Nos, itt vagyunk újra..</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint10" xml:space="preserve">
+		<value>Hoppá, megint jól megcsináltam..</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint11" xml:space="preserve">
+		<value>De ja vu?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint12" xml:space="preserve">
+		<value>Már voltam itt.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint13" xml:space="preserve">
+		<value>Hmm, ez ismerősnek tűnik.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint14" xml:space="preserve">
+		<value>Tik tak tik tak.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint15" xml:space="preserve">
+		<value>Vicces tény: Segíted a fejlesztőket ha megnézed a reklámot.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint16" xml:space="preserve">
+		<value>Pont ugyanígy haltál meg ezelőtt.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint17" xml:space="preserve">
+		<value>5, 4, 3, 2, 1</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint18" xml:space="preserve">
+		<value>Miért vagy még mindig ennél az mentőpontnál?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint19" xml:space="preserve">
+		<value>Nagyon szereted ezt az mentőpontot, igaz?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint2" xml:space="preserve">
+		<value>Van elég pénzed a folytatáshoz?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint20" xml:space="preserve">
+		<value>Mindig visszatérsz.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint21" xml:space="preserve">
+		<value>Találkozunk 5 másodperc múlva!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint22" xml:space="preserve">
+		<value>Légy nyugodt és soha ne add fel!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint23" xml:space="preserve">
+		<value>Vicces tény: %RANDOM% érmét költöttél már mentőpontokra.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint24" xml:space="preserve">
+		<value>Ne halj meg csak azért hogy lásd ezeket a tippeket.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint25" xml:space="preserve">
+		<value>Ha reklámot nézel megnő a szerencséd.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint26" xml:space="preserve">
+		<value>Ha megnézel egy reklámot, csökken a nehézség. (Nem is)</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint27" xml:space="preserve">
+		<value>Dobj be egy érmét a folytatáshoz.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint28" xml:space="preserve">
+		<value>Fussunk neki újra.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint29" xml:space="preserve">
+		<value>Egy szép barátság kezdete.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint3" xml:space="preserve">
+		<value>Nem mered újrapróbálni!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint30" xml:space="preserve">
+		<value>Killing spree!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint31" xml:space="preserve">
+		<value>Miért nem hagyod inkább abba most?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint32" xml:space="preserve">
+		<value>Fejlesztened kéne az ügyességeden.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint33" xml:space="preserve">
+		<value>Szeretsz szabadidődben blobokat ölni?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint34" xml:space="preserve">
+		<value>Tessék egy ingyen kör. (csak vicceltem)</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint35" xml:space="preserve">
+		<value>Tinta. Tinta mindenfelé!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint36" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Nem halsz meg ha nem játszol.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint37" xml:space="preserve">
+		<value>Ennél a mentőpontnál voltál 10 perccel korábban is.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint38" xml:space="preserve">
+		<value>Tarts szünetet.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint39" xml:space="preserve">
+		<value>while(true) { Die(); RestartFromCheckpoint() };</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint4" xml:space="preserve">
+		<value>Pihenj amíg nézel egy reklámot.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint40" xml:space="preserve">
+		<value>Elsőre! Oh mégse, meghaltam.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint41" xml:space="preserve">
+		<value>Szintet léptél! + 10 ERŐ, + 10 ÉLET</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint42" xml:space="preserve">
+		<value>Használd az ügyesebb kezed.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint5" xml:space="preserve">
+		<value>Veszélyes egyedül menned! Fogd ezt a reklámot.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint6" xml:space="preserve">
+		<value>Csődbe fogsz menni ilyen ütemben.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint7" xml:space="preserve">
+		<value>Hah! Rég láttalak!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint8" xml:space="preserve">
+		<value>Újra szeretnéd próbálni?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint9" xml:space="preserve">
+		<value>Próbáld újra!</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished1" xml:space="preserve">
+		<value>Gyere vissza holnap is!</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished2" xml:space="preserve">
+		<value>Le tudod gyűrni holnap is?</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished3" xml:space="preserve">
+		<value>Nagyon érzed ma!</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished4" xml:space="preserve">
+		<value>Ez a szerencsenapod!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage1" xml:space="preserve">
+		<value>Ne is próbálkozz holnap!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage2" xml:space="preserve">
+		<value>Rossz napod van?</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage3" xml:space="preserve">
+		<value>Talán holnap több szerencséd lesz!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage4" xml:space="preserve">
+		<value>Legalább az érméket megtarthatod.</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage5" xml:space="preserve">
+		<value>Holnap talán könnyebb lesz.</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage6" xml:space="preserve">
+		<value>Másnapos vagy? Talán holnap...</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage7" xml:space="preserve">
+		<value>Ez nem a szerencsés napod.</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage8" xml:space="preserve">
+		<value>Ma ne fogadj!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage9" xml:space="preserve">
+		<value>Készülj fel, aztán gyere vissza.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage1" xml:space="preserve">
+		<value>Megsemmisítve!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage10" xml:space="preserve">
+		<value>Szánalmas próbálkozás!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage11" xml:space="preserve">
+		<value>Érezd a ritmust!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage12" xml:space="preserve">
+		<value>Gyerünk!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage13" xml:space="preserve">
+		<value>Szép próba...</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage14" xml:space="preserve">
+		<value>KOMOLY?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage15" xml:space="preserve">
+		<value>Komolyan gondoltad?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage16" xml:space="preserve">
+		<value>%RANDOM%. próba.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage17" xml:space="preserve">
+		<value>Hopsz, ezt nem teszteltük.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage18" xml:space="preserve">
+		<value>Próbálkozol egyáltalán?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage19" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage2" xml:space="preserve">
+		<value>Jajj!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage20" xml:space="preserve">
+		<value>Vicces tény: Te vagy az egyetlen, aki itt meghalt.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage21" xml:space="preserve">
+		<value>Nyugi!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage22" xml:space="preserve">
+		<value>Talán legközelebb...</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage23" xml:space="preserve">
+		<value>Talán be kellene kapcsolnod a zenét.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage24" xml:space="preserve">
+		<value>A Blob legyen veled!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage25" xml:space="preserve">
+		<value>Oh, az csak véletlenül maradt ott.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage26" xml:space="preserve">
+		<value>Lehet hogy te erős vagy, de én erősebb.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage27" xml:space="preserve">
+		<value>Eddig %RANDOM% blob halt meg a tesztelés alatt.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage28" xml:space="preserve">
+		<value>Hívjam anyut?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage29" xml:space="preserve">
+		<value>ELPUSZTÍTVA</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage3" xml:space="preserve">
+		<value>Legyél jobb!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage30" xml:space="preserve">
+		<value>Houston, baj van!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage31" xml:space="preserve">
+		<value>Szerezz jobb kütyüt ha ezt már összetöröd!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage32" xml:space="preserve">
+		<value>Higgy!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage33" xml:space="preserve">
+		<value>Nem vagy egyedül!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage34" xml:space="preserve">
+		<value>Le vagy törve?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage35" xml:space="preserve">
+		<value>Nem fáradtál még el?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage36" xml:space="preserve">
+		<value>Részeg vagy?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage37" xml:space="preserve">
+		<value>Segítség kell?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage38" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Eh...nem érdemelsz tippet</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage39" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Próbálj jó időben ugrani.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage4" xml:space="preserve">
+		<value>Anyum meg tudta csinálni!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage40" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: A tüske megöl.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage41" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Ne verd a falba a fejed.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage42" xml:space="preserve">
+		<value>R.I.P.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage43" xml:space="preserve">
+		<value>Már %RANDOM%-szor meghaltál. Nem elég?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage44" xml:space="preserve">
+		<value>Szerencséd van, az újrakezdés ingyen van.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage45" xml:space="preserve">
+		<value>%!?#!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage46" xml:space="preserve">
+		<value>Próbáld ki a Give It Up! 1 vagy 2-t először.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage47" xml:space="preserve">
+		<value>Üdv sötétség, régi barátom...</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage48" xml:space="preserve">
+		<value>Senkinek sincs erre ideje.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage49" xml:space="preserve">
+		<value>Sírj a vállamon.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage5" xml:space="preserve">
+		<value>Reggelizz, ne háborúzz.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage50" xml:space="preserve">
+		<value>Ideges vagy?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage51" xml:space="preserve">
+		<value>Nyugodj meg, attól nyugodt leszel.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage6" xml:space="preserve">
+		<value>Beteg vagy?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage7" xml:space="preserve">
+		<value>Nem is olyan nehéz!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage8" xml:space="preserve">
+		<value>Én meg tudom csinálni csukott szemmel!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage9" xml:space="preserve">
+		<value>Add fel!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished1" xml:space="preserve">
+		<value>Jó játék volt!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished10" xml:space="preserve">
+		<value>ANYA! Hozd a kamerát!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished11" xml:space="preserve">
+		<value>Szerencsés!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished12" xml:space="preserve">
+		<value>Nehézségi szint: rémálom.</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished13" xml:space="preserve">
+		<value>Épphogy!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished14" xml:space="preserve">
+		<value>Kezdesz ráérezni!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished15" xml:space="preserve">
+		<value>Na végre!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished16" xml:space="preserve">
+		<value>Hogy csináltad?</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished17" xml:space="preserve">
+		<value>Jár a keksz!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished18" xml:space="preserve">
+		<value>Vajon tényleg ez lenne a cél?</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished19" xml:space="preserve">
+		<value>Tuti csaltál!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished2" xml:space="preserve">
+		<value>Szép munka!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished20" xml:space="preserve">
+		<value>Túl könnyű.</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished21" xml:space="preserve">
+		<value>Most legalább a boldogságtól sírsz.</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished3" xml:space="preserve">
+		<value>Szép!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished4" xml:space="preserve">
+		<value>Nagyszerű!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished5" xml:space="preserve">
+		<value>Megcsináltad!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished6" xml:space="preserve">
+		<value>nem rossz...</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished7" xml:space="preserve">
+		<value>Hihetetlen!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished8" xml:space="preserve">
+		<value>Nem is vagyok mérges, ez lenyűgöző!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished9" xml:space="preserve">
+		<value>-.-- .- .- .- -.-- / .. - .----. ... / -- --- .-. ... .</value>
+	</data>
+	<data name="Theme1" xml:space="preserve">
+		<value>Labor</value>
+	</data>
+	<data name="Theme2" xml:space="preserve">
+		<value>Erdő</value>
+	</data>
+	<data name="Theme3" xml:space="preserve">
+		<value>Számítógép</value>
+	</data>
+	<data name="Theme4" xml:space="preserve">
+		<value>Iroda</value>
+	</data>
+	<data name="Theme5" xml:space="preserve">
+		<value>Gyerekszoba</value>
+	</data>
+	<data name="Tutorial.JumpIndicatorMiss" xml:space="preserve">
+		<value>MELLÉ!</value>
+	</data>
+	<data name="Tutorial.JumpIndicatorPerfect" xml:space="preserve">
+		<value>TÖKÉLETES!</value>
+	</data>
+	<data name="Tutorial.Objective1" xml:space="preserve">
+		<value>Ugorj {0} tökéleteset!</value>
+	</data>
+	<data name="Tutorial.Objective2" xml:space="preserve">
+		<value>Juss át a tüskéken és érd el a következő ellenörzőpontot!</value>
+	</data>
+	<data name="Tutorial.Objective3" xml:space="preserve">
+		<value>Juss át a magas akadályokon és érd el a következő ellenörzőpontot!</value>
+	</data>
+	<data name="Tutorial.Objective4" xml:space="preserve">
+		<value>Ez az utolsó szakasz. Juss a végére hogy teljesítsd az oktatópályát!</value>
+	</data>
+	<data name="VoiceMaker" xml:space="preserve">
+		<value>HANGRÖGZÍTŐ</value>
+	</data>
+	<data name="VoiceMaker.Info" xml:space="preserve">
+		<value>Hangrögzító információ</value>
+	</data>
+	<data name="VoiceMaker.Message1" xml:space="preserve">
+		<value>A Voice Maker használatával felveheted a saját hangod a paca cselekvéseihez.</value>
+	</data>
+	<data name="VoiceMaker.Message2" xml:space="preserve">
+		<value>A funkció használatához engedélyezned kell a mikrofonnal történő felvételt.</value>
+	</data>
+	<data name="VoiceMaker.Message3" xml:space="preserve">
+		<value>A felvett hangminták csak a készülékeden lesznek tárolva, feltöltésre nem kerülnek.</value>
+	</data>
+	<data name="VoiceMaker.Message4" xml:space="preserve">
+		<value>Felvétel közben ne takard le a mikrofont.</value>
+	</data>
+	<data name="VoiceMaker.MicrophonePermission" xml:space="preserve">
+		<value>Mikrofon engedély</value>
+	</data>
+	<data name="VoiceMaker.MicrophonePermissionMessage" xml:space="preserve">
+		<value>Nincs engedélyezve a mikrofon használata! 
+Engedélyezed most?</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallBorn" xml:space="preserve">
+		<value>Megjelenik</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallJump" xml:space="preserve">
+		<value>Ugrás</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallKilled" xml:space="preserve">
+		<value>Placcs</value>
+	</data>
+	<data name="WorldMap" xml:space="preserve">
+		<value>VILÁGTÉRKÉP</value>
+	</data>
+	<data name="WorldMap.Tutorial" xml:space="preserve">
+		<value>Oktató pálya</value>
+	</data>
+</root>

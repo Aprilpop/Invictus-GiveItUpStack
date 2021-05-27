@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SmartCultureCollections xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>0</version>
+  <CultureInfos>
+    <CultureInfo>
+      <languageCode>zh-CHS</languageCode>
+      <englishName>Chinese</englishName>
+      <nativeName>中文</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+    <CultureInfo>
+      <languageCode>en</languageCode>
+      <englishName>English</englishName>
+      <nativeName>English</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+    <CultureInfo>
+      <languageCode>hu</languageCode>
+      <englishName>Hungarian</englishName>
+      <nativeName>magyar</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+    <CultureInfo>
+      <languageCode>ja</languageCode>
+      <englishName>Japanese</englishName>
+      <nativeName>日本語</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+    <CultureInfo>
+      <languageCode>ko</languageCode>
+      <englishName>Korean</englishName>
+      <nativeName>한국어</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+    <CultureInfo>
+      <languageCode>zh-TW</languageCode>
+      <englishName>Chinese (Taiwan)</englishName>
+      <nativeName>中文 (中国台湾)</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+    <CultureInfo>
+      <languageCode>zh-HK</languageCode>
+      <englishName>Chinese (Hong Kong S.A.R., China)</englishName>
+      <nativeName>中文 (中国香港)</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+    <CultureInfo>
+      <languageCode>en-SG</languageCode>
+      <englishName>English(Singapore)</englishName>
+      <nativeName>English(Singapore)</nativeName>
+      <isRightToLeft>false</isRightToLeft>
+    </CultureInfo>
+  </CultureInfos>
+</SmartCultureCollections>

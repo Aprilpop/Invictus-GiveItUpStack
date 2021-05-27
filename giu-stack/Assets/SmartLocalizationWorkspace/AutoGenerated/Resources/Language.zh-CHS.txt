@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" 
+		xmlns="" 
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Accessories.Face.Clown" xml:space="preserve">
+		<value>小丑面具</value>
+	</data>
+	<data name="Accessories.Face.DiverGlasses" xml:space="preserve">
+		<value>呼吸管</value>
+	</data>
+	<data name="Accessories.Face.Fawkes" xml:space="preserve">
+		<value>福克斯面具</value>
+	</data>
+	<data name="Accessories.Face.GasMask" xml:space="preserve">
+		<value>防毒面具</value>
+	</data>
+	<data name="Accessories.Face.GlassFunny1" xml:space="preserve">
+		<value>有趣的眼镜#1</value>
+	</data>
+	<data name="Accessories.Face.GlassFunny2" xml:space="preserve">
+		<value>有趣的眼镜#2</value>
+	</data>
+	<data name="Accessories.Face.Jason" xml:space="preserve">
+		<value>曲棍球面具</value>
+	</data>
+	<data name="Accessories.Face.MAD" xml:space="preserve">
+		<value>邪恶面罩</value>
+	</data>
+	<data name="Accessories.Face.NoFace" xml:space="preserve">
+		<value>无面膜</value>
+	</data>
+	<data name="Accessories.Face.Pacifier" xml:space="preserve">
+		<value>安抚奶嘴</value>
+	</data>
+	<data name="Accessories.Face.Scream" xml:space="preserve">
+		<value>鬼面膜</value>
+	</data>
+	<data name="Accessories.Face.SkiGlasses" xml:space="preserve">
+		<value>滑雪镜</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses1" xml:space="preserve">
+		<value>太阳镜#1</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses2" xml:space="preserve">
+		<value>太阳镜#2</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses3" xml:space="preserve">
+		<value>太阳镜#3</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses4" xml:space="preserve">
+		<value>太阳镜#4</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses5" xml:space="preserve">
+		<value>太阳镜#5</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses6" xml:space="preserve">
+		<value>太阳镜#6</value>
+	</data>
+	<data name="Accessories.Face.TheatreMask1" xml:space="preserve">
+		<value>剧院面具#1</value>
+	</data>
+	<data name="Accessories.Face.TheatreMask2" xml:space="preserve">
+		<value>剧院面具#2</value>
+	</data>
+	<data name="Accessories.Face.Tiki" xml:space="preserve">
+		<value>蒂基面具</value>
+	</data>
+	<data name="Accessories.Face.WeldingMask" xml:space="preserve">
+		<value>电焊眼镜</value>
+	</data>
+	<data name="Accessories.Hand.Baseball" xml:space="preserve">
+		<value>棒球棒</value>
+	</data>
+	<data name="Accessories.Hand.Blades" xml:space="preserve">
+		<value>金属爪</value>
+	</data>
+	<data name="Accessories.Hand.Boxing" xml:space="preserve">
+		<value>拳击手套</value>
+	</data>
+	<data name="Accessories.Hand.Chef" xml:space="preserve">
+		<value>平底锅</value>
+	</data>
+	<data name="Accessories.Hand.Chem" xml:space="preserve">
+		<value>橡胶手套</value>
+	</data>
+	<data name="Accessories.Hand.Cowboy" xml:space="preserve">
+		<value>左轮手枪</value>
+	</data>
+	<data name="Accessories.Hand.Crab" xml:space="preserve">
+		<value>蟹爪</value>
+	</data>
+	<data name="Accessories.Hand.Finger" xml:space="preserve">
+		<value>四指手</value>
+	</data>
+	<data name="Accessories.Hand.FingerFur" xml:space="preserve">
+		<value>连指手套</value>
+	</data>
+	<data name="Accessories.Hand.Glove" xml:space="preserve">
+		<value>风扇手套#1</value>
+	</data>
+	<data name="Accessories.Hand.GloveMetal" xml:space="preserve">
+		<value>风扇手套#2</value>
+	</data>
+	<data name="Accessories.Hand.HandshakeHands" xml:space="preserve">
+		<value>握手</value>
+	</data>
+	<data name="Accessories.Hand.Laser" xml:space="preserve">
+		<value>激光剑</value>
+	</data>
+	<data name="Accessories.Hand.MugAndPrecel" xml:space="preserve">
+		<value>杯子和precel</value>
+	</data>
+	<data name="Accessories.Hand.Plastic" xml:space="preserve">
+		<value>塑胶手</value>
+	</data>
+	<data name="Accessories.Hand.Stick" xml:space="preserve">
+		<value>筷子</value>
+	</data>
+	<data name="Accessories.Hand.TennisRacket" xml:space="preserve">
+		<value>网球拍</value>
+	</data>
+	<data name="Accessories.Hand.Terminator" xml:space="preserve">
+		<value>机械手</value>
+	</data>
+	<data name="Accessories.Hand.Tool" xml:space="preserve">
+		<value>工具箱和锤子</value>
+	</data>
+	<data name="Accessories.Hand.Warrior" xml:space="preserve">
+		<value>剑与盾</value>
+	</data>
+	<data name="Accessories.Hand.Weight" xml:space="preserve">
+		<value>哑铃</value>
+	</data>
+	<data name="Accessories.Hand.Y_Bamboo" xml:space="preserve">
+		<value>竹</value>
+	</data>
+	<data name="Accessories.Hand.Y_Pirate_HookAndMug" xml:space="preserve">
+		<value>海盗钩和杯子</value>
+	</data>
+	<data name="Accessories.Hand.Zombie" xml:space="preserve">
+		<value>僵尸手</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat1" xml:space="preserve">
+		<value>棒球帽#1</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat2" xml:space="preserve">
+		<value>棒球帽#2</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat3" xml:space="preserve">
+		<value>棒球帽#3</value>
+	</data>
+	<data name="Accessories.Hat.Bunny" xml:space="preserve">
+		<value>兔耳朵</value>
+	</data>
+	<data name="Accessories.Hat.Chef" xml:space="preserve">
+		<value>老板有</value>
+	</data>
+	<data name="Accessories.Hat.Chinese" xml:space="preserve">
+		<value>圆帽</value>
+	</data>
+	<data name="Accessories.Hat.ClownHat" xml:space="preserve">
+		<value>小丑帽</value>
+	</data>
+	<data name="Accessories.Hat.CowboyHat" xml:space="preserve">
+		<value>牛仔帽</value>
+	</data>
+	<data name="Accessories.Hat.Crown" xml:space="preserve">
+		<value>王冠</value>
+	</data>
+	<data name="Accessories.Hat.Cylinder" xml:space="preserve">
+		<value>高帽</value>
+	</data>
+	<data name="Accessories.Hat.GangsterHat" xml:space="preserve">
+		<value>软呢帽</value>
+	</data>
+	<data name="Accessories.Hat.HeadPhone" xml:space="preserve">
+		<value>D.J.</value>
+	</data>
+	<data name="Accessories.Hat.Helmet" xml:space="preserve">
+		<value>简单头盔</value>
+	</data>
+	<data name="Accessories.Hat.HelmetBaseball" xml:space="preserve">
+		<value>棒球头盔</value>
+	</data>
+	<data name="Accessories.Hat.HelmetFootball" xml:space="preserve">
+		<value>足球头盔</value>
+	</data>
+	<data name="Accessories.Hat.HelmetSafety" xml:space="preserve">
+		<value>安全帽</value>
+	</data>
+	<data name="Accessories.Hat.Indian" xml:space="preserve">
+		<value>战争帽子</value>
+	</data>
+	<data name="Accessories.Hat.JesterHat" xml:space="preserve">
+		<value>小丑帽</value>
+	</data>
+	<data name="Accessories.Hat.Kitty" xml:space="preserve">
+		<value>猫耳朵</value>
+	</data>
+	<data name="Accessories.Hat.NewYear" xml:space="preserve">
+		<value>派对帽</value>
+	</data>
+	<data name="Accessories.Hat.Pirate" xml:space="preserve">
+		<value>海盗帽</value>
+	</data>
+	<data name="Accessories.Hat.Sombrero" xml:space="preserve">
+		<value>帽子</value>
+	</data>
+	<data name="Accessories.Hat.University" xml:space="preserve">
+		<value>学术上限</value>
+	</data>
+	<data name="Accessories.Hat.Warrior" xml:space="preserve">
+		<value>角头盔</value>
+	</data>
+	<data name="Accessories.Hat.Wizard" xml:space="preserve">
+		<value>女巫帽</value>
+	</data>
+	<data name="Accessories.Hat.Y_Bamboo" xml:space="preserve">
+		<value>竹</value>
+	</data>
+	<data name="Accessories.Hat.Y_Pirate" xml:space="preserve">
+		<value>海盗</value>
+	</data>
+	<data name="Character.Name.Bat" xml:space="preserve">
+		<value>蝠蝠</value>
+	</data>
+	<data name="Character.Name.Blob" xml:space="preserve">
+		<value>点点</value>
+	</data>
+	<data name="Character.Name.Cat" xml:space="preserve">
+		<value>猫</value>
+	</data>
+	<data name="Character.Name.Chloe" xml:space="preserve">
+		<value>伊伊</value>
+	</data>
+	<data name="Character.Name.Daddy" xml:space="preserve">
+		<value>盒子</value>
+	</data>
+	<data name="Character.Name.Devil" xml:space="preserve">
+		<value>恶魔</value>
+	</data>
+	<data name="Character.Name.ETT" xml:space="preserve">
+		<value>蚂蚁</value>
+	</data>
+	<data name="Character.Name.KITT" xml:space="preserve">
+		<value>基特</value>
+	</data>
+	<data name="Character.Name.LittleGirl" xml:space="preserve">
+		<value>春霞</value>
+	</data>
+	<data name="Character.Name.Mia" xml:space="preserve">
+		<value>小姐姐</value>
+	</data>
+	<data name="Character.Name.Minion" xml:space="preserve">
+		<value>胶囊</value>
+	</data>
+	<data name="Character.Name.Octopus" xml:space="preserve">
+		<value>章鱼</value>
+	</data>
+	<data name="Character.Name.Owl" xml:space="preserve">
+		<value>猫头鹰</value>
+	</data>
+	<data name="Character.Name.Panda" xml:space="preserve">
+		<value>熊猫</value>
+	</data>
+	<data name="Character.Name.Peach" xml:space="preserve">
+		<value>桃子</value>
+	</data>
+	<data name="Character.Name.Polip" xml:space="preserve">
+		<value>息肉</value>
+	</data>
+	<data name="Character.Name.Saturn" xml:space="preserve">
+		<value>土星</value>
+	</data>
+	<data name="Character.Name.Star" xml:space="preserve">
+		<value>海星</value>
+	</data>
+	<data name="Character.Name.Thunderbolt" xml:space="preserve">
+		<value>霹雳</value>
+	</data>
+	<data name="Character.Name.Tito" xml:space="preserve">
+		<value>铁托</value>
+	</data>
+	<data name="Character.Name.Y_Hei" xml:space="preserve">
+		<value>喂喂</value>
+	</data>
+	<data name="Character.Name.Y_Mouse" xml:space="preserve">
+		<value>鼠</value>
+	</data>
+	<data name="Character.Name.Y_Pikachu" xml:space="preserve">
+		<value>皮卡丘</value>
+	</data>
+	<data name="Character.Name.Y_Tubbie" xml:space="preserve">
+		<value>塔比</value>
+	</data>
+	<data name="CharacterCustomization.Customization" xml:space="preserve">
+		<value>定制化</value>
+	</data>
+	<data name="CharacterCustomization.Reset" xml:space="preserve">
+		<value>重启</value>
+	</data>
+	<data name="CharacterCustomization.SaveWithout" xml:space="preserve">
+		<value>节省，不用这个项目装饰！</value>
+	</data>
+	<data name="CharacterSelection.Character" xml:space="preserve">
+		<value>字符</value>
+	</data>
+	<data name="CharacterSelection.UnlockBy.FindIn" xml:space="preserve">
+		<value>查找</value>
+	</data>
+	<data name="CharacterSelection.UnlockBy.View" xml:space="preserve">
+		<value>视图</value>
+	</data>
+	<data name="CharacterSelection.Using" xml:space="preserve">
+		<value>使用方法</value>
+	</data>
+	<data name="DailyChallenge" xml:space="preserve">
+		<value>每日的挑战</value>
+	</data>
+	<data name="DailyChallenge.ChooseDifficultyForTheDay" xml:space="preserve">
+		<value>选择当天的难度</value>
+	</data>
+	<data name="DailyChallenge.CompleteEasy" xml:space="preserve">
+		<value>完成难度{0}的轻松时间即可解锁。
+
+(Only once a day)</value>
+	</data>
+	<data name="DailyChallenge.CompleteMedium" xml:space="preserve">
+		<value>完成中等难度{0}次，即可解锁。
+
+(Only once a day)</value>
+	</data>
+	<data name="DailyChallenge.DifficultyAlreadySelected" xml:space="preserve">
+		<value>难度已选定。</value>
+	</data>
+	<data name="DailyChallenge.DifficultyForTheDay" xml:space="preserve">
+		<value>当天的难度：{0}</value>
+	</data>
+	<data name="DailyChallenge.DifficultyFreshlyUnlocked" xml:space="preserve">
+		<value>您刚刚解除了这个困难。</value>
+	</data>
+	<data name="DailyChallenge.DifficultyUnlocked" xml:space="preserve">
+		<value>解锁难度</value>
+	</data>
+	<data name="DailyChallenge.Easy" xml:space="preserve">
+		<value>简单</value>
+	</data>
+	<data name="DailyChallenge.Hard" xml:space="preserve">
+		<value>硬</value>
+	</data>
+	<data name="DailyChallenge.HardDifficultyUnlocked" xml:space="preserve">
+		<value>艰苦的每日挑战解锁！
+
+Go and try it.</value>
+	</data>
+	<data name="DailyChallenge.Medium" xml:space="preserve">
+		<value>介质</value>
+	</data>
+	<data name="DailyChallenge.MediumDifficultyUnlocked" xml:space="preserve">
+		<value>中等每日挑战解锁！
+
+Go and try it.</value>
+	</data>
+	<data name="DailyChallenge.SelectDifficulty" xml:space="preserve">
+		<value>选择难度</value>
+	</data>
+	<data name="DeadPanel.Description" xml:space="preserve">
+		<value>希望继续吗？</value>
+	</data>
+	<data name="DeadPanel.WatchVideoToUnlock" xml:space="preserve">
+		<value>观看视频以继续</value>
+	</data>
+	<data name="DeadPanel.YouDied" xml:space="preserve">
+		<value>你死了</value>
+	</data>
+	<data name="Ingame.TapToContinue" xml:space="preserve">
+		<value>点击继续</value>
+	</data>
+	<data name="Ingame.Tries" xml:space="preserve">
+		<value>{0}尝试</value>
+	</data>
+	<data name="Loading.Loading" xml:space="preserve">
+		<value>载入中</value>
+	</data>
+	<data name="MainMenu.Mode.adventure" xml:space="preserve">
+		<value>冒险模式</value>
+	</data>
+	<data name="MainMenu.Mode.endless" xml:space="preserve">
+		<value>无尽模式</value>
+	</data>
+	<data name="MainMenu.Mode.none" xml:space="preserve">
+		<value>没有</value>
+	</data>
+	<data name="MainMenu.Mode.race" xml:space="preserve">
+		<value>比赛模式</value>
+	</data>
+	<data name="MainMenu.Mode.relay" xml:space="preserve">
+		<value>接力模式</value>
+	</data>
+	<data name="MainMenu.Mode.SelectGameMode" xml:space="preserve">
+		<value>选择游戏模式</value>
+	</data>
+	<data name="MainMenu.New" xml:space="preserve">
+		<value>新</value>
+	</data>
+	<data name="Music.Description.Computer001" xml:space="preserve">
+		<value>孤独，如此寂寞的话，布洛跳着漫长而曲折的路直到最后。</value>
+	</data>
+	<data name="Music.Description.Computer002" xml:space="preserve">
+		<value>有时候，我们只能在梦中找到零碎的和谐，柳树在岸边，白鹭追逐游艇。</value>
+	</data>
+	<data name="Music.Description.Forest001" xml:space="preserve">
+		<value>在我们内在的内心深处，总有一个“另类的自我”想寻求一条不同的道路。</value>
+	</data>
+	<data name="Music.Description.Forest002" xml:space="preserve">
+		<value>富有节奏感和神秘感的单品带给您非洲的味道。</value>
+	</data>
+	<data name="Music.Description.Laboratory001" xml:space="preserve">
+		<value>管，烧瓶，药水！</value>
+	</data>
+	<data name="Music.Description.Laboratory002" xml:space="preserve">
+		<value>破碎的玻璃杯是独奏乐器，并带有大型合奏！</value>
+	</data>
+	<data name="Music.Description.Office001" xml:space="preserve">
+		<value>埋葬在生活中的琐事中，我什么时候可以远离人群呢？</value>
+	</data>
+	<data name="Music.Description.Office002" xml:space="preserve">
+		<value>它是愿景还是醒着的梦想？</value>
+	</data>
+	<data name="Music.Description.Playroom001" xml:space="preserve">
+		<value>叶子上的毛毛虫向我重复了我哥哥的信念。</value>
+	</data>
+	<data name="Music.Description.Playroom002" xml:space="preserve">
+		<value>我是可以打断铁链的旋风，我是可以翻倒群山的龙卷风，我是我想成为这种狂想曲的人。</value>
+	</data>
+	<data name="Music.Name.Computer001" xml:space="preserve">
+		<value>点点的狐步舞</value>
+	</data>
+	<data name="Music.Name.Computer002" xml:space="preserve">
+		<value>非洲节拍</value>
+	</data>
+	<data name="Music.Name.Forest001" xml:space="preserve">
+		<value>改变自我</value>
+	</data>
+	<data name="Music.Name.Forest002" xml:space="preserve">
+		<value>白日梦</value>
+	</data>
+	<data name="Music.Name.Laboratory001" xml:space="preserve">
+		<value>化学浪漫</value>
+	</data>
+	<data name="Music.Name.Laboratory002" xml:space="preserve">
+		<value>玻璃协奏曲</value>
+	</data>
+	<data name="Music.Name.Office001" xml:space="preserve">
+		<value>快节奏生活</value>
+	</data>
+	<data name="Music.Name.Office002" xml:space="preserve">
+		<value>梦醒</value>
+	</data>
+	<data name="Music.Name.Playroom001" xml:space="preserve">
+		<value>童年</value>
+	</data>
+	<data name="Music.Name.Playroom002" xml:space="preserve">
+		<value>电动狂想曲</value>
+	</data>
+	<data name="Options.Button.Language" xml:space="preserve">
+		<value>语言</value>
+	</data>
+	<data name="Options.Button.MusicAndSound" xml:space="preserve">
+		<value>音乐#amp;</value>
+	</data>
+	<data name="Options.Button.Quality" xml:space="preserve">
+		<value>质量</value>
+	</data>
+	<data name="Options.Button.TapIndicator" xml:space="preserve">
+		<value>点击指示器</value>
+	</data>
+	<data name="Options.Options" xml:space="preserve">
+		<value>选件</value>
+	</data>
+	<data name="Options.Quality.High" xml:space="preserve">
+		<value>高</value>
+	</data>
+	<data name="Options.Quality.Low" xml:space="preserve">
+		<value>低</value>
+	</data>
+	<data name="Options.Quality.Medium" xml:space="preserve">
+		<value>介质</value>
+	</data>
+	<data name="Options.Toggle.Off" xml:space="preserve">
+		<value>关</value>
+	</data>
+	<data name="Options.Toggle.On" xml:space="preserve">
+		<value>上</value>
+	</data>
+	<data name="Popup.AccessoryInformationPopup.YouCantEquip" xml:space="preserve">
+		<value>您无法装备{0}。</value>
+	</data>
+	<data name="Popup.CharacterInformationPopup.YouCantUseThisCharacter" xml:space="preserve">
+		<value>您没有{0}。</value>
+	</data>
+	<data name="Popup.Generic.LevelLocked" xml:space="preserve">
+		<value>级别锁定</value>
+	</data>
+	<data name="Popup.Generic.LevelLockedDescription" xml:space="preserve">
+		<value>此级别已锁定。</value>
+	</data>
+	<data name="Popup.Generic.MoreComing" xml:space="preserve">
+		<value>请继续关注，新的水平即将到来！</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney" xml:space="preserve">
+		<value>没有足够的钱</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.CoinDescription" xml:space="preserve">
+		<value>您没有足够的钱来购买！</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.DiamondDescription" xml:space="preserve">
+		<value>您没有足够的钻石来购买！</value>
+	</data>
+	<data name="Popup.Generic.OutOfLevels" xml:space="preserve">
+		<value>超出级别</value>
+	</data>
+	<data name="Popup.Generic.SureToQuit" xml:space="preserve">
+		<value>你放弃了吗？</value>
+	</data>
+	<data name="Popup.Generic.SureToQuitDescription" xml:space="preserve">
+		<value>好吧，您可能会离开游戏，但游戏永远不会离开您。</value>
+	</data>
+	<data name="Popup.Generic.YouHaveFailed" xml:space="preserve">
+		<value>你失败了</value>
+	</data>
+	<data name="Popup.Generic.YouHaveSucceeded" xml:space="preserve">
+		<value>你成功了</value>
+	</data>
+	<data name="Popup.InformationPopup.Locked" xml:space="preserve">
+		<value>{0}已锁定</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByAchievement" xml:space="preserve">
+		<value>您可以通过解锁{0}成就来获得它！</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByVideo" xml:space="preserve">
+		<value>您可以通过观看视频广告来获得它！</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItFromBox" xml:space="preserve">
+		<value>您可以从包装盒中获取。</value>
+	</data>
+	<data name="Popup.Tutorial.GoodLuck" xml:space="preserve">
+		<value>祝好运！</value>
+	</data>
+	<data name="Popup.Tutorial.NextSectionComing" xml:space="preserve">
+		<value>下一节来了</value>
+	</data>
+	<data name="Popup.Tutorial.NowYouAreReady" xml:space="preserve">
+		<value>现在您已经准备好应对真正的挑战！</value>
+	</data>
+	<data name="Popup.Tutorial.TryAgain" xml:space="preserve">
+		<value>再试一次？</value>
+	</data>
+	<data name="Popup.Tutorial.TutorialCompleted" xml:space="preserve">
+		<value>教程完成</value>
+	</data>
+	<data name="Popup.Tutorial.YouDidn'tJumped5Times" xml:space="preserve">
+		<value>您没有跳5次完美。
+
+Try Again?</value>
+	</data>
+	<data name="Rarity.Common" xml:space="preserve">
+		<value>共同</value>
+	</data>
+	<data name="Rarity.Legendary" xml:space="preserve">
+		<value>传奇的</value>
+	</data>
+	<data name="Rarity.Rare" xml:space="preserve">
+		<value>罕见</value>
+	</data>
+	<data name="Results" xml:space="preserve">
+		<value>结果</value>
+	</data>
+	<data name="Results.BestTime" xml:space="preserve">
+		<value>最好的时间！</value>
+	</data>
+	<data name="Results.BestTry" xml:space="preserve">
+		<value>最佳尝试：</value>
+	</data>
+	<data name="Results.NewRecord" xml:space="preserve">
+		<value>新纪录！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint1" xml:space="preserve">
+		<value>好吧，我们又来了..</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint10" xml:space="preserve">
+		<value>哎呀我再次做到了！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint11" xml:space="preserve">
+		<value>De ja vu？</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint12" xml:space="preserve">
+		<value>我以前来过这里</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint13" xml:space="preserve">
+		<value>嗯，这似乎很熟悉。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint14" xml:space="preserve">
+		<value>滴答滴答声滴答滴答声。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint15" xml:space="preserve">
+		<value>有趣的事实：观看广告有助于开发人员。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint16" xml:space="preserve">
+		<value>您的死亡与以前完全一样。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint17" xml:space="preserve">
+		<value>5、4、3、2、1</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint18" xml:space="preserve">
+		<value>你为什么还在这个检查站？</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint19" xml:space="preserve">
+		<value>您一定很喜欢这个检查站，不是吗？</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint2" xml:space="preserve">
+		<value>您有足够的钱继续吗？</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint20" xml:space="preserve">
+		<value>你总是回来。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint21" xml:space="preserve">
+		<value>5秒钟后见。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint22" xml:space="preserve">
+		<value>保持冷静，永不放弃！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint23" xml:space="preserve">
+		<value>有趣的事实：您在检查点上花费了％RANDOM％个硬币。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint24" xml:space="preserve">
+		<value>不要仅仅为了看到这些技巧而死。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint25" xml:space="preserve">
+		<value>观看广告以增加运气。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint26" xml:space="preserve">
+		<value>观看广告以降低难度。 </value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint27" xml:space="preserve">
+		<value>插入硬币以继续。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint28" xml:space="preserve">
+		<value>再来一次。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint29" xml:space="preserve">
+		<value>美好友谊的开始。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint3" xml:space="preserve">
+		<value>我敢你继续！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint30" xml:space="preserve">
+		<value>杀人狂魔！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint31" xml:space="preserve">
+		<value>您为什么不立即结束呢？</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint32" xml:space="preserve">
+		<value>您应该提高灵活性。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint33" xml:space="preserve">
+		<value>您喜欢在业余时间消灭斑点吗？</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint34" xml:space="preserve">
+		<value>免费参加这一回合。 </value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint35" xml:space="preserve">
+		<value>是墨水</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint36" xml:space="preserve">
+		<value>专业提示#％TIPRANDOM％：如果您不玩，就不会死。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint37" xml:space="preserve">
+		<value>您也是在10分钟前到达此检查站。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint38" xml:space="preserve">
+		<value>休息一下。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint39" xml:space="preserve">
+		<value>while（true）{Die（）; </value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint4" xml:space="preserve">
+		<value>放松身心，观看广告。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint40" xml:space="preserve">
+		<value>第一次尝试！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint41" xml:space="preserve">
+		<value>您升级了！ </value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint42" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint5" xml:space="preserve">
+		<value>一个人去很危险！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint6" xml:space="preserve">
+		<value>您将以这种速度破产。</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint7" xml:space="preserve">
+		<value>哈哈！</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint8" xml:space="preserve">
+		<value>希望继续吗？</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint9" xml:space="preserve">
+		<value>我敢打赌，您想再试一次！</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished1" xml:space="preserve">
+		<value>明天再来获得更多！</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished2" xml:space="preserve">
+		<value>您认为明天也可以击败它吗？</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished3" xml:space="preserve">
+		<value>你今天着火了！</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished4" xml:space="preserve">
+		<value>这是您的幸运日！</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage1" xml:space="preserve">
+		<value>明天不要尝试！</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage2" xml:space="preserve">
+		<value>日子不好过吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage3" xml:space="preserve">
+		<value>也许明天您会更幸运！</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage4" xml:space="preserve">
+		<value>至少您可以保留硬币。</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage5" xml:space="preserve">
+		<value>也许第二天会更容易。</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage6" xml:space="preserve">
+		<value>宿醉了吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage7" xml:space="preserve">
+		<value>这不是你的幸运日。</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage8" xml:space="preserve">
+		<value>今天不要下注！</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage9" xml:space="preserve">
+		<value>准备好之后再回来。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage1" xml:space="preserve">
+		<value>舒展身体！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage10" xml:space="preserve">
+		<value>可悲的尝试！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage11" xml:space="preserve">
+		<value>感觉节奏！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage12" xml:space="preserve">
+		<value>来吧！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage13" xml:space="preserve">
+		<value>不错的尝试…</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage14" xml:space="preserve">
+		<value>RLY？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage15" xml:space="preserve">
+		<value>你是认真的吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage16" xml:space="preserve">
+		<value>尝试％RANDOM％。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage17" xml:space="preserve">
+		<value>糟糕，我们没有对此进行测试。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage18" xml:space="preserve">
+		<value>你甚至尝试吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage19" xml:space="preserve">
+		<value>你还举兄弟吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage2" xml:space="preserve">
+		<value>哎哟!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage20" xml:space="preserve">
+		<value>有趣的事实：您是唯一在这里死亡的人。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage21" xml:space="preserve">
+		<value>放轻松！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage22" xml:space="preserve">
+		<value>下次吧...</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage23" xml:space="preserve">
+		<value>也许您应该打开音乐。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage24" xml:space="preserve">
+		<value>愿Blob与您同在！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage25" xml:space="preserve">
+		<value>哦，那只是一个占位符。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage26" xml:space="preserve">
+		<value>你可能很坚强，但我却更坚强。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage27" xml:space="preserve">
+		<value>％RANDOM％Blob在测试过程和计数过程中死亡。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage28" xml:space="preserve">
+		<value>我应该打电话给妈妈吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage29" xml:space="preserve">
+		<value>浪费</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage3" xml:space="preserve">
+		<value>吉特神！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage30" xml:space="preserve">
+		<value>休斯顿，我们有一个问题！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage31" xml:space="preserve">
+		<value>弄碎此小工具后，请准备一个更好的小工具！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage32" xml:space="preserve">
+		<value>有信心！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage33" xml:space="preserve">
+		<value>你不是一个人！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage34" xml:space="preserve">
+		<value>心情失落？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage35" xml:space="preserve">
+		<value>还不累吗</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage36" xml:space="preserve">
+		<value>你醉了吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage37" xml:space="preserve">
+		<value>需要治疗师吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage38" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Nah# you don't deserve any tip.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage39" xml:space="preserve">
+		<value>专业提示#％TIPRANDOM％：尝试在正确的时间跳跃。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage4" xml:space="preserve">
+		<value>我妈妈可以做到！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage40" xml:space="preserve">
+		<value>专家提示#％TIPRANDOM％：尖峰杀死您。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage41" xml:space="preserve">
+		<value>专家提示#％TIPRANDOM％：不要将头撞在墙上。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage42" xml:space="preserve">
+		<value>R.I.P.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage43" xml:space="preserve">
+		<value>您死亡％RANDOM％次。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage44" xml:space="preserve">
+		<value>您很幸运，重新启动是免费的。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage45" xml:space="preserve">
+		<value>％！？#！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage46" xml:space="preserve">
+		<value>尝试放弃！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage47" xml:space="preserve">
+		<value>你好黑暗，我的老朋友...</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage48" xml:space="preserve">
+		<value>没有人有时间这样做。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage49" xml:space="preserve">
+		<value>哭在我的肩膀上。</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage5" xml:space="preserve">
+		<value>别担心，要开心！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage50" xml:space="preserve">
+		<value>你咸吗？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage51" xml:space="preserve">
+		<value>冷静！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage6" xml:space="preserve">
+		<value>你是不是生病了？</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage7" xml:space="preserve">
+		<value>没那么难！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage8" xml:space="preserve">
+		<value>我可以闭着眼睛做！</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage9" xml:space="preserve">
+		<value>放弃！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished1" xml:space="preserve">
+		<value>GG！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished10" xml:space="preserve">
+		<value>妈妈！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished11" xml:space="preserve">
+		<value>幸运！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished12" xml:space="preserve">
+		<value>难度等级设置为噩梦。</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished13" xml:space="preserve">
+		<value>只是勉强！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished14" xml:space="preserve">
+		<value>掌握了它！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished15" xml:space="preserve">
+		<value>最后！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished16" xml:space="preserve">
+		<value>您是如何管理的？</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished17" xml:space="preserve">
+		<value>您应该得到一个cookie。</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished18" xml:space="preserve">
+		<value>这真的是目标吗？</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished19" xml:space="preserve">
+		<value>你完全被骗了！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished2" xml:space="preserve">
+		<value>做得好！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished20" xml:space="preserve">
+		<value>EZ PZ！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished21" xml:space="preserve">
+		<value>现在至少您可以从幸福中哭泣。</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished3" xml:space="preserve">
+		<value>真好！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished4" xml:space="preserve">
+		<value>大！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished5" xml:space="preserve">
+		<value>你做到了！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished6" xml:space="preserve">
+		<value>不错…</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished7" xml:space="preserve">
+		<value>难以置信的！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished8" xml:space="preserve">
+		<value>我什至没有生气，这太神奇了！</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished9" xml:space="preserve">
+		<value>-.-- .- .- .- -.-- / ..-.----。 </value>
+	</data>
+	<data name="Theme1" xml:space="preserve">
+		<value>劳工</value>
+	</data>
+	<data name="Theme2" xml:space="preserve">
+		<value>森林</value>
+	</data>
+	<data name="Theme3" xml:space="preserve">
+		<value>电脑</value>
+	</data>
+	<data name="Theme4" xml:space="preserve">
+		<value>办公室</value>
+	</data>
+	<data name="Theme5" xml:space="preserve">
+		<value>儿童房</value>
+	</data>
+	<data name="Tutorial.JumpIndicatorMiss" xml:space="preserve">
+		<value>小姐！</value>
+	</data>
+	<data name="Tutorial.JumpIndicatorPerfect" xml:space="preserve">
+		<value>完善！</value>
+	</data>
+	<data name="Tutorial.Objective1" xml:space="preserve">
+		<value>做{0}个完美的跳跃！</value>
+	</data>
+	<data name="Tutorial.Objective2" xml:space="preserve">
+		<value>克服峰值，到达下一个检查点！</value>
+	</data>
+	<data name="Tutorial.Objective3" xml:space="preserve">
+		<value>通过高平台，到达下一个检查站！</value>
+	</data>
+	<data name="Tutorial.Objective4" xml:space="preserve">
+		<value>这是最后一节。</value>
+	</data>
+	<data name="VoiceMaker" xml:space="preserve">
+		<value>声音制作者</value>
+	</data>
+	<data name="VoiceMaker.Info" xml:space="preserve">
+		<value>发声者信息</value>
+	</data>
+	<data name="VoiceMaker.Message1" xml:space="preserve">
+		<value>您可以使用Voice Maker录制Blob动作的声音。</value>
+	</data>
+	<data name="VoiceMaker.Message2" xml:space="preserve">
+		<value>要使用此功能，您必须允许通过麦克风录音。</value>
+	</data>
+	<data name="VoiceMaker.Message3" xml:space="preserve">
+		<value>录制的样本将保留在您的设备上，不会被上传到任何地方。</value>
+	</data>
+	<data name="VoiceMaker.Message4" xml:space="preserve">
+		<value>录音时请勿遮盖麦克风。</value>
+	</data>
+	<data name="VoiceMaker.MicrophonePermission" xml:space="preserve">
+		<value>麦克风许可</value>
+	</data>
+	<data name="VoiceMaker.MicrophonePermissionMessage" xml:space="preserve">
+		<value>该应用程序不允许使用麦克风！
+
+Do you want to allow it?</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallBorn" xml:space="preserve">
+		<value>出现</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallJump" xml:space="preserve">
+		<value>跳</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallKilled" xml:space="preserve">
+		<value>溅</value>
+	</data>
+	<data name="WorldMap" xml:space="preserve">
+		<value>世界地图</value>
+	</data>
+	<data name="WorldMap.Tutorial" xml:space="preserve">
+		<value>讲解</value>
+	</data>
+	<data name="Enviroments.Name.ChildsRoom" xml:space="preserve">
+		<value>儿童房</value>
+	</data>
+	<data name="Enviroments.Name.Laboratory" xml:space="preserve">
+		<value>实验室</value>
+	</data>
+	<data name="Enviroments.Name.Office" xml:space="preserve">
+		<value>办公室</value>
+	</data>
+	<data name="Enviroments.Name.BlobInside" xml:space="preserve">
+		<value>电脑</value>
+	</data>
+
+	<data name="HighScore" xml:space="preserve">
+		<value>最高纪录</value>
+	</data>
+
+	<data name="Play" xml:space="preserve">
+		<value>开始</value>
+	</data>
+
+	<data name="Challenges" xml:space="preserve">
+		<value>挑战</value>
+	</data>
+
+	<data name="Challenges.HighSpeed" xml:space="preserve">
+		<value>高速</value>
+	</data>
+	<data name="Challenges.PerfectJump" xml:space="preserve">
+		<value>完美跳跃</value>
+	</data>
+	<data name="Challenges.JumpOver" xml:space="preserve">
+		<value>跳跃完成</value>
+	</data>
+	<data name="Challenges.ScalePlatform" xml:space="preserve">
+		<value>缩放平台</value>
+	</data>
+	<data name="Challenges.Prev" xml:space="preserve">
+		<value>上一页</value>
+	</data>
+	<data name="Challenges.Next" xml:space="preserve">
+		<value>下一页</value>
+	</data>
+
+	<data name="ChangeCharacters" xml:space="preserve">
+		<value>墨墨商店</value>
+	</data>
+
+	<data name="Characters" xml:space="preserve">
+		<value>角色</value>
+	</data>
+
+	<data name="Enviroment" xml:space="preserve">
+		<value>环境</value>
+	</data>
+
+	<data name="Music" xml:space="preserve">
+		<value>音乐</value>
+	</data>
+	<data name="Restart" xml:space="preserve">
+		<value>重新开始</value>
+	</data>
+	<data name="Next" xml:space="preserve">
+		<value>下一关</value>
+	</data>
+
+</root>

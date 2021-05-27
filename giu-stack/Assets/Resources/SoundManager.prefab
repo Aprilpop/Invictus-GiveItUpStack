@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3428289486931372923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2990429219023377398}
+  - component: {fileID: 8011692702555579773}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2990429219023377398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3428289486931372923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.9476614, y: 5.999544, z: -5.8942466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8011692702555579773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3428289486931372923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b7c881e08468f4cbc4263ce7521782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundObjectPrefab: {fileID: 1494479937988718, guid: 84fa64f3db07e90408f4cfaf2a11ca93,
+    type: 3}
+  Mixer: {fileID: 24100000, guid: ed9f11cc8ba8af94fbf7317e129e9dca, type: 2}
+  DistanceTimeOut: 1
+  sfxArray:
+  - name: Jump
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.75
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 71d1d79fe21d68c4b818e0cc98a3df78, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: ed9f11cc8ba8af94fbf7317e129e9dca,
+      type: 2}
+  - name: Death
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.75
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 564564fa6c3785048ada2af536834b08, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: ed9f11cc8ba8af94fbf7317e129e9dca,
+      type: 2}
+  - name: Landing
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.75
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: ddde194407db78a4e9ca47266ebed186, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: ed9f11cc8ba8af94fbf7317e129e9dca,
+      type: 2}
+  - name: Menu
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.75
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 2980d30ad621fa6499655e6ded266521, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: ed9f11cc8ba8af94fbf7317e129e9dca,
+      type: 2}

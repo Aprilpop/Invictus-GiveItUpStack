@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Accessories.Face.Clown" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.DiverGlasses" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Fawkes" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.GasMask" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.GlassFunny1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.GlassFunny2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Jason" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.MAD" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.NoFace" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Pacifier" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Scream" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.SkiGlasses" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Sunglasses1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Sunglasses2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Sunglasses3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Sunglasses4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Sunglasses5" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Sunglasses6" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.TheatreMask1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.TheatreMask2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.Tiki" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Face.WeldingMask" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Baseball" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Blades" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Boxing" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Chef" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Chem" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Cowboy" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Crab" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Finger" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.FingerFur" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Glove" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.GloveMetal" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.HandshakeHands" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Laser" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.MugAndPrecel" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Plastic" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Stick" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.TennisRacket" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Terminator" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Tool" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Warrior" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Weight" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Y_Bamboo" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Y_Pirate_HookAndMug" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hand.Zombie" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.BaseballHat1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.BaseballHat2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.BaseballHat3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Bunny" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Chef" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Chinese" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.ClownHat" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.CowboyHat" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Crown" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Cylinder" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.GangsterHat" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.HeadPhone" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Helmet" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.HelmetBaseball" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.HelmetFootball" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.HelmetSafety" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Indian" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.JesterHat" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Kitty" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.NewYear" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Pirate" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Sombrero" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.University" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Warrior" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Wizard" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Y_Bamboo" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Accessories.Hat.Y_Pirate" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Bat" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Blob" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Cat" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Chloe" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Daddy" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Devil" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.ETT" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.KITT" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.LittleGirl" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Mia" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Minion" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Octopus" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Owl" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Panda" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Peach" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Polip" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Saturn" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Star" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Thunderbolt" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Tito" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Y_Hei" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Y_Mouse" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Y_Pikachu" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Character.Name.Y_Tubbie" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CharacterCustomization.Customization" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CharacterCustomization.Reset" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CharacterCustomization.SaveWithout" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CharacterSelection.Character" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CharacterSelection.UnlockBy.FindIn" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CharacterSelection.UnlockBy.View" xml:space="preserve">
+		<value />
+	</data>
+	<data name="CharacterSelection.Using" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.ChooseDifficultyForTheDay" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.CompleteEasy" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.CompleteMedium" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.DifficultyAlreadySelected" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.DifficultyForTheDay" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.DifficultyFreshlyUnlocked" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.DifficultyUnlocked" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.Easy" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.Hard" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.HardDifficultyUnlocked" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.Medium" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.MediumDifficultyUnlocked" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DailyChallenge.SelectDifficulty" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DeadPanel.Description" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DeadPanel.WatchVideoToUnlock" xml:space="preserve">
+		<value />
+	</data>
+	<data name="DeadPanel.YouDied" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Ingame.TapToContinue" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Ingame.Tries" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Loading.Loading" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Mode.adventure" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Mode.endless" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Mode.none" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Mode.race" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Mode.relay" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Mode.SelectGameMode" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.New" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Computer001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Computer002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Forest001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Forest002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Laboratory001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Laboratory002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Office001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Office002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Playroom001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Description.Playroom002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Computer001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Computer002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Forest001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Forest002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Laboratory001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Laboratory002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Office001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Office002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Playroom001" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Music.Name.Playroom002" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Button.Language" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Button.MusicAndSound" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Button.Quality" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Button.TapIndicator" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Options" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Quality.High" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Quality.Low" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Quality.Medium" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Toggle.Off" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Options.Toggle.On" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.AccessoryInformationPopup.YouCantEquip" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.CharacterInformationPopup.YouCantUseThisCharacter" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.LevelLocked" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.LevelLockedDescription" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.MoreComing" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.CoinDescription" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.DiamondDescription" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.OutOfLevels" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.SureToQuit" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.SureToQuitDescription" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.YouHaveFailed" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Generic.YouHaveSucceeded" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.InformationPopup.Locked" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByAchievement" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByVideo" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItFromBox" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Tutorial.GoodLuck" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Tutorial.NextSectionComing" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Tutorial.NowYouAreReady" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Tutorial.TryAgain" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Tutorial.TutorialCompleted" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Popup.Tutorial.YouDidn'tJumped5Times" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Rarity.Common" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Rarity.Legendary" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Rarity.Rare" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Results" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Results.BestTime" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Results.BestTry" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Results.NewRecord" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint10" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint11" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint12" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint13" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint14" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint15" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint16" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint17" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint18" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint19" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint20" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint21" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint22" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint23" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint24" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint25" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint26" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint27" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint28" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint29" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint30" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint31" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint32" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint33" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint34" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint35" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint36" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint37" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint38" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint39" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint40" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint41" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint42" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint5" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint6" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint7" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint8" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint9" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DailyStageFinished1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DailyStageFinished2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DailyStageFinished3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DailyStageFinished4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage5" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage6" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage7" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage8" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage9" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage10" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage11" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage12" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage13" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage14" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage15" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage16" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage17" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage18" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage19" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage20" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage21" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage22" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage23" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage24" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage25" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage26" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage27" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage28" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage29" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage30" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage31" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage32" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage33" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage34" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage35" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage36" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage37" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage38" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage39" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage40" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage41" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage42" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage43" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage44" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage45" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage46" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage47" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage48" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage49" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage5" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage50" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage51" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage6" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage7" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage8" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage9" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished10" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished11" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished12" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished13" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished14" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished15" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished16" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished17" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished18" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished19" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished20" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished21" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished5" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished6" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished7" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished8" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.NormalStageFinished9" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Theme1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Theme2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Theme3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Theme4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Theme5" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Tutorial.JumpIndicatorMiss" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Tutorial.JumpIndicatorPerfect" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Tutorial.Objective1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Tutorial.Objective2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Tutorial.Objective3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Tutorial.Objective4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.Info" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.Message1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.Message2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.Message3" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.Message4" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.MicrophonePermission" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.MicrophonePermissionMessage" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallBorn" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallJump" xml:space="preserve">
+		<value />
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallKilled" xml:space="preserve">
+		<value />
+	</data>
+	<data name="WorldMap" xml:space="preserve">
+		<value />
+	</data>
+	<data name="WorldMap.Tutorial" xml:space="preserve">
+		<value />
+	</data>
+</root>

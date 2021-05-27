@@ -1,0 +1,1216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" 
+		xmlns="" 
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Accessories.Face.Clown" xml:space="preserve">
+		<value>Clown mask</value>
+	</data>
+	<data name="Accessories.Face.DiverGlasses" xml:space="preserve">
+		<value>Snorkel</value>
+	</data>
+	<data name="Accessories.Face.Fawkes" xml:space="preserve">
+		<value>Fawkes mask</value>
+	</data>
+	<data name="Accessories.Face.GasMask" xml:space="preserve">
+		<value>Gas mask</value>
+	</data>
+	<data name="Accessories.Face.GlassFunny1" xml:space="preserve">
+		<value>Funny glasses #1</value>
+	</data>
+	<data name="Accessories.Face.GlassFunny2" xml:space="preserve">
+		<value>Funny glasses #2</value>
+	</data>
+	<data name="Accessories.Face.Jason" xml:space="preserve">
+		<value>Hockey mask</value>
+	</data>
+	<data name="Accessories.Face.MAD" xml:space="preserve">
+		<value>Evil facemask</value>
+	</data>
+	<data name="Accessories.Face.NoFace" xml:space="preserve">
+		<value>No-Face mask</value>
+	</data>
+	<data name="Accessories.Face.Pacifier" xml:space="preserve">
+		<value>Pacifier</value>
+	</data>
+	<data name="Accessories.Face.Scream" xml:space="preserve">
+		<value>Ghost mask</value>
+	</data>
+	<data name="Accessories.Face.SkiGlasses" xml:space="preserve">
+		<value>Ski goggles</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses1" xml:space="preserve">
+		<value>Sunglasses #1</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses2" xml:space="preserve">
+		<value>Sunglasses #2</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses3" xml:space="preserve">
+		<value>Sunglasses #3</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses4" xml:space="preserve">
+		<value>Sunglasses #4</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses5" xml:space="preserve">
+		<value>Sunglasses #5</value>
+	</data>
+	<data name="Accessories.Face.Sunglasses6" xml:space="preserve">
+		<value>Sunglasses #6</value>
+	</data>
+	<data name="Accessories.Face.TheatreMask1" xml:space="preserve">
+		<value>Theatre mask #1</value>
+	</data>
+	<data name="Accessories.Face.TheatreMask2" xml:space="preserve">
+		<value>Theatre mask #2</value>
+	</data>
+	<data name="Accessories.Face.Tiki" xml:space="preserve">
+		<value>Tiki mask</value>
+	</data>
+	<data name="Accessories.Face.WeldingMask" xml:space="preserve">
+		<value>Welding goggles</value>
+	</data>
+	<data name="Accessories.Hand.Baseball" xml:space="preserve">
+		<value>Baseball bat</value>
+	</data>
+	<data name="Accessories.Hand.Blades" xml:space="preserve">
+		<value>Metal claws</value>
+	</data>
+	<data name="Accessories.Hand.Boxing" xml:space="preserve">
+		<value>Boxing gloves</value>
+	</data>
+	<data name="Accessories.Hand.Chef" xml:space="preserve">
+		<value>Frying pan</value>
+	</data>
+	<data name="Accessories.Hand.Chem" xml:space="preserve">
+		<value>Rubber gloves</value>
+	</data>
+	<data name="Accessories.Hand.Cowboy" xml:space="preserve">
+		<value>Revolvers</value>
+	</data>
+	<data name="Accessories.Hand.Crab" xml:space="preserve">
+		<value>Crab claws</value>
+	</data>
+	<data name="Accessories.Hand.Finger" xml:space="preserve">
+		<value>Four fingered hand</value>
+	</data>
+	<data name="Accessories.Hand.FingerFur" xml:space="preserve">
+		<value>Mittens</value>
+	</data>
+	<data name="Accessories.Hand.Glove" xml:space="preserve">
+		<value>Fan gloves #1</value>
+	</data>
+	<data name="Accessories.Hand.GloveMetal" xml:space="preserve">
+		<value>Fan gloves #2</value>
+	</data>
+	<data name="Accessories.Hand.HandshakeHands" xml:space="preserve">
+		<value>Handshake hands</value>
+	</data>
+	<data name="Accessories.Hand.Laser" xml:space="preserve">
+		<value>Laser swords</value>
+	</data>
+	<data name="Accessories.Hand.MugAndPrecel" xml:space="preserve">
+		<value>Mug and precel</value>
+	</data>
+	<data name="Accessories.Hand.Plastic" xml:space="preserve">
+		<value>Plastic hands</value>
+	</data>
+	<data name="Accessories.Hand.Stick" xml:space="preserve">
+		<value>Chopsticks</value>
+	</data>
+	<data name="Accessories.Hand.TennisRacket" xml:space="preserve">
+		<value>Tennis racket</value>
+	</data>
+	<data name="Accessories.Hand.Terminator" xml:space="preserve">
+		<value>Robotic hand</value>
+	</data>
+	<data name="Accessories.Hand.Tool" xml:space="preserve">
+		<value>Toolbox and hammer</value>
+	</data>
+	<data name="Accessories.Hand.Warrior" xml:space="preserve">
+		<value>Sword and shield</value>
+	</data>
+	<data name="Accessories.Hand.Weight" xml:space="preserve">
+		<value>Dumbbells</value>
+	</data>
+	<data name="Accessories.Hand.Y_Bamboo" xml:space="preserve">
+		<value>Bamboo</value>
+	</data>
+	<data name="Accessories.Hand.Y_Pirate_HookAndMug" xml:space="preserve">
+		<value>Pirate Hook and Mug</value>
+	</data>
+	<data name="Accessories.Hand.Zombie" xml:space="preserve">
+		<value>Zombie hands</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat1" xml:space="preserve">
+		<value>Baseball hat #1</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat2" xml:space="preserve">
+		<value>Baseball hat #2</value>
+	</data>
+	<data name="Accessories.Hat.BaseballHat3" xml:space="preserve">
+		<value>Baseball hat #3</value>
+	</data>
+	<data name="Accessories.Hat.Bunny" xml:space="preserve">
+		<value>Bunny ears</value>
+	</data>
+	<data name="Accessories.Hat.Chef" xml:space="preserve">
+		<value>Chef hat</value>
+	</data>
+	<data name="Accessories.Hat.Chinese" xml:space="preserve">
+		<value>Round cap</value>
+	</data>
+	<data name="Accessories.Hat.ClownHat" xml:space="preserve">
+		<value>Clown hat</value>
+	</data>
+	<data name="Accessories.Hat.CowboyHat" xml:space="preserve">
+		<value>Cowboy hat</value>
+	</data>
+	<data name="Accessories.Hat.Crown" xml:space="preserve">
+		<value>Crown</value>
+	</data>
+	<data name="Accessories.Hat.Cylinder" xml:space="preserve">
+		<value>Tophat</value>
+	</data>
+	<data name="Accessories.Hat.GangsterHat" xml:space="preserve">
+		<value>Fedora</value>
+	</data>
+	<data name="Accessories.Hat.HeadPhone" xml:space="preserve">
+		<value>D.J. headphones</value>
+	</data>
+	<data name="Accessories.Hat.Helmet" xml:space="preserve">
+		<value>Simple helmet</value>
+	</data>
+	<data name="Accessories.Hat.HelmetBaseball" xml:space="preserve">
+		<value>Baseball helmet</value>
+	</data>
+	<data name="Accessories.Hat.HelmetFootball" xml:space="preserve">
+		<value>Football helmet</value>
+	</data>
+	<data name="Accessories.Hat.HelmetSafety" xml:space="preserve">
+		<value>Safety Helmet</value>
+	</data>
+	<data name="Accessories.Hat.Indian" xml:space="preserve">
+		<value>War Bonnet</value>
+	</data>
+	<data name="Accessories.Hat.JesterHat" xml:space="preserve">
+		<value>Jester hat</value>
+	</data>
+	<data name="Accessories.Hat.Kitty" xml:space="preserve">
+		<value>Cat ears</value>
+	</data>
+	<data name="Accessories.Hat.NewYear" xml:space="preserve">
+		<value>Party hat</value>
+	</data>
+	<data name="Accessories.Hat.Pirate" xml:space="preserve">
+		<value>Pirate hat</value>
+	</data>
+	<data name="Accessories.Hat.Sombrero" xml:space="preserve">
+		<value>Sombrero</value>
+	</data>
+	<data name="Accessories.Hat.University" xml:space="preserve">
+		<value>Academic cap</value>
+	</data>
+	<data name="Accessories.Hat.Warrior" xml:space="preserve">
+		<value>Horned helmet</value>
+	</data>
+	<data name="Accessories.Hat.Wizard" xml:space="preserve">
+		<value>Witch hat</value>
+	</data>
+	<data name="Accessories.Hat.Y_Bamboo" xml:space="preserve">
+		<value>Bamboo</value>
+	</data>
+	<data name="Accessories.Hat.Y_Pirate" xml:space="preserve">
+		<value>Pirate</value>
+	</data>
+	<data name="Character.Name.Bat" xml:space="preserve">
+		<value>Bat</value>
+	</data>
+	<data name="Character.Name.Blob" xml:space="preserve">
+		<value>Blob</value>
+	</data>
+	<data name="Character.Name.Cat" xml:space="preserve">
+		<value>Cat</value>
+	</data>
+	<data name="Character.Name.Chloe" xml:space="preserve">
+		<value>Chloe</value>
+	</data>
+	<data name="Character.Name.Daddy" xml:space="preserve">
+		<value>Daddy</value>
+	</data>
+	<data name="Character.Name.Devil" xml:space="preserve">
+		<value>Devil</value>
+	</data>
+	<data name="Character.Name.ETT" xml:space="preserve">
+		<value>ETT</value>
+	</data>
+	<data name="Character.Name.KITT" xml:space="preserve">
+		<value>KITT</value>
+	</data>
+	<data name="Character.Name.LittleGirl" xml:space="preserve">
+		<value>Little Girl</value>
+	</data>
+	<data name="Character.Name.Mia" xml:space="preserve">
+		<value>Mia</value>
+	</data>
+	<data name="Character.Name.Minion" xml:space="preserve">
+		<value>Minion</value>
+	</data>
+	<data name="Character.Name.Octopus" xml:space="preserve">
+		<value>Octopus</value>
+	</data>
+	<data name="Character.Name.Owl" xml:space="preserve">
+		<value>Owl</value>
+	</data>
+	<data name="Character.Name.Panda" xml:space="preserve">
+		<value>Panda</value>
+	</data>
+	<data name="Character.Name.Peach" xml:space="preserve">
+		<value>Peach</value>
+	</data>
+	<data name="Character.Name.Polip" xml:space="preserve">
+		<value>Polip</value>
+	</data>
+	<data name="Character.Name.Saturn" xml:space="preserve">
+		<value>Saturn</value>
+	</data>
+	<data name="Character.Name.Star" xml:space="preserve">
+		<value>Star</value>
+	</data>
+	<data name="Character.Name.Thunderbolt" xml:space="preserve">
+		<value>Thunderbolt</value>
+	</data>
+	<data name="Character.Name.Tito" xml:space="preserve">
+		<value>Tito</value>
+	</data>
+	<data name="Character.Name.Y_Hei" xml:space="preserve">
+		<value>Hei</value>
+	</data>
+	<data name="Character.Name.Y_Mouse" xml:space="preserve">
+		<value>Mouse</value>
+	</data>
+	<data name="Character.Name.Y_Pikachu" xml:space="preserve">
+		<value>Pikachu</value>
+	</data>
+	<data name="Character.Name.Y_Tubbie" xml:space="preserve">
+		<value>Tubbie</value>
+	</data>
+	<data name="CharacterCustomization.Customization" xml:space="preserve">
+		<value>CUSTOMIZATION</value>
+	</data>
+	<data name="CharacterCustomization.Reset" xml:space="preserve">
+		<value>RESET</value>
+	</data>
+	<data name="CharacterCustomization.SaveWithout" xml:space="preserve">
+		<value>SAVE WITHOUT THIS ITEM DECORATION!</value>
+	</data>
+	<data name="CharacterSelection.Character" xml:space="preserve">
+		<value>CHARACTER</value>
+	</data>
+	<data name="CharacterSelection.UnlockBy.FindIn" xml:space="preserve">
+		<value>Find in</value>
+	</data>
+	<data name="CharacterSelection.UnlockBy.View" xml:space="preserve">
+		<value>View</value>
+	</data>
+	<data name="CharacterSelection.Using" xml:space="preserve">
+		<value>USING</value>
+	</data>
+	<data name="DailyChallenge" xml:space="preserve">
+		<value>Daily Challenge</value>
+	</data>
+	<data name="DailyChallenge.ChooseDifficultyForTheDay" xml:space="preserve">
+		<value>Choose difficulty for the day</value>
+	</data>
+	<data name="DailyChallenge.CompleteEasy" xml:space="preserve">
+		<value>Complete the easy difficulty {0} time(s) to unlock this.
+(Only once a day)</value>
+	</data>
+	<data name="DailyChallenge.CompleteMedium" xml:space="preserve">
+		<value>Complete the medium difficulty {0} time(s) to unlock this.
+(Only once a day)</value>
+	</data>
+	<data name="DailyChallenge.DifficultyAlreadySelected" xml:space="preserve">
+		<value>Difficulty already selected.</value>
+	</data>
+	<data name="DailyChallenge.DifficultyForTheDay" xml:space="preserve">
+		<value>Difficulty for the day: {0}</value>
+	</data>
+	<data name="DailyChallenge.DifficultyFreshlyUnlocked" xml:space="preserve">
+		<value>You just unlocked this difficulty. You can try it tomorrow.</value>
+	</data>
+	<data name="DailyChallenge.DifficultyUnlocked" xml:space="preserve">
+		<value>DIFFICULTY UNLOCKED</value>
+	</data>
+	<data name="DailyChallenge.Easy" xml:space="preserve">
+		<value>Easy</value>
+	</data>
+	<data name="DailyChallenge.Hard" xml:space="preserve">
+		<value>Hard</value>
+	</data>
+	<data name="DailyChallenge.HardDifficultyUnlocked" xml:space="preserve">
+		<value>Hard Daily Challenge Unlocked!
+Go and try it.</value>
+	</data>
+	<data name="DailyChallenge.Medium" xml:space="preserve">
+		<value>Medium</value>
+	</data>
+	<data name="DailyChallenge.MediumDifficultyUnlocked" xml:space="preserve">
+		<value>Medium Daily Challenge Unlocked!
+Go and try it.</value>
+	</data>
+	<data name="DailyChallenge.SelectDifficulty" xml:space="preserve">
+		<value>Select Difficulty</value>
+	</data>
+	<data name="DeadPanel.Description" xml:space="preserve">
+		<value>Wish to continue?</value>
+	</data>
+	<data name="DeadPanel.WatchVideoToUnlock" xml:space="preserve">
+		<value>Watch video to continue</value>
+	</data>
+	<data name="DeadPanel.YouDied" xml:space="preserve">
+		<value>YOU DIED</value>
+	</data>
+	<data name="Ingame.TapToContinue" xml:space="preserve">
+		<value>TAP TO CONTINUE</value>
+	</data>
+	<data name="Ingame.Tries" xml:space="preserve">
+		<value>{0} try</value>
+	</data>
+	<data name="Loading.Loading" xml:space="preserve">
+		<value>LOADING</value>
+	</data>
+	<data name="MainMenu.Mode.adventure" xml:space="preserve">
+		<value>Adventure Mode</value>
+	</data>
+	<data name="MainMenu.Mode.endless" xml:space="preserve">
+		<value>Endless Mode</value>
+	</data>
+	<data name="MainMenu.Mode.none" xml:space="preserve">
+		<value>None</value>
+	</data>
+	<data name="MainMenu.Mode.race" xml:space="preserve">
+		<value>Race Mode</value>
+	</data>
+	<data name="MainMenu.Mode.relay" xml:space="preserve">
+		<value>Relay Mode</value>
+	</data>
+	<data name="MainMenu.Mode.SelectGameMode" xml:space="preserve">
+		<value>SELECT GAME MODE</value>
+	</data>
+	<data name="MainMenu.New" xml:space="preserve">
+		<value>New</value>
+	</data>
+	<data name="Music.Description.Computer001" xml:space="preserve">
+		<value>Solitude, such a lonely word, and Blob dances his long and winding way to the end.</value>
+	</data>
+	<data name="Music.Description.Computer002" xml:space="preserve">
+		<value>Sometimes we can only find piece and harmony in dreams, where willows line the shore, and egrets chase the yacht. Don't wake me up.</value>
+	</data>
+	<data name="Music.Description.Forest001" xml:space="preserve">
+		<value>Deep within our inner self, there's always an "alter ego" who wants to seek a different path.</value>
+	</data>
+	<data name="Music.Description.Forest002" xml:space="preserve">
+		<value>This rhytmic and myterious piece gives you a taste of Africa on your palm.</value>
+	</data>
+	<data name="Music.Description.Laboratory001" xml:space="preserve">
+		<value>Tubes, flasks, potions! Love is in the air, love is everywhere!</value>
+	</data>
+	<data name="Music.Description.Laboratory002" xml:space="preserve">
+		<value>The broken glass is featured as a solo intrument, accompanied by the large ensemble! You have to hear it to believe it!</value>
+	</data>
+	<data name="Music.Description.Office001" xml:space="preserve">
+		<value>Buried in the chores of life, when can I be far from the madding crowd?</value>
+	</data>
+	<data name="Music.Description.Office002" xml:space="preserve">
+		<value>Was it a vision, or a waking dream? Fled is that music, do I wake or sleep?</value>
+	</data>
+	<data name="Music.Description.Playroom001" xml:space="preserve">
+		<value>The caterpillar on the leaf, repeats to me my brother's belief. The fading memories throws me in deep grief, time is an invited thief.</value>
+	</data>
+	<data name="Music.Description.Playroom002" xml:space="preserve">
+		<value>I am the whirlwind that can break the chains, I am the tornado that can topple the mountains, I am whatever I wanna be in this rhapsody.</value>
+	</data>
+	<data name="Music.Name.Computer001" xml:space="preserve">
+		<value>Blob's Foxtrot</value>
+	</data>
+	<data name="Music.Name.Computer002" xml:space="preserve">
+		<value>Afrobeat</value>
+	</data>
+	<data name="Music.Name.Forest001" xml:space="preserve">
+		<value>Alter Ego</value>
+	</data>
+	<data name="Music.Name.Forest002" xml:space="preserve">
+		<value>Daydream</value>
+	</data>
+	<data name="Music.Name.Laboratory001" xml:space="preserve">
+		<value>Chemical Romance</value>
+	</data>
+	<data name="Music.Name.Laboratory002" xml:space="preserve">
+		<value>Glass Concerto</value>
+	</data>
+	<data name="Music.Name.Office001" xml:space="preserve">
+		<value>Life in the fast lane</value>
+	</data>
+	<data name="Music.Name.Office002" xml:space="preserve">
+		<value>Waking dream</value>
+	</data>
+	<data name="Music.Name.Playroom001" xml:space="preserve">
+		<value>Back to innocence</value>
+	</data>
+	<data name="Music.Name.Playroom002" xml:space="preserve">
+		<value>Electric rhapsody</value>
+	</data>
+	<data name="Options.Button.Language" xml:space="preserve">
+		<value>Language</value>
+	</data>
+	<data name="Options.Button.MusicAndSound" xml:space="preserve">
+		<value>Music &amp; Sound</value>
+	</data>
+	<data name="Options.Button.Quality" xml:space="preserve">
+		<value>Quality</value>
+	</data>
+	<data name="Options.Button.TapIndicator" xml:space="preserve">
+		<value>Tap indicator</value>
+	</data>
+	<data name="Options.Options" xml:space="preserve">
+		<value>Options</value>
+	</data>
+	<data name="Options.Quality.High" xml:space="preserve">
+		<value>High</value>
+	</data>
+	<data name="Options.Quality.Low" xml:space="preserve">
+		<value>Low</value>
+	</data>
+	<data name="Options.Quality.Medium" xml:space="preserve">
+		<value>Medium</value>
+	</data>
+	<data name="Options.Toggle.Off" xml:space="preserve">
+		<value>Off</value>
+	</data>
+	<data name="Options.Toggle.On" xml:space="preserve">
+		<value>On</value>
+	</data>
+	<data name="Popup.AccessoryInformationPopup.YouCantEquip" xml:space="preserve">
+		<value>You can't equip {0}.</value>
+	</data>
+	<data name="Popup.CharacterInformationPopup.YouCantUseThisCharacter" xml:space="preserve">
+		<value>You don't have {0}.</value>
+	</data>
+	<data name="Popup.Generic.LevelLocked" xml:space="preserve">
+		<value>Level locked</value>
+	</data>
+	<data name="Popup.Generic.LevelLockedDescription" xml:space="preserve">
+		<value>This level is locked. Unlock it by completing previous levels.</value>
+	</data>
+	<data name="Popup.Generic.MoreComing" xml:space="preserve">
+		<value>Stay tuned, new levels are coming soon!</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney" xml:space="preserve">
+		<value>Not enough money</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.CoinDescription" xml:space="preserve">
+		<value>You don't have enough money to buy this!</value>
+	</data>
+	<data name="Popup.Generic.NotEnoughMoney.DiamondDescription" xml:space="preserve">
+		<value>You don't have enough diamonds to buy this!</value>
+	</data>
+	<data name="Popup.Generic.OutOfLevels" xml:space="preserve">
+		<value>Out of levels</value>
+	</data>
+	<data name="Popup.Generic.SureToQuit" xml:space="preserve">
+		<value>Are you Giving it up?</value>
+	</data>
+	<data name="Popup.Generic.SureToQuitDescription" xml:space="preserve">
+		<value>Well, you may leave the game, but the game will never leave you.</value>
+	</data>
+	<data name="Popup.Generic.YouHaveFailed" xml:space="preserve">
+		<value>You failed</value>
+	</data>
+	<data name="Popup.Generic.YouHaveSucceeded" xml:space="preserve">
+		<value>You have succeeded</value>
+	</data>
+	<data name="Popup.InformationPopup.Locked" xml:space="preserve">
+		<value>{0} LOCKED</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByAchievement" xml:space="preserve">
+		<value>You can get it by unlocking {0} achievement!</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItByVideo" xml:space="preserve">
+		<value>You can get it by watching a video ad!</value>
+	</data>
+	<data name="Popup.InformationPopup.YouCanGetItFromBox" xml:space="preserve">
+		<value>You can get it from a box.</value>
+	</data>
+	<data name="Popup.Tutorial.GoodLuck" xml:space="preserve">
+		<value>Good Luck!</value>
+	</data>
+	<data name="Popup.Tutorial.NextSectionComing" xml:space="preserve">
+		<value>Next section coming</value>
+	</data>
+	<data name="Popup.Tutorial.NowYouAreReady" xml:space="preserve">
+		<value>Now you are ready for the real challenge!</value>
+	</data>
+	<data name="Popup.Tutorial.TryAgain" xml:space="preserve">
+		<value>Try Again?</value>
+	</data>
+	<data name="Popup.Tutorial.TutorialCompleted" xml:space="preserve">
+		<value>Tutorial Completed</value>
+	</data>
+	<data name="Popup.Tutorial.YouDidn'tJumped5Times" xml:space="preserve">
+		<value>You didn't jumped perfectly 5 times.
+Try Again?</value>
+	</data>
+	<data name="Rarity.Common" xml:space="preserve">
+		<value>COMMON</value>
+	</data>
+	<data name="Rarity.Legendary" xml:space="preserve">
+		<value>LEGENDARY</value>
+	</data>
+	<data name="Rarity.Rare" xml:space="preserve">
+		<value>RARE</value>
+	</data>
+	<data name="Results" xml:space="preserve">
+		<value>RESULTS</value>
+	</data>
+	<data name="Results.BestTime" xml:space="preserve">
+		<value>Best time!</value>
+	</data>
+	<data name="Results.BestTry" xml:space="preserve">
+		<value>Best try:</value>
+	</data>
+	<data name="Results.NewRecord" xml:space="preserve">
+		<value>New record!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint1" xml:space="preserve">
+		<value>Well well, here we are again..</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint10" xml:space="preserve">
+		<value>Oops I did it again!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint11" xml:space="preserve">
+		<value>De ja vu?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint12" xml:space="preserve">
+		<value>I was here before.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint13" xml:space="preserve">
+		<value>Hmm this seems so familiar.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint14" xml:space="preserve">
+		<value>Tick tock tick tock.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint15" xml:space="preserve">
+		<value>Fun fact: Watching an ad helps the developers.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint16" xml:space="preserve">
+		<value>You died exactly the same way as before.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint17" xml:space="preserve">
+		<value>5, 4, 3, 2, 1</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint18" xml:space="preserve">
+		<value>Why are you still at this checkpoint?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint19" xml:space="preserve">
+		<value>You must really love this checkpoint, don't you?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint2" xml:space="preserve">
+		<value>Do you have enough money to continue?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint20" xml:space="preserve">
+		<value>You always come back.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint21" xml:space="preserve">
+		<value>See you in 5 sec.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint22" xml:space="preserve">
+		<value>Keep calm and never give up!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint23" xml:space="preserve">
+		<value>Fun fact: You spent %RANDOM% coins on checkpoints.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint24" xml:space="preserve">
+		<value>Don't die just to see these tips.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint25" xml:space="preserve">
+		<value>Watch an ad to increase your luck.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint26" xml:space="preserve">
+		<value>Watch an ad to decrease the difficulty. (Not really)</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint27" xml:space="preserve">
+		<value>Insert coin to continue.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint28" xml:space="preserve">
+		<value>Here we go again.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint29" xml:space="preserve">
+		<value>The beginning of a beautiful friendship.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint3" xml:space="preserve">
+		<value>I dare you to continue!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint30" xml:space="preserve">
+		<value>Killing spree!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint31" xml:space="preserve">
+		<value>Why don't you just end it right now?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint32" xml:space="preserve">
+		<value>You should upgrade your dexterity.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint33" xml:space="preserve">
+		<value>Do you like killing blobs in your free time?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint34" xml:space="preserve">
+		<value>Take this one round for free. (Just kidding.)</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint35" xml:space="preserve">
+		<value>It's ink. Ink everywhere!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint36" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: You can't die if you don't play.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint37" xml:space="preserve">
+		<value>You were at this checkpoint 10 minutes before too.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint38" xml:space="preserve">
+		<value>Take a break.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint39" xml:space="preserve">
+		<value>while(true) { Die(); RestartFromCheckpoint() };</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint4" xml:space="preserve">
+		<value>Relax and watch and ad.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint40" xml:space="preserve">
+		<value>First try! Oh nevermind, I died.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint41" xml:space="preserve">
+		<value>You leveled up! + 10 STR, + 10 VIT</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint42" xml:space="preserve">
+		<value />
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint5" xml:space="preserve">
+		<value>It's dangerous to go alone! Take this Ad.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint6" xml:space="preserve">
+		<value>You will go bankrupt at this rate.</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint7" xml:space="preserve">
+		<value>Hah! Long time no see!</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint8" xml:space="preserve">
+		<value>Wish to continue?</value>
+	</data>
+	<data name="SatiricComment.ContinueFromCheckpoint9" xml:space="preserve">
+		<value>I bet you want to try again!</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished1" xml:space="preserve">
+		<value>Come back tomorrow for more!</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished2" xml:space="preserve">
+		<value>You think you can beat it tomorrow as well?</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished3" xml:space="preserve">
+		<value>You are on fire today!</value>
+	</data>
+	<data name="SatiricComment.DailyStageFinished4" xml:space="preserve">
+		<value>It's your lucky day!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage1" xml:space="preserve">
+		<value>Don't even try tomorrow!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage2" xml:space="preserve">
+		<value>Having a bad day?</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage3" xml:space="preserve">
+		<value>Maybe tomorrow you will have more luck!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage4" xml:space="preserve">
+		<value>At least you can keep the coins.</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage5" xml:space="preserve">
+		<value>Maybe next day it will be easier.</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage6" xml:space="preserve">
+		<value>Got hangover? Maybe tomorrow...</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage7" xml:space="preserve">
+		<value>It's not your lucky day.</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage8" xml:space="preserve">
+		<value>Don't bet today!</value>
+	</data>
+	<data name="SatiricComment.DiedOnDailyStage9" xml:space="preserve">
+		<value>Get prepared and come back after that.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage1" xml:space="preserve">
+		<value>Get rekt!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage10" xml:space="preserve">
+		<value>Pathetic try!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage11" xml:space="preserve">
+		<value>Feel the rhythm!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage12" xml:space="preserve">
+		<value>Come on!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage13" xml:space="preserve">
+		<value>Nice try…</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage14" xml:space="preserve">
+		<value>RLY?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage15" xml:space="preserve">
+		<value>Are you serious?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage16" xml:space="preserve">
+		<value>Tries %RANDOM%.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage17" xml:space="preserve">
+		<value>Oops, we didn't test this one.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage18" xml:space="preserve">
+		<value>Do you even try?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage19" xml:space="preserve">
+		<value>Do you even lift bro?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage2" xml:space="preserve">
+		<value>Ouch!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage20" xml:space="preserve">
+		<value>Fun fact: You are the only one who died here.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage21" xml:space="preserve">
+		<value>Just relax!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage22" xml:space="preserve">
+		<value>Maybe next time...</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage23" xml:space="preserve">
+		<value>Maybe you should turn on the music.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage24" xml:space="preserve">
+		<value>May the Blob be with you!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage25" xml:space="preserve">
+		<value>Oh, that was just a placeholder.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage26" xml:space="preserve">
+		<value>You may be strong, but I'm stronger.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage27" xml:space="preserve">
+		<value>%RANDOM% blob died during the test process and counting.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage28" xml:space="preserve">
+		<value>Should I call mommy?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage29" xml:space="preserve">
+		<value>WASTED</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage3" xml:space="preserve">
+		<value>Git gud!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage30" xml:space="preserve">
+		<value>Houston, we have a problem!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage31" xml:space="preserve">
+		<value>Get a better gadget, after you break this one!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage32" xml:space="preserve">
+		<value>Have faith!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage33" xml:space="preserve">
+		<value>You are not alone!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage34" xml:space="preserve">
+		<value>Feeling down?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage35" xml:space="preserve">
+		<value>Not tired yet?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage36" xml:space="preserve">
+		<value>Are you drunk?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage37" xml:space="preserve">
+		<value>Need a therapist?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage38" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Nah.. you don't deserve any tip.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage39" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Try jumping at the right time.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage4" xml:space="preserve">
+		<value>My mom could do it!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage40" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: The spike kills you.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage41" xml:space="preserve">
+		<value>Pro Tip #%TIPRANDOM%: Don't bang your head against the wall. </value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage42" xml:space="preserve">
+		<value>R.I.P.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage43" xml:space="preserve">
+		<value>You died %RANDOM% times. Isn't it enough?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage44" xml:space="preserve">
+		<value>You are lucky that the restart is free.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage45" xml:space="preserve">
+		<value>%!?#!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage46" xml:space="preserve">
+		<value>Try Give It Up! 1 or 2 first.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage47" xml:space="preserve">
+		<value>Hello darkness, my old friend...</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage48" xml:space="preserve">
+		<value>Aint' nobody get time for this.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage49" xml:space="preserve">
+		<value>Cry on my shoulder.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage5" xml:space="preserve">
+		<value>Don't worry, be happy!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage50" xml:space="preserve">
+		<value>Are you salty?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage51" xml:space="preserve">
+		<value>Calm down! That way you will be calm.</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage6" xml:space="preserve">
+		<value>Are you ill?</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage7" xml:space="preserve">
+		<value>It's not that hard!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage8" xml:space="preserve">
+		<value>I can do it with my eyes closed!</value>
+	</data>
+	<data name="SatiricComment.DiedOnNormalStage9" xml:space="preserve">
+		<value>Give it up!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished1" xml:space="preserve">
+		<value>GG!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished10" xml:space="preserve">
+		<value>MOM! Get the camera!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished11" xml:space="preserve">
+		<value>Lucky!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished12" xml:space="preserve">
+		<value>Difficulty level set to nightmare.</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished13" xml:space="preserve">
+		<value>Just barely!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished14" xml:space="preserve">
+		<value>Got the hang of it!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished15" xml:space="preserve">
+		<value>At last!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished16" xml:space="preserve">
+		<value>How did you manage it?</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished17" xml:space="preserve">
+		<value>You deserve a cookie.</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished18" xml:space="preserve">
+		<value>Is it really the goal?</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished19" xml:space="preserve">
+		<value>You totally cheated!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished2" xml:space="preserve">
+		<value>Good job!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished20" xml:space="preserve">
+		<value>EZ PZ!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished21" xml:space="preserve">
+		<value>Now at least you can cry from happiness.</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished3" xml:space="preserve">
+		<value>Nice!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished4" xml:space="preserve">
+		<value>Great!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished5" xml:space="preserve">
+		<value>You did it!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished6" xml:space="preserve">
+		<value>Not bad…</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished7" xml:space="preserve">
+		<value>Unbelievable!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished8" xml:space="preserve">
+		<value>I'm not even mad, that's amazing!</value>
+	</data>
+	<data name="SatiricComment.NormalStageFinished9" xml:space="preserve">
+		<value>-.-- .- .- .- -.-- / .. - .----. ... / -- --- .-. ... .</value>
+	</data>
+	<data name="Theme1" xml:space="preserve">
+		<value>Labor</value>
+	</data>
+	<data name="Theme2" xml:space="preserve">
+		<value>Forest</value>
+	</data>
+	<data name="Theme3" xml:space="preserve">
+		<value>Computer</value>
+	</data>
+	<data name="Theme4" xml:space="preserve">
+		<value>Office</value>
+	</data>
+	<data name="Theme5" xml:space="preserve">
+		<value>Kids Room</value>
+	</data>
+	<data name="Tutorial.JumpIndicatorMiss" xml:space="preserve">
+		<value>MISS!</value>
+	</data>
+	<data name="Tutorial.JumpIndicatorPerfect" xml:space="preserve">
+		<value>PERFECT!</value>
+	</data>
+	<data name="Tutorial.Objective1" xml:space="preserve">
+		<value>Do {0} perfect jumps!</value>
+	</data>
+	<data name="Tutorial.Objective2" xml:space="preserve">
+		<value>Get through the spikes and reach the next checkpoint!</value>
+	</data>
+	<data name="Tutorial.Objective3" xml:space="preserve">
+		<value>Get through the high platforms and reach the next checkpoint!</value>
+	</data>
+	<data name="Tutorial.Objective4" xml:space="preserve">
+		<value>This is the final section. Reach the end to complete the tutorial!</value>
+	</data>
+	<data name="VoiceMaker" xml:space="preserve">
+		<value>VOICE MAKER</value>
+	</data>
+	<data name="VoiceMaker.Info" xml:space="preserve">
+		<value>Voicemaker Info</value>
+	</data>
+	<data name="VoiceMaker.Message1" xml:space="preserve">
+		<value>You can record your voice for Blob's actions with the Voice Maker.</value>
+	</data>
+	<data name="VoiceMaker.Message2" xml:space="preserve">
+		<value>To use this feature, you have to allow recording from the microphone.</value>
+	</data>
+	<data name="VoiceMaker.Message3" xml:space="preserve">
+		<value>The recorded samples will stay on your device, they won't be uploaded anywhere.</value>
+	</data>
+	<data name="VoiceMaker.Message4" xml:space="preserve">
+		<value>Please don't cover the microphone while recording.</value>
+	</data>
+	<data name="VoiceMaker.MicrophonePermission" xml:space="preserve">
+		<value>Microphone Permission</value>
+	</data>
+	<data name="VoiceMaker.MicrophonePermissionMessage" xml:space="preserve">
+		<value>The application is not permitted to use the microphone!
+Do you want to allow it?</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallBorn" xml:space="preserve">
+		<value>Appear</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallJump" xml:space="preserve">
+		<value>Jump</value>
+	</data>
+	<data name="VoiceMaker.VoiceMakerNameBallKilled" xml:space="preserve">
+		<value>Splash</value>
+	</data>
+	<data name="WorldMap" xml:space="preserve">
+		<value>WORLD MAP</value>
+	</data>
+	<data name="WorldMap.Tutorial" xml:space="preserve">
+		<value>Tutorial</value>
+	</data>
+
+	<data name="Enviroments.Name.ChildsRoom" xml:space="preserve">
+		<value>Child's room</value>
+	</data>
+	<data name="Enviroments.Name.Laboratory" xml:space="preserve">
+		<value>Laboratory</value>
+	</data>
+	<data name="Enviroments.Name.Office" xml:space="preserve">
+		<value>Office</value>
+	</data>
+	<data name="Enviroments.Name.BlobInside" xml:space="preserve">
+		<value>Blob inside</value>
+	</data>
+
+	<data name="HighScore" xml:space="preserve">
+		<value>highscore</value>
+	</data>
+
+	<data name="Play" xml:space="preserve">
+		<value>play</value>
+	</data>
+
+	<data name="Challenges" xml:space="preserve">
+		<value>Challenges</value>
+	</data>
+
+	<data name="Challenges.HighSpeed" xml:space="preserve">
+		<value>HighSpeed</value>
+	</data>
+	<data name="Challenges.PerfectJump" xml:space="preserve">
+		<value>PerfectJump</value>
+	</data>
+	<data name="Challenges.JumpOver" xml:space="preserve">
+		<value>JumpOver</value>
+	</data>
+	<data name="Challenges.ScalePlatform" xml:space="preserve">
+		<value>ScalePlatform</value>
+	</data>
+
+	<data name="ChangeCharacters" xml:space="preserve">
+		<value>Characters themes music</value>
+	</data>
+
+	<data name="Enviroment" xml:space="preserve">
+		<value>Enviroment</value>
+	</data>
+
+	<data name="Music" xml:space="preserve">
+		<value>Music</value>
+	</data>
+	<data name="Challenges.Prev" xml:space="preserve">
+		<value>Prev</value>
+	</data>
+	<data name="Challenges.Next" xml:space="preserve">
+		<value>Next</value>
+	</data>
+	<data name="Restart" xml:space="preserve">
+		<value>Restart</value>
+	</data>
+	<data name="Next" xml:space="preserve">
+		<value>Next</value>
+	</data>
+</root>
