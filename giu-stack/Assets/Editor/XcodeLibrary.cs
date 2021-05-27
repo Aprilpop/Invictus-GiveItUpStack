@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEditor.iOS.Xcode;
+//using UnityEditor.iOS.Xcode;
 using UnityEditor.Callbacks;
 using UnityEditor;
 using System.IO;

@@ -7,8 +7,9 @@
 
 namespace SmartLocalization
 {
-using UnityEngine;
-using System.Collections;
+	using UnityEngine;
+	using System.Collections;
+	using UnityEngine.UI;
 
 public class LocalizedGUIText : MonoBehaviour 
 {
@@ -35,7 +36,7 @@ public class LocalizedGUIText : MonoBehaviour
 	void OnChangeLanguage(LanguageManager languageManager)
 	{
 		//Initialize all your language specific variables here
-		GetComponent<GUIText>().text = LanguageManager.Instance.GetTextValue(localizedKey);
+		GetComponent<Text>().text = LanguageManager.Instance.GetTextValue(localizedKey);
 	}
 }
 }//namespace SmartLocalization

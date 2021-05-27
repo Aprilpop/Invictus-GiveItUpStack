@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Callbacks;
 using System.Collections;
-using UnityEditor.iOS.Xcode;
+//using UnityEditor.iOS.Xcode;
 using System.IO;
 
 public class StackPlistEditor {
@@ -11,7 +11,7 @@ public class StackPlistEditor {
 	[PostProcessBuild]
 	public static void ChangeXcodePlist(BuildTarget buildTarget, string pathToBuiltProject) {
 
-		if (buildTarget == BuildTarget.iOS) {
+		/*if (buildTarget == BuildTarget.iOS) {
 
 			// Get plist
 			string plistPath = pathToBuiltProject + "/Info.plist";
@@ -27,6 +27,6 @@ public class StackPlistEditor {
 
 			// Write to file
 			File.WriteAllText(plistPath, plist.WriteToString());
-		}
+		}*/
 	}
 }
