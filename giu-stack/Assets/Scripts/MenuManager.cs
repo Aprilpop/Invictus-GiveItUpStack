@@ -832,4 +832,9 @@ public class MenuManager : MonoBehaviour
     {
 
     }
+
+    public void Share()//分享领取
+    {
+        Debug.Log("分享成功！");
+    }
 }
