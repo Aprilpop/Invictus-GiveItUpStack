@@ -837,4 +837,10 @@ public class MenuManager : MonoBehaviour
     {
         Debug.Log("分享成功！");
     }
+
+    private void ShareReward()
+    {
+        Debug.Log("获得奖励！");
+        ProfileManager.Instance.Gold += 100;
+    }
 }
