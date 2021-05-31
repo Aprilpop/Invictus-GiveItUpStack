@@ -24,12 +24,6 @@ public class SelectChallange : SelectItem
         ProfileManager.Instance.SetMaxPlatform(challengeType, index-1);
         MenuManager.Instance.Play(challengeType);
         Debug.Log("点击关卡开始游戏！");
-        RecordTheScreenToStart();
-    }
-
-
-    public void RecordTheScreenToStart()//游戏录屏开始
-    {
-
+        MenuManager.Instance.StartRecorder();
     }
 }

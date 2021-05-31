@@ -71,6 +71,7 @@ public class SecondChance : MonoBehaviour
     /// </summary>
     void GameResurgence()
     {
+
         // 先恢复所有平台
         Spawner.Instance.GameResurgence();
         // 再回复角色位置
@@ -86,6 +87,7 @@ public class SecondChance : MonoBehaviour
 
         // 开始平台
         Spawner.Instance.CreatePlatform();
+        MenuManager.Instance.StartRecorder();
     }
 
     // 广告看完返回。之后复活

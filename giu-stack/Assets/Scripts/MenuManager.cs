@@ -485,7 +485,8 @@ public class MenuManager : MonoBehaviour
             secondChance.SetActive(true);
             GameLogic.Instance.InGame = false;
             GameLogic.Instance.FirstDeath = false;
-
+            Debug.Log("角色死亡！");
+            StopRecorder();
             /*if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
                 GameLogic.Instance.stack.gameObject.SetActive(false);
 
@@ -667,7 +668,6 @@ public class MenuManager : MonoBehaviour
         else
             Fail();
         Plaque_AD();
-        StopRecorder();
         Debug.Log("闯关结束！");
     }
 
