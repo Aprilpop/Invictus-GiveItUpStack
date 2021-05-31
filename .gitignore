@@ -13,6 +13,7 @@
 /giu-stack/build/
 /giu-stack/Android/
 /giu-stack/Assets/InstantGameData/
+/giu-stack/Assets/AutoStreamingData/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/giu-stack/[Aa]ssets/**/*.meta

@@ -6,13 +6,3186 @@ AutoStreamingSettings:
   serializedVersion: 2
   mSearchMode: 7
   mCustomSearchFile: 
-  mTextures: []
-  mAudios: []
-  mMeshes: []
+  mTextures:
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/tex0522/spot.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/tex0522/spot.png
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 12419
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/asset_poster_01.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/asset_poster_01.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 349552
+    abSize: 38037
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/textures/asset_poster_03.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 87408
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/asset_poster_04.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/asset_poster_04.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 349552
+    abSize: 24729
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/child_room_02.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/child_room_02.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 2048
+    rtMem: 4194309
+    abSize: 127141
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/colorgrad.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/colorgrad.png
+    useBlurPlaceholder: 0
+    width: 1024
+    height: 1024
+    rtMem: 699064
+    abSize: 9229
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/colorgrad.tga
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/colorgrad.tga
+    useBlurPlaceholder: 0
+    width: 1024
+    height: 1024
+    rtMem: 699064
+    abSize: 10212
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/textures/creditsIcon.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 262144
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/textures/eye.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 43704
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/textures/gradient.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 21872
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/lab_04.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/lab_04.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 2048
+    rtMem: 4194309
+    abSize: 166672
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/office_04.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/office_04.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 2048
+    rtMem: 4194309
+    abSize: 179973
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/office_t_1.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/office_t_1.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 2048
+    rtMem: 4194309
+    abSize: 279106
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/platform_UV_texture_green.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/platform_UV_texture_green.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 131072
+    abSize: 6965
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/platform_UV_texture_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/platform_UV_texture_grey.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 131072
+    abSize: 6975
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/platform_UV_texture_yellow.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/platform_UV_texture_yellow.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 174776
+    abSize: 10123
+    refs:
+    - 1
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/saw.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/saw.png
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 87408
+    abSize: 23584
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/splash1.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/splash1.png
+    useBlurPlaceholder: 0
+    width: 1024
+    height: 1024
+    rtMem: 1398128
+    abSize: 35250
+    refs:
+    - 2
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/splash2.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/splash2.png
+    useBlurPlaceholder: 0
+    width: 433
+    height: 470
+    rtMem: 814040
+    abSize: 14170
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/textures/toon_grad3.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 174776
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/toys_01.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/toys_01.png
+    useBlurPlaceholder: 0
+    width: 2048
+    height: 1024
+    rtMem: 2796240
+    abSize: 122488
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/toys_02.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/toys_02.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 1024
+    rtMem: 699088
+    abSize: 37935
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/textures/toys_03.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/textures/toys_03.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 349552
+    abSize: 44497
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/6320a84035a04d90c38ae268e692221.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/6320a84035a04d90c38ae268e692221.png
+    useBlurPlaceholder: 0
+    width: 196
+    height: 169
+    rtMem: 132496
+    abSize: 7565
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/New Art/AD.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 80
+    height: 59
+    rtMem: 18880
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/LuckyDraw/Di.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/LuckyDraw/Di.png
+    useBlurPlaceholder: 0
+    width: 1005
+    height: 1261
+    rtMem: 5069220
+    abSize: 53549
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/LuckyDraw/Pointer.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/LuckyDraw/Pointer.png
+    useBlurPlaceholder: 0
+    width: 154
+    height: 205
+    rtMem: 126280
+    abSize: 6522
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/LuckyDraw/pannei.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/LuckyDraw/pannei.png
+    useBlurPlaceholder: 0
+    width: 703
+    height: 703
+    rtMem: 1976836
+    abSize: 25111
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/LuckyDraw/title.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/LuckyDraw/title.png
+    useBlurPlaceholder: 0
+    width: 1080
+    height: 338
+    rtMem: 1460160
+    abSize: 34278
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: "Assets/New Art/LuckyDraw/\u5173\u95ED.png"
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 141
+    height: 142
+    rtMem: 80088
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: "Assets/New Art/LuckyDraw/\u6309\u94AE-\u7070.png"
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 373
+    height: 148
+    rtMem: 220816
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: "Assets/New Art/LuckyDraw/\u6309\u94AE.png"
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 373
+    height: 148
+    rtMem: 220816
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/SignIn/di.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/SignIn/di.png
+    useBlurPlaceholder: 0
+    width: 910
+    height: 1161
+    rtMem: 4226040
+    abSize: 19183
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/New Art/SignIn/selected.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 194
+    height: 192
+    rtMem: 148992
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: "Assets/New Art/SignIn/\u5DF2\u9886\u53D6_di2.png"
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 52
+    height: 52
+    rtMem: 2704
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: "Assets/New Art/SignIn/\u6761_\u5E95.png"
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 770
+    height: 208
+    rtMem: 640640
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/douyin.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/douyin.png
+    useBlurPlaceholder: 0
+    width: 610
+    height: 591
+    rtMem: 1442040
+    abSize: 53911
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/New Art/zhuanpan.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/New Art/zuomian.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/New Art/zuomian.png
+    useBlurPlaceholder: 0
+    width: 196
+    height: 169
+    rtMem: 132496
+    abSize: 7359
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Plugins/InvictusMoreGames/Textures/moreGamesButton.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 57
+    height: 54
+    rtMem: 12312
+    abSize: 0
+    refs:
+    - 2
+  - usePlaceholder: 0
+    assetPath: Assets/Plugins/InvictusMoreGames/Textures/rounded_rect.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 64
+    height: 64
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Scenes/Game/Lightmap-0_comp_dir.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 21872
+    abSize: 0
+    refs:
+    - 2
+  - usePlaceholder: 0
+    assetPath: Assets/Scenes/Game/Lightmap-0_comp_light.exr
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 10936
+    abSize: 0
+    refs:
+    - 2
+  - usePlaceholder: 1
+    assetPath: Assets/Splash/invictus_2208x1242.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Splash/invictus_2208x1242.png
+    useBlurPlaceholder: 0
+    width: 2048
+    height: 1152
+    rtMem: 7077888
+    abSize: 295497
+    refs:
+    - 1
+  - usePlaceholder: 1
+    assetPath: Assets/UI/SingmaanSplash.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/SingmaanSplash.png
+    useBlurPlaceholder: 0
+    width: 510
+    height: 453
+    rtMem: 924120
+    abSize: 36346
+    refs:
+    - 0
+  - usePlaceholder: 0
+    assetPath: Assets/UI/pix_black.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 1
+    height: 1
+    rtMem: 3
+    abSize: 0
+    refs:
+    - 0
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_bat.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_bat.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 26510
+    refs:
+    - 1
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_blob.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_blob.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 22394
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_chloe.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_chloe.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 33542
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_daddy.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_daddy.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 22820
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_devil.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_devil.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 28497
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_ett.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_ett.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 21209
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_littlegirl.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_littlegirl.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 28073
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_mia.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_mia.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 30725
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_minion.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_minion.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 21125
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_peach.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_peach.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 24097
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_star.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_star.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 27065
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/blob_thunderbolt.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/blob_thunderbolt.png
+    useBlurPlaceholder: 0
+    width: 250
+    height: 270
+    rtMem: 270000
+    abSize: 30568
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button1_green.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button1_green.png
+    useBlurPlaceholder: 0
+    width: 319
+    height: 363
+    rtMem: 463188
+    abSize: 8131
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button1_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button1_grey.png
+    useBlurPlaceholder: 0
+    width: 319
+    height: 363
+    rtMem: 463188
+    abSize: 9042
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button1_white.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button1_white.png
+    useBlurPlaceholder: 0
+    width: 319
+    height: 363
+    rtMem: 463188
+    abSize: 9082
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button2_green.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button2_green.png
+    useBlurPlaceholder: 0
+    width: 323
+    height: 259
+    rtMem: 334628
+    abSize: 5664
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button2_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button2_grey.png
+    useBlurPlaceholder: 0
+    width: 323
+    height: 259
+    rtMem: 334628
+    abSize: 6276
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button2_red.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button2_red.png
+    useBlurPlaceholder: 0
+    width: 323
+    height: 259
+    rtMem: 334628
+    abSize: 6692
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button2_white.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button2_white.png
+    useBlurPlaceholder: 0
+    width: 323
+    height: 259
+    rtMem: 334628
+    abSize: 6398
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button3_green.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 136
+    height: 136
+    rtMem: 18496
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button3_grey.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 136
+    height: 136
+    rtMem: 18496
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button3_red.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 136
+    height: 136
+    rtMem: 18496
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button3_white.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 136
+    height: 136
+    rtMem: 18496
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button4.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 106
+    height: 106
+    rtMem: 44944
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button5.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 188
+    height: 179
+    rtMem: 134608
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button5_grey.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 188
+    height: 179
+    rtMem: 134608
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button5_white.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 188
+    height: 179
+    rtMem: 134608
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button6_green.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 253
+    height: 221
+    rtMem: 223652
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button6_grey.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 253
+    height: 221
+    rtMem: 223652
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button6_white.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 253
+    height: 221
+    rtMem: 223652
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button7_green.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 231
+    height: 193
+    rtMem: 178332
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button7_grey.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 231
+    height: 193
+    rtMem: 178332
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/button8.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 110
+    height: 106
+    rtMem: 46640
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button9_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button9_grey.png
+    useBlurPlaceholder: 0
+    width: 319
+    height: 363
+    rtMem: 463188
+    abSize: 8965
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button9_red.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button9_red.png
+    useBlurPlaceholder: 0
+    width: 319
+    height: 363
+    rtMem: 463188
+    abSize: 9462
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/button9_white.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/button9_white.png
+    useBlurPlaceholder: 0
+    width: 319
+    height: 363
+    rtMem: 463188
+    abSize: 9073
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/circle.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/container_off.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 167
+    height: 165
+    rtMem: 110220
+    abSize: 0
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/container_on.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 167
+    height: 165
+    rtMem: 110220
+    abSize: 0
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/container_selected.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 167
+    height: 165
+    rtMem: 110220
+    abSize: 0
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/container_selectmask.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 167
+    height: 165
+    rtMem: 110220
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/glow_gradient.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/glow_gradient.png
+    useBlurPlaceholder: 0
+    width: 313
+    height: 313
+    rtMem: 391876
+    abSize: 9921
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/glow_star.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/glow_star.png
+    useBlurPlaceholder: 0
+    width: 313
+    height: 313
+    rtMem: 391876
+    abSize: 15640
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/gradient.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/gradient.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 1048576
+    abSize: 24735
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/header1_green.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 273
+    height: 125
+    rtMem: 136500
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/header1_grey.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 273
+    height: 125
+    rtMem: 136500
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/header2_green.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 273
+    height: 125
+    rtMem: 136500
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/header2_grey.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 273
+    height: 125
+    rtMem: 136500
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/heart_color.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/heart_color.png
+    useBlurPlaceholder: 0
+    width: 554
+    height: 479
+    rtMem: 1061464
+    abSize: 6083
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/heart_outline.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/heart_outline.png
+    useBlurPlaceholder: 0
+    width: 654
+    height: 579
+    rtMem: 1514664
+    abSize: 6985
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/highscore.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/highscore.png
+    useBlurPlaceholder: 0
+    width: 372
+    height: 435
+    rtMem: 647280
+    abSize: 12758
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_X.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_blob.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_challenge.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_music.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_musicselect.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_options.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_play.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_restart.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_skip.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_themes.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/icon_volume_on.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_4bet_lable.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 262
+    height: 60
+    rtMem: 62880
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_ad_icon.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 89
+    height: 84
+    rtMem: 29904
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_adfh_lable.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 263
+    height: 61
+    rtMem: 64172
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_btn_bettom.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 417
+    height: 123
+    rtMem: 205164
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_btn_buy.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_btn_buy.png
+    useBlurPlaceholder: 0
+    width: 160
+    height: 129
+    rtMem: 82560
+    abSize: 6278
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_btn_buy_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_btn_buy_grey.png
+    useBlurPlaceholder: 0
+    width: 160
+    height: 129
+    rtMem: 82560
+    abSize: 5447
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_btn_ok.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_btn_ok.png
+    useBlurPlaceholder: 0
+    width: 197
+    height: 224
+    rtMem: 176512
+    abSize: 12386
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_btn_ok_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_btn_ok_grey.png
+    useBlurPlaceholder: 0
+    width: 197
+    height: 224
+    rtMem: 176512
+    abSize: 8206
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_btn_shop.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_btn_shop.png
+    useBlurPlaceholder: 0
+    width: 199
+    height: 188
+    rtMem: 149648
+    abSize: 11450
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_btn_shop_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_btn_shop_grey.png
+    useBlurPlaceholder: 0
+    width: 199
+    height: 188
+    rtMem: 149648
+    abSize: 9109
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_btn_suspend.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 134
+    height: 134
+    rtMem: 71824
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_btn_suspend_grey.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 134
+    height: 134
+    rtMem: 71824
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_continue_game.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 263
+    height: 60
+    rtMem: 63120
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_continue_mainMenu.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 328
+    height: 61
+    rtMem: 80032
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_game_pause_tip.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 302
+    height: 70
+    rtMem: 84560
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_gold.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_gold.png
+    useBlurPlaceholder: 0
+    width: 117
+    height: 114
+    rtMem: 53352
+    abSize: 16422
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_hand.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_hand.png
+    useBlurPlaceholder: 0
+    width: 193
+    height: 196
+    rtMem: 151312
+    abSize: 19162
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_head_kuang.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 552
+    height: 200
+    rtMem: 110400
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_kgg_icon.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_kgg_icon.png
+    useBlurPlaceholder: 0
+    width: 226
+    height: 149
+    rtMem: 134696
+    abSize: 7390
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_popup.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 299
+    height: 166
+    rtMem: 198536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_rmb.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 41
+    height: 59
+    rtMem: 9676
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_shop_bettom.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 417
+    height: 123
+    rtMem: 205164
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_shop_top.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 316
+    height: 68
+    rtMem: 21488
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_sprite_buy.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_sprite_buy.png
+    useBlurPlaceholder: 0
+    width: 197
+    height: 224
+    rtMem: 176512
+    abSize: 12748
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_sprite_buy_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_sprite_buy_grey.png
+    useBlurPlaceholder: 0
+    width: 197
+    height: 224
+    rtMem: 176512
+    abSize: 8325
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/img_wd_tip_lable.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/img_wd_tip_lable.png
+    useBlurPlaceholder: 0
+    width: 854
+    height: 52
+    rtMem: 177632
+    abSize: 12574
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/img_wx_tip.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 907
+    height: 78
+    rtMem: 282984
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/logo.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/logo.png
+    useBlurPlaceholder: 0
+    width: 370
+    height: 499
+    rtMem: 738520
+    abSize: 56293
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/logo_CH.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/logo_CH.png
+    useBlurPlaceholder: 0
+    width: 370
+    height: 499
+    rtMem: 738520
+    abSize: 56416
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon1.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon1.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 14704
+    refs:
+    - 1
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon2.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon2.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 15052
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon3.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon3.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 15060
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon4.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon4.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 14884
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon5.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon5.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 14926
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon6.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon6.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 14953
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon7.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon7.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 14954
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon8.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon8.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 15150
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/music_icon9.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/music_icon9.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 380
+    rtMem: 136800
+    abSize: 14870
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/UI/textures/new_record.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 304
+    height: 201
+    rtMem: 244416
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/popup1.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/popup1.png
+    useBlurPlaceholder: 0
+    width: 642
+    height: 651
+    rtMem: 1671768
+    abSize: 6714
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/popup2.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/popup2.png
+    useBlurPlaceholder: 0
+    width: 642
+    height: 651
+    rtMem: 1671768
+    abSize: 6691
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/shine.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/shine.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 1048576
+    abSize: 14585
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_childrensroom.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_childrensroom.png
+    useBlurPlaceholder: 0
+    width: 800
+    height: 270
+    rtMem: 648000
+    abSize: 90335
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_labor.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_labor.png
+    useBlurPlaceholder: 0
+    width: 800
+    height: 270
+    rtMem: 648000
+    abSize: 90757
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_machine.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_machine.png
+    useBlurPlaceholder: 0
+    width: 800
+    height: 270
+    rtMem: 648000
+    abSize: 148663
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_office.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_office.png
+    useBlurPlaceholder: 0
+    width: 800
+    height: 270
+    rtMem: 648000
+    abSize: 77704
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_unlock_childrensroom.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_unlock_childrensroom.png
+    useBlurPlaceholder: 0
+    width: 180
+    height: 190
+    rtMem: 136800
+    abSize: 26593
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_unlock_labor.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_unlock_labor.png
+    useBlurPlaceholder: 0
+    width: 180
+    height: 190
+    rtMem: 136800
+    abSize: 23123
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_unlock_machine.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_unlock_machine.png
+    useBlurPlaceholder: 0
+    width: 180
+    height: 190
+    rtMem: 136800
+    abSize: 28731
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/UI/textures/theme_unlock_office.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/UI/textures/theme_unlock_office.png
+    useBlurPlaceholder: 0
+    width: 180
+    height: 190
+    rtMem: 136800
+    abSize: 23208
+    refs:
+    - 1
+    - res
+  - usePlaceholder: 1
+    assetPath: "Assets/UI/textures/\u91D1\u5E01.png"
+    placeholderPath: "Assets/AutoStreamingData/Placeholders/Assets/UI/textures/\u91D1\u5E01.png"
+    useBlurPlaceholder: 0
+    width: 117
+    height: 114
+    rtMem: 53352
+    abSize: 16396
+    refs:
+    - 2
+    - res
+  mAudios:
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/Afternoon Boredom (Loop).wav
+    localFileId: -1
+    rtMem: 4979648
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/Another One Kiss the Bride.wav
+    localFileId: -1
+    rtMem: 3992352
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/AyO(Loop).wav
+    localFileId: -1
+    rtMem: 7056064
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/Give it Up! Bouncy (Main Menu)_Loop.wav
+    localFileId: -1
+    rtMem: 3379040
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/M_Tibi - 02 !Pre Release! [Minor F,128Bpm]
+      (Prod_by C-Slim).mp3
+    localFileId: -1
+    rtMem: 5124352
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/M_Tibi - 10 !Pre Release! [Minor F,150Bpm]
+      (Prod_by C-Slim).mp3
+    localFileId: -1
+    rtMem: 2745824
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/M_Tibi - 11 !Pre Release! [Minor A,150Bpm]
+      (Prod_by C-Slim).mp3
+    localFileId: -1
+    rtMem: 2920576
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/M_Tibi - 12  2#  !Pre Release!  [Minor A,120Bpm]
+      (Prod_by C-Slim).mp3
+    localFileId: -1
+    rtMem: 3694432
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Music/Never Give Up (Loop).wav
+    localFileId: -1
+    rtMem: 5606016
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Sound/191592__fins__menu-button.wav
+    localFileId: -1
+    rtMem: 3616
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Sound/GORE_Splat_Hit_Bubbles_mono.wav
+    localFileId: -1
+    rtMem: 13344
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Sound/GORE_Stab_02_mono.wav
+    localFileId: -1
+    rtMem: 11296
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Sound/cartoon_boing_jump_b.wav
+    localFileId: -1
+    rtMem: 6400
+    refs:
+    - 2
+    - res
+  mMeshes:
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/blob.FBX:blob013
+    localFileId: -5094481503227061221
+    rtMem: 55536
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/blob.FBX:Sphere002
+    localFileId: -2845505134294023193
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/blob.FBX:Sphere001
+    localFileId: 973877516759717424
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/ETT.FBX:Eye_L002
+    localFileId: 3199499584409733897
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/ETT.FBX:Eye_R002
+    localFileId: 4393267450070074034
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/ETT.FBX:ETT
+    localFileId: 5143982587452824462
+    rtMem: 29856
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/GeoSphereparticle.FBX:GeoSphereparticle
+    localFileId: -4494299090241632690
+    rtMem: 2640
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/chloe.FBX:Eye_L
+    localFileId: -6204564150123431352
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/chloe.FBX:Eye_R
+    localFileId: 7378947710722030645
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/chloe.FBX:Chloe
+    localFileId: 7918169757217741114
+    rtMem: 86544
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Thunderbolt.FBX:Eye_L
+    localFileId: -6204564150123431352
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Thunderbolt.FBX:Eye_R
+    localFileId: 7378947710722030645
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/Thunderbolt.FBX:thunder
+    localFileId: 8809854969846465743
+    rtMem: 40464
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/KITT.FBX:Wheel_L
+    localFileId: -4775534804493535702
+    rtMem: 8928
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/KITT.FBX:KITThead
+    localFileId: -4432594482668069542
+    rtMem: 32016
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/KITT.FBX:Wheel_R
+    localFileId: 6053955567515867273
+    rtMem: 8928
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/Star.FBX:star
+    localFileId: 1881125385508326797
+    rtMem: 29424
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Star.FBX:EyeR
+    localFileId: 3246790025662424948
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Star.FBX:EyeL
+    localFileId: 8304870966661801277
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pen_3_bottom
+    localFileId: -9211109787698557620
+    rtMem: 6384
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:file_01
+    localFileId: -8313717804683856737
+    rtMem: 9040
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:paper
+    localFileId: -8290737790562903628
+    rtMem: 1536
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:paper
+    localFileId: -7858812190160527401
+    rtMem: 1536
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:clip_04
+    localFileId: -7423052648553747930
+    rtMem: 6624
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:clip_01
+    localFileId: -7086475887126423671
+    rtMem: 6240
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:phone_01_buttons
+    localFileId: -6807938814338395484
+    rtMem: 79440
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:coffee_cap
+    localFileId: -6449850855370262461
+    rtMem: 10656
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:cup_1
+    localFileId: -5709256969782571239
+    rtMem: 16416
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:USB_cable_1
+    localFileId: -5484953613799266227
+    rtMem: 55104
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:rubber
+    localFileId: -5363502387369609697
+    rtMem: 6384
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:paper
+    localFileId: -5325477117214883586
+    rtMem: 1536
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:earphone_1
+    localFileId: -5274091683276099237
+    rtMem: 67296
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:paper
+    localFileId: -5093683399538085491
+    rtMem: 1536
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:clip_03
+    localFileId: -5058843151150968799
+    rtMem: 6240
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:phone_01
+    localFileId: -4733861275205592596
+    rtMem: 27792
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:clip_02
+    localFileId: -4676844885021971683
+    rtMem: 6624
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pencil_02
+    localFileId: -2295837725116647399
+    rtMem: 3552
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pen_3
+    localFileId: -2073144282795277767
+    rtMem: 3552
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:tack_01
+    localFileId: -1676524461625060011
+    rtMem: 5088
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:tack_floor_02
+    localFileId: -1379467462132446707
+    rtMem: 5088
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:postit_01
+    localFileId: -1264147784342796668
+    rtMem: 8160
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pen_02
+    localFileId: -1189592994186683649
+    rtMem: 8688
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:rumpled_paper_01
+    localFileId: -925475576025487621
+    rtMem: 18336
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:paper
+    localFileId: 27576207241163987
+    rtMem: 1536
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:big_clip_01
+    localFileId: 47212575045986562
+    rtMem: 12480
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:paper
+    localFileId: 1154439353606438672
+    rtMem: 1536
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:phone_01_cable_1
+    localFileId: 1753614551768713346
+    rtMem: 38240
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:phone_01_cable_2
+    localFileId: 2095669299591305959
+    rtMem: 38240
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:stapler_01
+    localFileId: 2213333483148824655
+    rtMem: 30192
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:paper
+    localFileId: 3063203231680714708
+    rtMem: 1536
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pendrive_01
+    localFileId: 3263198707732745917
+    rtMem: 12960
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pen_01
+    localFileId: 3432942331812214572
+    rtMem: 9936
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:rumpled_paper_02
+    localFileId: 3594266158496334664
+    rtMem: 18336
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:scrissors-child
+    localFileId: 3815228142776176334
+    rtMem: 13776
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:scrissors
+    localFileId: 3944403508700426551
+    rtMem: 17904
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:stapler_top
+    localFileId: 4247833203875114318
+    rtMem: 25056
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:phone_01_cable_lod_1
+    localFileId: 4410039495908705983
+    rtMem: 12640
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:tack_floor_01
+    localFileId: 4748601074886455297
+    rtMem: 5088
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pen_3_cup_end
+    localFileId: 5182687863619142447
+    rtMem: 6384
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:phone_01_reciever_01
+    localFileId: 6497622857063019268
+    rtMem: 32880
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:calculator_01
+    localFileId: 7107093866544854026
+    rtMem: 22992
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:phone_01_reciever_02
+    localFileId: 7699776341325226721
+    rtMem: 38256
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:calculator_01_buttons
+    localFileId: 7706592085694842205
+    rtMem: 111216
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/office_items.FBX:StaplerHook
+    localFileId: 8126225444681935805
+    rtMem: 1680
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/office_items.FBX:pendrive_clip
+    localFileId: 8608229934906544259
+    rtMem: 11040
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/BC_office.FBX:BCoffice
+    localFileId: -3698255561848319668
+    rtMem: 576
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/saw.FBX:saw_blade
+    localFileId: -4538306416409042982
+    rtMem: 7776
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/peach.FBX:Peach
+    localFileId: 2457180496365724230
+    rtMem: 26976
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/peach.FBX:EyeR
+    localFileId: 3246790025662424948
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/peach.FBX:EyeL
+    localFileId: 8304870966661801277
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Glass_D_004_lod_1
+    localFileId: -7708894230572076545
+    rtMem: 17328
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Glass_D_004_lod_1
+    localFileId: -7174680709865198184
+    rtMem: 12384
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Glass_D_004_lod_1
+    localFileId: -5300415163944597558
+    rtMem: 30672
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Glass_D_004_lod_1
+    localFileId: -1538457315943316389
+    rtMem: 35808
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Glass_D_004_lod_1
+    localFileId: 2751160050531436757
+    rtMem: 14064
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Glass_D_004_lod_1
+    localFileId: 6563618583886085219
+    rtMem: 2304
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Glass_D_004_lod_002
+    localFileId: 6982669403024868471
+    rtMem: 9264
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:box_labor_005_lod_1
+    localFileId: 7850368143774380301
+    rtMem: 38448
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor1.FBX:Line001_lod_1
+    localFileId: 8597153180284074648
+    rtMem: 9264
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor2.FBX:Tube_A_008
+    localFileId: -7437495508649316704
+    rtMem: 6000
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor2.FBX:Object332
+    localFileId: -5656090342488622283
+    rtMem: 31392
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/labor2.FBX:Tube_rack008
+    localFileId: 2366833020191190709
+    rtMem: 4992
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor2.FBX:Tube_A_009
+    localFileId: 5654883055765566100
+    rtMem: 6000
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor2.FBX:Tube_A_006
+    localFileId: 7079267153470485643
+    rtMem: 6000
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor2.FBX:Tube_A_007
+    localFileId: 8639429795753023801
+    rtMem: 6000
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_X_01.FBX:glass_rod_bent_01
+    localFileId: 315836311375435036
+    rtMem: 1200
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_X_01.FBX:glass_X_002_liquid
+    localFileId: 5743064122274817648
+    rtMem: 2800
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_X_01.FBX:glass_X_01
+    localFileId: 5924618427040155295
+    rtMem: 5240
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_X_01.FBX:glass_rod_straight_01
+    localFileId: 9093051997705876525
+    rtMem: 1056
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/uveg_nagy_kerek_01.FBX:uveg_nagy_kerek_01
+    localFileId: -3767624969474324663
+    rtMem: 33744
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/uveg_nagy_kerek_01.FBX:uveg_nagy_kerek_002_liquid
+    localFileId: 2125809619736807997
+    rtMem: 12912
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/allvany_bazinagy_01.FBX:box_labor_012
+    localFileId: -2760078305256609010
+    rtMem: 89376
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/allvany_bazinagy_01.FBX:glass_holder_008
+    localFileId: 1721615842615042613
+    rtMem: 91296
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/allvany_bazinagy_01.FBX:Helix021
+    localFileId: 5390420352744818966
+    rtMem: 43200
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/allvany_bazinagy_01.FBX:box_labor_018_liquid
+    localFileId: 6669843399789132511
+    rtMem: 9456
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/allvany_bazinagy_01.FBX:glass_holder_008_lod_1_liquid
+    localFileId: 9012417413146694135
+    rtMem: 12624
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/uveg_henger_01.FBX:Glass_F_002
+    localFileId: -3025473144000644220
+    rtMem: 16896
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/uveg_henger_01.FBX:Object043
+    localFileId: 8379123867385170646
+    rtMem: 5616
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_A_002_lod_1_liquid
+    localFileId: -5766414272385838082
+    rtMem: 3600
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_C_003
+    localFileId: -5207633273474004162
+    rtMem: 6880
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_rack002
+    localFileId: -5011458209762668748
+    rtMem: 49248
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_B_003
+    localFileId: -4944902459554245394
+    rtMem: 6880
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_C_002
+    localFileId: -3796999374135747914
+    rtMem: 6880
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_B_002_lod_1_liquid
+    localFileId: 1525184326886531826
+    rtMem: 3600
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_D_002_lod_1_liquid
+    localFileId: 2806790802537862530
+    rtMem: 3600
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/kemcsotarto_01.FBX:Tube_A_003
+    localFileId: 7405120383696425748
+    rtMem: 6880
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/BC2.FBX:BC2
+    localFileId: -6704877725422134143
+    rtMem: 1344
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/folt.FBX:folt_02
+    localFileId: -7164432884441943792
+    rtMem: 1800
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/folt.FBX:folt_03
+    localFileId: -5615579651977114973
+    rtMem: 1880
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/folt.FBX:folt_01
+    localFileId: -550949213590868418
+    rtMem: 5760
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_tri_01.FBX:glass_tri_01_lod_1_liquid
+    localFileId: -6628553024186647220
+    rtMem: 2440
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_tri_01.FBX:glass_tri_01
+    localFileId: 6981147356634072219
+    rtMem: 5640
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_tall_base_01.FBX:glass_tall_base_01
+    localFileId: 1916059907846272703
+    rtMem: 8480
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_tall_base_01.FBX:glass_tall_base_01_lod_1_liquid
+    localFileId: 8709298130605644170
+    rtMem: 1600
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/uveg_kicsi_01.FBX:Glass_G_014
+    localFileId: -9047103463917382090
+    rtMem: 8400
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/uveg_kicsi_01.FBX:Object040
+    localFileId: 3166762114185471660
+    rtMem: 5664
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/labor3.FBX:microscope_01_lod_1
+    localFileId: -5797024410811975129
+    rtMem: 55296
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/themes/labour/labor3.FBX:Object333
+    localFileId: 3980504285345574308
+    rtMem: 1152
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/glass_Y_01.FBX:glass_Y_01
+    localFileId: 2437975895145599690
+    rtMem: 71328
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/safety_goggles_01.FBX:safety_goggles_01
+    localFileId: -7915647289943978882
+    rtMem: 39600
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/clamp_01.FBX:clamp_01
+    localFileId: -2863777940034217174
+    rtMem: 11600
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/microscope_01.FBX:microscope_01
+    localFileId: -2136806064890237914
+    rtMem: 83568
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/labour/pipetta_01.FBX:pipetta_01
+    localFileId: 7873178701219140815
+    rtMem: 7840
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:miafranc_1
+    localFileId: -8577283236460351072
+    rtMem: 4464
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_3_heatsink_1_01
+    localFileId: -8334033754500578167
+    rtMem: 16032
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:led_1
+    localFileId: -8284931465006715095
+    rtMem: 9744
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_cable
+    localFileId: -6909941417142191223
+    rtMem: 68016
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:battery_1
+    localFileId: -6427193097210631834
+    rtMem: 32496
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_5
+    localFileId: -5490898089220021312
+    rtMem: 29568
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_1_002
+    localFileId: -5390895766269361505
+    rtMem: 7152
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_3
+    localFileId: -5358067883804620366
+    rtMem: 9696
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_2_panel
+    localFileId: -5022185182065169497
+    rtMem: 118656
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_cables_1_C
+    localFileId: -4907922110556945613
+    rtMem: 43776
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_cable_Cut
+    localFileId: -4545793818487716006
+    rtMem: 26448
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_2_heat_sink_fan_blade
+    localFileId: -4205648259493517575
+    rtMem: 21216
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_4_fork
+    localFileId: -3909149755041873980
+    rtMem: 10512
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_5_panel
+    localFileId: -3315544893323848400
+    rtMem: 28992
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:kondi_2_panel
+    localFileId: -2668017752609773697
+    rtMem: 13056
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_supply_1_01_grid
+    localFileId: -2659669859624593047
+    rtMem: 28992
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_2_2_002
+    localFileId: -2496143544542305931
+    rtMem: 31584
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_4
+    localFileId: -2311617312110338009
+    rtMem: 24576
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_1
+    localFileId: -2108731269348182482
+    rtMem: 30624
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_3
+    localFileId: -1993568623486811715
+    rtMem: 51552
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_2
+    localFileId: -1769868328772802966
+    rtMem: 7152
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:jumper_1_002
+    localFileId: -1590633209428507602
+    rtMem: 17280
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:fluxuskondenzator_1-panel
+    localFileId: -1552827077529860826
+    rtMem: 16704
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_1
+    localFileId: -1410885311879906163
+    rtMem: 7152
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:jumper_1_003
+    localFileId: -1150269615921710507
+    rtMem: 17280
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_cables_1_A
+    localFileId: -1113131219610177563
+    rtMem: 34800
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_3_panel
+    localFileId: -1020300978209354804
+    rtMem: 50688
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:fluxuskondenzator_1
+    localFileId: -707600397089120662
+    rtMem: 30816
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:kondi_1_panel
+    localFileId: -369723758258566784
+    rtMem: 8064
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_3_006
+    localFileId: -256714165128128745
+    rtMem: 9696
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_1_panel
+    localFileId: -216445039959631451
+    rtMem: 10944
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_1_003
+    localFileId: 446685439511308338
+    rtMem: 7152
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_2
+    localFileId: 1019092978965193021
+    rtMem: 96480
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:jumper_1_005
+    localFileId: 1336305548712286801
+    rtMem: 17280
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_3_panel
+    localFileId: 1535006500513366134
+    rtMem: 10752
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_ventillator_2_fan_01
+    localFileId: 1612880418856601581
+    rtMem: 14736
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:jumper_base_1
+    localFileId: 1811418190848802945
+    rtMem: 12288
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:slot_mem_1_panel
+    localFileId: 2044436945557080854
+    rtMem: 170304
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_2_panel
+    localFileId: 2476228719668393065
+    rtMem: 13056
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:connector_1
+    localFileId: 2643989579401069450
+    rtMem: 25776
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_4_panel
+    localFileId: 2786774988094542312
+    rtMem: 23232
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:ram_1_01
+    localFileId: 2912625144384146399
+    rtMem: 26592
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_cables_1_B
+    localFileId: 3007283693343446258
+    rtMem: 46800
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_cables_2
+    localFileId: 3950509551837583522
+    rtMem: 92784
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:slot_mem_1
+    localFileId: 4027938858232121322
+    rtMem: 24000
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:kondi_2
+    localFileId: 4329766681758278656
+    rtMem: 9216
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:kondi_1
+    localFileId: 4775534286118315872
+    rtMem: 9216
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_003
+    localFileId: 4797633090395620402
+    rtMem: 7632
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:dioda_2_2_002
+    localFileId: 5986916392026594140
+    rtMem: 7152
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:miafranc_1_cucc
+    localFileId: 6027396206267553530
+    rtMem: 30720
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_2_heat_sink_fan_frame
+    localFileId: 6523608344757658207
+    rtMem: 27072
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:jumper_1_004
+    localFileId: 7429607786160419528
+    rtMem: 17280
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_2_002_heat_sink
+    localFileId: 8107529805607948214
+    rtMem: 67392
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:power_supply_1
+    localFileId: 8198687267734522279
+    rtMem: 40752
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:chip_1_panel
+    localFileId: 8585470966996047322
+    rtMem: 31488
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/computer_items.FBX:heatsink_3_01
+    localFileId: 9048667654802538784
+    rtMem: 23712
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/Mia.FBX:mia_head
+    localFileId: -6784657071705716172
+    rtMem: 87696
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Mia.FBX:EyeR
+    localFileId: 3246790025662424948
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Mia.FBX:EyeL
+    localFileId: 8304870966661801277
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/Platform_v4.FBX:Coin_Tibi
+    localFileId: -570797864640483509
+    rtMem: 8496
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/little_girl.FBX:littlegirl
+    localFileId: -1015853474267224666
+    rtMem: 66096
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/little_girl.FBX:EyeR
+    localFileId: 3246790025662424948
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/little_girl.FBX:EyeL
+    localFileId: 8304870966661801277
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/cat.FBX:Eye_L003
+    localFileId: -7805567796669810533
+    rtMem: 3984
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/cat.FBX:cathead
+    localFileId: 2915445068587634750
+    rtMem: 32928
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/cat.FBX:Eye_R003
+    localFileId: 6930740454653152281
+    rtMem: 3984
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:papanda_01
+    localFileId: -7783075838807764566
+    rtMem: 34944
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:ize_01
+    localFileId: -5507186643119420550
+    rtMem: 106368
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:train_passenger_car_01
+    localFileId: -3204378090699612434
+    rtMem: 58848
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:kitten_01
+    localFileId: -2658333687241152776
+    rtMem: 44832
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:train_oil_tank_01
+    localFileId: -2621508341482167573
+    rtMem: 44496
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:xylophone_01
+    localFileId: -827905575546741666
+    rtMem: 42816
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:train_rail_straight_01
+    localFileId: 993037362513869347
+    rtMem: 13056
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:xylophone_pulsatile_01
+    localFileId: 3128256440170247406
+    rtMem: 1920
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:train_engine_01
+    localFileId: 3491139533621901306
+    rtMem: 55824
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:train_rail_curve_right_01
+    localFileId: 5258720966974012325
+    rtMem: 21888
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_3.FBX:train_wagon_01
+    localFileId: 6078672374433240256
+    rtMem: 64992
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_1x2_01
+    localFileId: -7935507062465374714
+    rtMem: 4992
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_1x3_01
+    localFileId: -6947275225373890932
+    rtMem: 4992
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_tri_01
+    localFileId: -6037645934203557526
+    rtMem: 4416
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_ize_01
+    localFileId: -4137573464843290472
+    rtMem: 2784
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_05x2_01
+    localFileId: -3645831829772829300
+    rtMem: 4992
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_bridge_2_1_01
+    localFileId: -3043974212948883696
+    rtMem: 10176
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_1x1_01
+    localFileId: -2871762672139582859
+    rtMem: 4992
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_cyl_01
+    localFileId: 2402229089352837301
+    rtMem: 4032
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/gyerek_items_2.FBX:wooden_block_bridge_3x1_01
+    localFileId: 7417943800477877301
+    rtMem: 10176
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items.FBX:urhajoskep
+    localFileId: -8795761313161890802
+    rtMem: 192
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items.FBX:csillag
+    localFileId: 4644261458610218928
+    rtMem: 288
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items.FBX:hold
+    localFileId: 7676330865456502121
+    rtMem: 288
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/gyerek_items.FBX:UFO
+    localFileId: 7810371007003685382
+    rtMem: 288
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/themes/childsroom/Rocket_grad.FBX:rocket_grad002
+    localFileId: -8446826254059502939
+    rtMem: 62784
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/BC_gyerek.FBX:BC
+    localFileId: 7461850702656021016
+    rtMem: 960
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Bat.FBX:Eye_L
+    localFileId: -6204564150123431352
+    rtMem: 3984
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/Bat.FBX:Bat
+    localFileId: 716655249603938094
+    rtMem: 33696
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Bat.FBX:Eye_R
+    localFileId: 7378947710722030645
+    rtMem: 3984
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Devil.FBX:Eye_L001
+    localFileId: -6916240164360471732
+    rtMem: 3984
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/Devil.FBX:Eye_R001
+    localFileId: -79331068818477991
+    rtMem: 4128
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/Devil.FBX:devil
+    localFileId: 2557951813910997550
+    rtMem: 37776
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/BC_labor.FBX:BC003labor
+    localFileId: 2660631109902520198
+    rtMem: 960
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/daddy.FBX:Eye_L
+    localFileId: -6204564150123431352
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/meshes/characters/daddy.FBX:Eye_R
+    localFileId: 7378947710722030645
+    rtMem: 3120
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/daddy.FBX:Daddy
+    localFileId: 7386648360709851246
+    rtMem: 17856
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/minion.FBX:minion_glasses
+    localFileId: -1300735996987927030
+    rtMem: 7296
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Graphics/meshes/characters/minion.FBX:minion_body
+    localFileId: 6389675727148673374
+    rtMem: 17184
+    refs:
+    - res
   mConfigCCD:
-    useCCD: 0
-    cosKey: 
-    projectGuid: 
-    bucketUuid: 
-    bucketName: 
-    badgeName: 
+    useCCD: 1
+    cosKey: f1c53529bbd9d281f4f39637c4671e15
+    projectGuid: 4a511d87-8f0f-471e-b57c-bd4f29ced55c
+    bucketUuid: 392eeeb0-a08a-46b9-b726-50abdeae973e
+    bucketName: giveitupstack
+    badgeName: 01
