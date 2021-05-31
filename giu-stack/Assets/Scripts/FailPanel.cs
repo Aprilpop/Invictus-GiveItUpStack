@@ -15,6 +15,6 @@ public class FailPanel : MonoBehaviour
     // banner
     private void OnEnable()
     {
-        PluginMercury.Instance.ActiveBanner();
+        //PluginMercury.Instance.ActiveBanner();
     }
 }

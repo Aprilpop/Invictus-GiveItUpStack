@@ -42,7 +42,7 @@ public class WinPanel : MonoBehaviour
         m_imgIcon.gameObject.SetActive(winAward.m_iAwardCount>0);
 
         // banner
-        PluginMercury.Instance.ActiveBanner();
+        //PluginMercury.Instance.ActiveBanner();
     }
 
     void OnDisable()

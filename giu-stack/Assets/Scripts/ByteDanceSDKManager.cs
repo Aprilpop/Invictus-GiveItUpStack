@@ -16,6 +16,10 @@ public class ByteDanceSDKManager
 
     public Action onShareResult;
 
+    float recordStart;
+
+    float recordEnd;
+
     public static ByteDanceSDKManager Instance
     {
         get
@@ -42,12 +46,13 @@ public class ByteDanceSDKManager
     public void StartRecord()
     {
         StarkSDK.API.GetStarkGameRecorder().StartRecord();
+        recordStart = Time.time;
     }
 
     public void StopRecord()
     {
         StarkSDK.API.GetStarkGameRecorder().StopRecord();
-        int duration = StarkSDK.API.GetStarkGameRecorder().GetRecordDuration() / 1000;
+        recordEnd = Time.time;
     }
 
     void ShareReward()
@@ -61,10 +66,10 @@ public class ByteDanceSDKManager
 
     public void Share()
     {
-        int duration = StarkSDK.API.GetStarkGameRecorder().GetRecordDuration()/1000;
+        //int duration = StarkSDK.API.GetStarkGameRecorder().GetRecordDuration();
+        float duration = recordEnd - recordStart;
         if (duration > 3 && duration < 600)
         {
-            
             //share topic
             List<string> topics = new List<string>();
             topics.Add("永不言弃登峰");

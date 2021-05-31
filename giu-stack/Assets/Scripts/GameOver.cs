@@ -18,6 +18,6 @@ public class GameOver : MonoBehaviour
     // banner
     private void OnEnable()
     {
-        PluginMercury.Instance.ActiveBanner();
+        //PluginMercury.Instance.ActiveBanner();
     }
 }
