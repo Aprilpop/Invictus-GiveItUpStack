@@ -201,6 +201,7 @@ public class GameLogic : MonoBehaviour
             challengeLevelNumber = ProfileManager.Instance.challengeNumber;
         }
 
+        ByteDanceSDKManager.Instance.Initialize();
     }
 
     private void Update()

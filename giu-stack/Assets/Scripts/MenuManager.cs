@@ -811,31 +811,33 @@ public class MenuManager : MonoBehaviour
 
     public void Plaque_AD()//结算时的插屏广告
     {
-
+        ByteDanceSDKManager.Instance.ShowInterstitial();
     }
 
     public void Banner_AD_Store()//打开商店调用Banner广告
     {
-
+        ByteDanceSDKManager.Instance.ShowBanner();
     }
     public void Banner_AD_Challenge()//打开挑战调用Banner广告
     {
-
+        ByteDanceSDKManager.Instance.ShowBanner();
     }
 
     public void StartRecorder()//游戏录屏开始
     {
-
+        ByteDanceSDKManager.Instance.StartRecord();
     }
 
     public void StopRecorder()//游戏录屏结束
     {
-
+        ByteDanceSDKManager.Instance.StopRecord();
     }
 
     public void Share()//分享领取
     {
         Debug.Log("分享成功！");
+        ByteDanceSDKManager.Instance.onShareResult = ShareReward;
+        ByteDanceSDKManager.Instance.Share();
     }
 
     private void ShareReward()

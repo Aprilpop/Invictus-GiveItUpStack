@@ -28,6 +28,7 @@ public class PluginMercury : MonoBehaviour
     {
         get
         {
+            Debug.Log("syj:::::::::");
             return pInstance;
         }
     }
@@ -115,6 +116,8 @@ public class PluginMercury : MonoBehaviour
     }
     public void ActiveRewardVideo()
     {
+        ByteDanceSDKManager.Instance.ShowRewardVideo();
+        return;
 #if UNITY_EDITOR
         print("[UNITY_EDITOR]->ActiveRewardVideo()");
         AdShowSuccessCallBack("playOver");

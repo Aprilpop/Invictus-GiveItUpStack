@@ -321,14 +321,14 @@ public void OpenLuckyDraw()
 
     public void FollowDouyinUser()//关注抖音号
     {
-
+        ByteDanceSDKManager.Instance.FollowDouyin();
     }
     public void FollowDesktopUser()//添加到桌面
     {
-
+        ByteDanceSDKManager.Instance.SaveToDesktop();
     }
     public void PlaqueAdvertising()//退出转盘抽奖时的插屏广告
     {
-
+        ByteDanceSDKManager.Instance.ShowInterstitial();
     }
 }
