@@ -591,6 +591,7 @@ public class MenuManager : MonoBehaviour
         //GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, GameLogic.Instance.challengeType.ToString(), GameLogic.Instance.challengeLevelNumber.ToString());
         //GameAnalyticsManager.LogProgressionEvent(GameAnalyticsSDK.GAProgressionStatus.Start, GameLogic.Instance.challengeType.ToString(), GameLogic.Instance.challengeLevelNumber.ToString());
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        StartRecorder();
     }
 
     public void Menu()
