@@ -448,17 +448,18 @@ public class MenuManager : MonoBehaviour
         if (ProfileManager.Instance.unlockedItems.Count > 0)
             unlockedItem.gameObject.SetActive(true);
 
-        if(gameCount >= 3)
+        /*if(gameCount >= 3)
         {
             PluginMercury.Instance.ActiveRewardVideo();
             gameCount = 0;
-        }
+        }*/
     }
 
     public void GameOver(Collision collision)
     {
         UIManager.Instance.ShowStabilizationTip(false);
         m_pauseGame.SetActive(false);
+        StopRecorder();
         if (!GameLogic.Instance.FirstDeath)
         {
 
@@ -486,7 +487,6 @@ public class MenuManager : MonoBehaviour
             GameLogic.Instance.InGame = false;
             GameLogic.Instance.FirstDeath = false;
             Debug.Log("角色死亡！");
-            StopRecorder();
             /*if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
                 GameLogic.Instance.stack.gameObject.SetActive(false);
 
@@ -506,6 +506,7 @@ public class MenuManager : MonoBehaviour
 
     public void Win(int index)
     {
+        StopRecorder();
         UIManager.Instance.ShowStabilizationTip(false);
         m_pauseGame.SetActive(false);
 
@@ -549,11 +550,11 @@ public class MenuManager : MonoBehaviour
 
         ProfileManager.Instance.CompleteChallenge(GameLogic.Instance.challengeType, index - 1);
         ParticleManager.Instance.confetti.Play();
-        if(gameCount >= 3)
+        /*if(gameCount >= 3)
         {
             PluginMercury.Instance.ActiveRewardVideo();
             gameCount = 0;
-        }
+        }*/
     }
 
 
@@ -575,11 +576,11 @@ public class MenuManager : MonoBehaviour
         }
 
         ProfileManager.Instance.IntersitialCounter++;
-        if(gameCount >= 3)
+        /*if(gameCount >= 3)
         {
             PluginMercury.Instance.ActiveRewardVideo();
             gameCount = 0;
-        }
+        }*/
     }
 
     public void RestartGame()

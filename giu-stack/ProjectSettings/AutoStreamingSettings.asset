@@ -3184,8 +3184,8 @@ AutoStreamingSettings:
     - res
   mConfigCCD:
     useCCD: 1
-    cosKey: f1c53529bbd9d281f4f39637c4671e15
-    projectGuid: 4a511d87-8f0f-471e-b57c-bd4f29ced55c
-    bucketUuid: 392eeeb0-a08a-46b9-b726-50abdeae973e
-    bucketName: giveitupstack
+    cosKey: 6cd9fdc855c25b9021d01509277cf624
+    projectGuid: ce4726ae-9a03-4201-86e9-8b78eeb8ed6d
+    bucketUuid: 6864eea1-ae1b-4291-845d-fe9319d69a03
+    bucketName: giu-stack
     badgeName: 01
