@@ -32,6 +32,7 @@ public class PopUp : MonoBehaviour
 
     public Button videoButton;
     public Button AdButton;
+    public Button AdButton_for;
 
     public SelectItem selectItem;
 
@@ -135,6 +136,7 @@ public class PopUp : MonoBehaviour
         {
             videoButton.gameObject.SetActive(false);
             AdButton.gameObject.SetActive(false);
+            AdButton_for.gameObject.SetActive(false);
             if (selectItem.GetType() == typeof(SelectBlob))
                 videoText.text = ProfileManager.Instance.blobs[selectItem.index].unlockInfo.CurrentVideoUnlockCount + "/" + ProfileManager.Instance.blobs[selectItem.index].unlockInfo.VideoCount;
             else if (selectItem.GetType() == typeof(SelectEnviroment))
@@ -151,6 +153,7 @@ public class PopUp : MonoBehaviour
             else
             {
                 AdButton.gameObject.SetActive(true);
+                AdButton_for.gameObject.SetActive(true);
                 EventDispatcher.Instance.AddEventListener(EventKey.AdShowSuccessCallBack, OnAdShowSuccessCallBack);
                 AdButton.onClick.AddListener(onCallAdResurgence);
             }

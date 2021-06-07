@@ -42,6 +42,7 @@ public class TipPopup : MonoBehaviour
     [HideInInspector]
     public Action OnOkPress = delegate { };
 
+    public Button m_btnCancel_fou;
 
     private static TipPopup instance;
 
@@ -74,9 +75,6 @@ public class TipPopup : MonoBehaviour
 
     private void OnEnable()
     {
-        // 注册广告加载成功的回调
-        EventDispatcher.Instance.AddEventListener(EventKey.AdShowSuccessCallBack, SelectMenu.Instance.onAdShowSuccessCallBack);
-        Debug.Log("初始化成功：");
         this.Init();
 
         m_textHeader.text = m_strHeader;
@@ -107,6 +105,7 @@ public class TipPopup : MonoBehaviour
     {
         m_btnYes.onClick.RemoveAllListeners();
         m_btnCancel.onClick.RemoveAllListeners();
+        m_btnCancel_fou.onClick.RemoveAllListeners();
         m_btnOk.onClick.RemoveAllListeners();
         m_btnAd.onClick.RemoveAllListeners();
     }
@@ -118,22 +117,26 @@ public class TipPopup : MonoBehaviour
     {
         m_btnYes.gameObject.SetActive(false);
         m_btnCancel.gameObject.SetActive(false);
+        m_btnCancel_fou.gameObject.SetActive(false);
         m_btnOk.gameObject.SetActive(false);
         m_textShop.gameObject.SetActive(false);
         m_btnAd.gameObject.SetActive(false);
         m_imgCharacter.gameObject.SetActive(false);
+        Debug.LogError("是否来这里了Q！"+ m_btnCancel_fou.gameObject.activeSelf+"  ==>> "+ m_btnCancel.gameObject.activeSelf);
     }
     /// <summary>
     /// 通用
     /// </summary>
     public void General()
     {
+        Debug.Log("General");
         m_btnYes.gameObject.SetActive(true);
         m_btnCancel.gameObject.SetActive(true);
         m_textMessage.gameObject.SetActive(true);
 
         m_btnYes.onClick.AddListener(() => { OnYesPress(); });
         m_btnCancel.onClick.AddListener(() => { OnNoPress(); });
+        m_btnCancel_fou.onClick.AddListener(() => { OnNoPress(); });
 
         m_textMessage.text = m_strMessage;
     }
@@ -144,6 +147,7 @@ public class TipPopup : MonoBehaviour
     {
         m_btnOk.gameObject.SetActive(true);
         m_btnCancel.onClick.AddListener(() => { OnOkPress(); });
+        m_btnCancel_fou.onClick.AddListener(() => { OnOkPress(); });
     }
 
     void ShopTip()
@@ -161,7 +165,7 @@ public class TipPopup : MonoBehaviour
         this.General();
         m_btnOk.gameObject.SetActive(false);
         m_btnYes.gameObject.SetActive(false);
-
+        m_btnCancel_fou.gameObject.SetActive(true);
         m_btnAd.gameObject.SetActive(true);
         m_btnAd.onClick.AddListener(onCallBackAd);
     }

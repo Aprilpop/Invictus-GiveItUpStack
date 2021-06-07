@@ -103,9 +103,9 @@ public class SelectMenu : MonoBehaviour
         ChangeThemeImage();
         ChangeMusicImage();
 
-        //// 注册广告加载成功的回调
-        //EventDispatcher.Instance.AddEventListener(EventKey.AdShowSuccessCallBack, onAdShowSuccessCallBack);
-        //Debug.Log("初始化成功：");
+        // 注册广告加载成功的回调
+        EventDispatcher.Instance.AddEventListener(EventKey.AdShowSuccessCallBack, onAdShowSuccessCallBack);
+        Debug.Log("初始化成功：");
     }
 
 
@@ -114,6 +114,7 @@ public class SelectMenu : MonoBehaviour
     {
         // 注销广告加载成功事件
         EventDispatcher.Instance.RemoveEventListener(EventKey.AdShowSuccessCallBack, onAdShowSuccessCallBack);
+        Debug.Log("这里来过没有！");
     }
 
     private void Update()
