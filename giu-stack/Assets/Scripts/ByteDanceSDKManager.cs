@@ -79,6 +79,11 @@ public class ByteDanceSDKManager
     #endregion
 
     #region ads
+
+    public void ShowErrorMsg(int code, string msg)
+    {
+        Debug.Log("Error code is: " + code + ", error message is: " + msg);
+    }
     public void ShowRewardVideo()
     {
         StarkSDKSpace.StarkSDK.API.GetStarkAdManager().ShowVideoAdWithId("l2jr0s3ll615lht4r7", VideoReward);
@@ -101,7 +106,7 @@ public class ByteDanceSDKManager
         {
             return;
         }
-        StarkSDKSpace.StarkSDK.API.GetStarkAdManager().CreateInterstitialAd("5mch4c0idmjif6kb88");
+        StarkSDKSpace.StarkSDK.API.GetStarkAdManager().CreateInterstitialAd("5mch4c0idmjif6kb88",ShowErrorMsg);
         lastPlayTime = curTime;
     }
 
@@ -111,7 +116,7 @@ public class ByteDanceSDKManager
         banner.left = 0;
         banner.top = 200;
         banner.width = 300;
-        StarkSDK.API.GetStarkAdManager().CreateBannerAd("d8d2mbco0il2af5jie", banner);
+        StarkSDK.API.GetStarkAdManager().CreateBannerAd("d8d2mbco0il2af5jie", banner, -1, ShowErrorMsg);
     }
     #endregion
 
