@@ -40,6 +40,8 @@ public class ByteDanceSDKManager
 
         lastPlayTime = 0;
 
+        StarkAdManager.IsShowLoadAdToast = false;
+
         initialized = true;
     }
     #region record&share
@@ -68,7 +70,7 @@ public class ByteDanceSDKManager
     {
         //int duration = StarkSDK.API.GetStarkGameRecorder().GetRecordDuration();
         float duration = recordEnd - recordStart;
-        if (duration > 3 && duration < 600)
+        if (duration > 3 && duration < 600 || true)
         {
             //share topic
             List<string> topics = new List<string>();
