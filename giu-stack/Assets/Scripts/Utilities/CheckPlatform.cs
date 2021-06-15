@@ -9,7 +9,7 @@ public class CheckPlatform : MonoBehaviour
     {
         if ((int)StarkSDKSpace.StarkSDK.s_ContainerEnv.m_HostEnum == 2 || (int)StarkSDKSpace.StarkSDK.s_ContainerEnv.m_HostEnum == 4)
         {
-            gameObject.SetActive(true);
+            gameObject.SetActive(false);
         }
         else gameObject.SetActive(false);
     }

@@ -86,7 +86,7 @@ PlayerSettings:
   autoStreaming: 1
   useAnimationStreaming: 0
   useFontStreaming: 1
-  autoStreamingId: /v1/buckets/6864eea1-ae1b-4291-845d-fe9319d69a03/release_by_badge/01/content/AS%252F
+  autoStreamingId: /v1/buckets/6864eea1-ae1b-4291-845d-fe9319d69a03/release_by_badge/02/content/AS%252F
   instantGameAppId: 0000000a-ded8-4cea-a8e2-1cb89dcafca8
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
